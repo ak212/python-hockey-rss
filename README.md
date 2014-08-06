@@ -1,4 +1,4 @@
-python-coding
+python-hockey-rss
 =============
 
-Projects written in Python
+RSS feed for Penguins games scores.
