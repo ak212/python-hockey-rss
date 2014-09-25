@@ -5,14 +5,14 @@
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/pit/pittsburgh-penguins</link>
 <item>
-<title>Red Wings edge Penguins 2-1 in exhibition game</title>
-<description></description>
-<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
-</item>
-<item>
 <title>Blue Jackets make 42 saves in shutout of Penguins</title>
 <description></description>
 <link>http://espn.go.com/nhl/recap?gameId=400567189</link>
+</item>
+<item>
+<title>Red Wings edge Penguins 2-1 in exhibition game</title>
+<description></description>
+<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
 </item>
 </channel>
 </rss>
