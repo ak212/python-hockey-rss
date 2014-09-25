@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title>MLB scores</title>
+<description>MLB scores from the day</description>
+<link>http://scores.espn.go.com/mlb/scoreboard?date=20140804</link>
+<item>
+<title>McCarthy, Yanks put end to Scherzer streak</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804110&amp;teams=detroit-tigers-vs-new-york-yankees</link>
+</item>
+<item>
+<title>Kluber strong again, leads Indians past Reds</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804105&amp;teams=cincinnati-reds-vs-cleveland-indians</link>
+</item>
+<item>
+<title>Flowers, Abreu hit White Sox past Rangers</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804104&amp;teams=texas-rangers-vs-chicago-white-sox</link>
+</item>
+<item>
+<title>Norris' bases-loaded single in 10th lifts A's</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804111&amp;teams=tampa-bay-rays-vs-oakland-athletics</link>
+</item>
+<item>
+<title>Giants shake Mets in 9th, win 3 of 4 in series</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804121&amp;teams=san-francisco-giants-vs-new-york-mets</link>
+</item>
+<item>
+<title>Orioles rally past Nationals with 6-hit seventh</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804120&amp;teams=baltimore-orioles-vs-washington-nationals</link>
+</item>
+<item>
+<title>Angels rout Dodgers to open Freeway Series</title>
+<description></description>
+<link>http://scores.espn.go.com/mlb/recap?gameId=340804119&amp;teams=los-angeles-angels-vs-los-angeles-dodgers</link>
+</item>
+</channel>
+</rss>
