@@ -30,7 +30,7 @@ def extract_game_data():
    
    for div in soup.find_all(attrs={"class" : "score"}):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
-#      print complete_link
+      print complete_link
 
       new_game = GameData(complete_link, get_game_headline(complete_link))
       new_game.char_convert_link(new_game.link)
