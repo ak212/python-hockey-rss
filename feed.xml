@@ -1,43 +1,32 @@
  <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>MLB scores</title>
-<description>MLB scores from the day</description>
-<link>http://scores.espn.go.com/mlb/scoreboard?date=20140804</link>
+<title>Penguins scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit/pittsburgh-penguins</link>
 <item>
-<title>McCarthy, Yanks put end to Scherzer streak</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804110&amp;teams=detroit-tigers-vs-new-york-yankees</link>
+<title>Crosby makes preseason debut, Pens blank Wings 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567187</link>
 </item>
 <item>
-<title>Kluber strong again, leads Indians past Reds</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804105&amp;teams=cincinnati-reds-vs-cleveland-indians</link>
+<title>Pominville helps Wild beat Penguins 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567218</link>
 </item>
 <item>
-<title>Flowers, Abreu hit White Sox past Rangers</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804104&amp;teams=texas-rangers-vs-chicago-white-sox</link>
+<title>Kapanen, Ebbett score, Pens beat Blue Jackets 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567191</link>
 </item>
 <item>
-<title>Norris' bases-loaded single in 10th lifts A's</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804111&amp;teams=tampa-bay-rays-vs-oakland-athletics</link>
+<title>Sutter scores in OT, Penguins beat Wild 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567216</link>
 </item>
 <item>
-<title>Giants shake Mets in 9th, win 3 of 4 in series</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804121&amp;teams=san-francisco-giants-vs-new-york-mets</link>
+<title>Blue Jackets make 42 saves in shutout of Penguins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567189</link>
 </item>
 <item>
-<title>Orioles rally past Nationals with 6-hit seventh</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804120&amp;teams=baltimore-orioles-vs-washington-nationals</link>
-</item>
-<item>
-<title>Angels rout Dodgers to open Freeway Series</title>
-<description></description>
-<link>http://scores.espn.go.com/mlb/recap?gameId=340804119&amp;teams=los-angeles-angels-vs-los-angeles-dodgers</link>
+<title>Red Wings edge Penguins 2-1 in exhibition game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
 </item>
 </channel>
 </rss>

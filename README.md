@@ -1,4 +1,4 @@
 python-hockey-rss
 =============
 
-RSS feed for Penguins games scores.
+RSS feed for Penguins game recaps.
