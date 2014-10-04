@@ -67,7 +67,7 @@ def markup(games):
 def main():
    games = extract_game_data()
    games.reverse()
- 
+  
    for game in games:
       print game.link
       print game.headline
