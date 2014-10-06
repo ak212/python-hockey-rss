@@ -19,7 +19,6 @@ class GameData(object):
       
    def char_convert_link(self, link):
       self.link = re.sub('[&]', '&amp;', self.link)
-   
 
 def extract_game_data():
    games = []
