@@ -10,7 +10,7 @@ import sys
 import re
 
 reload(sys)
-sys.setdefaultencoding("utf-8")
+sys.setdefaultencoding("utf-8") #@UndefinedVariable
 
 class GameData(object):
    def __init__(self, link, headline):

@@ -7,6 +7,9 @@ import os
 
 def xml_markup(games, team_ab, team_name):
    file_name = team_ab + "_feed.xml"
+   
+   #Used code from http://stackoverflow.com/questions/7935972/writing-to-a-new-directory-in-python-without-changing-directory
+   
    script_dir = os.path.dirname(os.path.abspath(__file__))
    dest_dir = os.path.join(script_dir, "feeds", team_ab)
    
@@ -22,8 +25,8 @@ def xml_markup(games, team_ab, team_name):
       xml.write("<rss version='2.0'>\n")
       xml.write("<channel>\n")
       xml.write("<title> " + team_name + " scores</title>\n")
-      xml.write("<description>Latest Penguins scores</description>\n")
-      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>\n")
+      xml.write("<description>Latest " + team_name + " scores</description>\n")
+      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/" + team_ab + "</link>\n")
    
       for game in games:
          xml.write("<item>\n")
