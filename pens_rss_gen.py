@@ -53,7 +53,7 @@ def markup(games):
    xml.write("<title>Penguins scores</title>\n")
    xml.write("<description>Latest Penguins scores</description>\n")
    xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/pit/pittsburgh-penguins</link>\n")
-  
+   
    for game in games:
       xml.write("<item>\n")
       xml.write("<title>%s</title>\n" % game.headline)
