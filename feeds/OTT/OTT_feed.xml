@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Senators scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Zibanejad, Legwand score late, Sens top Habs 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567228</link>
+</item>
+<item>
+<title>Ryan scores in OT to lift Senators past Canadiens</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567227</link>
+</item>
+<item>
+<title>Pavelec helps Jets edge Senators 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567229</link>
+</item>
+<item>
+<title>Senators beat Maple Leafs 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567137</link>
+</item>
+<item>
+<title>Bobby Ryan helps Senators beat Maple Leafs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567112</link>
+</item>
+<item>
+<title>Islanders beat Senators in pair of preseason games</title>
+<link>http://espn.go.com/nhl/recap?gameId=400568136</link>
+</item>
+<item>
+<title>None</title>
+<link>http://espn.go.com/nhl/boxscore?gameId=400568135</link>
+</item>
+</channel>
+</rss>

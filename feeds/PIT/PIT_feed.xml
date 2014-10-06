@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Penguins scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Crosby makes preseason debut, Pens blank Wings 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567187</link>
+</item>
+<item>
+<title>Pominville helps Wild beat Penguins 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567218</link>
+</item>
+<item>
+<title>Kapanen, Ebbett score, Pens beat Blue Jackets 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567191</link>
+</item>
+<item>
+<title>Sutter scores in OT, Penguins beat Wild 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567216</link>
+</item>
+<item>
+<title>Blue Jackets make 42 saves in shutout of Penguins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567189</link>
+</item>
+<item>
+<title>Red Wings edge Penguins 2-1 in exhibition game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
+</item>
+</channel>
+</rss>

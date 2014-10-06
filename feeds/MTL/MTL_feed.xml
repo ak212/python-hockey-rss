@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Canadiens scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Zibanejad, Legwand score late, Sens top Habs 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567228</link>
+</item>
+<item>
+<title>Ryan scores in OT to lift Senators past Canadiens</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567227</link>
+</item>
+<item>
+<title>Canadiens, Price beat Blackhawks 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567203</link>
+</item>
+<item>
+<title>Ward's 3rd-period goal lifts Caps over Canadiens</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567176</link>
+</item>
+<item>
+<title>Brandon Prust lifts Canadiens past Avalanche</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567144</link>
+</item>
+<item>
+<title>Galchenyuk scores in OT, Canadiens beat Avs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567143</link>
+</item>
+<item>
+<title>Bowman's late goal gives Canadiens win over Bruins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567158</link>
+</item>
+</channel>
+</rss>

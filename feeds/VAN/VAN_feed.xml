@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Canucks scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Vrbata scores winning goal as Canucks beat Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567222</link>
+</item>
+<item>
+<title>Edler has goal, assist as Canucks beat Oilers 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567221</link>
+</item>
+<item>
+<title>Vitale, Smith lead Coyotes to 4-2 win over Canucks</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567211</link>
+</item>
+<item>
+<title>Canucks' Miller, Eriksson team to blank Flames</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567208</link>
+</item>
+<item>
+<title>Canucks beat Flames 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567207</link>
+</item>
+<item>
+<title>Thornton scores 2 goals, Sharks top Canucks 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567165</link>
+</item>
+<item>
+<title>Horvat nets winner as Canucks top Sharks 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567235</link>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Kings scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>MacKinnon leads Avalanche past Kings in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567148</link>
+</item>
+<item>
+<title>Weal scores shootout winner, Kings beat Avalanche</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567147</link>
+</item>
+<item>
+<title>Brown nets go-ahead goal, Kings top Sharks 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567168</link>
+</item>
+<item>
+<title>Carter scores 3 goals in Kings' 4-2 win over Ducks</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567173</link>
+</item>
+<item>
+<title>Kings beat Ducks 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567172</link>
+</item>
+<item>
+<title>LA Kings beat Coyotes 4-3 in preseason shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567236</link>
+</item>
+<item>
+<title>Coyotes beat Kings 5-4 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567174</link>
+</item>
+</channel>
+</rss>

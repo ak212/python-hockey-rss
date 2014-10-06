@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Coyotes scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Sharks beat Coyotes 3-1 in preseason game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567169</link>
+</item>
+<item>
+<title>Joensuu scores twice, Oilers beat Coyotes 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567212</link>
+</item>
+<item>
+<title>Vitale, Smith lead Coyotes to 4-2 win over Canucks</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567211</link>
+</item>
+<item>
+<title>Lessio lifts Coyotes past Sharks in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567166</link>
+</item>
+<item>
+<title>Glencross lifts Flames past Coyotes in OT</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567206</link>
+</item>
+<item>
+<title>Domingue dominates Ducks in Coyotes' 4-0 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567171</link>
+</item>
+<item>
+<title>LA Kings beat Coyotes 4-3 in preseason shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567236</link>
+</item>
+<item>
+<title>Coyotes beat Kings 5-4 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567174</link>
+</item>
+</channel>
+</rss>

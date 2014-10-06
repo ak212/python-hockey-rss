@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Devils scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Jagr, Schneider help Devils beat Rangers, 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567226</link>
+</item>
+<item>
+<title>Zajac lifts Devils past Islanders in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567225</link>
+</item>
+<item>
+<title>Gomez nets 2 in Devils' preseason win over Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567181</link>
+</item>
+<item>
+<title>Islanders beat Devils at Barclays Center</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567224</link>
+</item>
+<item>
+<title>Mason, Zepp lead Flyers past Devils, 4-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567180</link>
+</item>
+<item>
+<title>Ryder scores 2 goals; Devils top Rangers 5-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567223</link>
+</item>
+</channel>
+</rss>

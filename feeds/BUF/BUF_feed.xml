@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Sabres scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Lindholm, Hurricanes beat Sabres 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567196</link>
+</item>
+<item>
+<title>Moulson scores twice, Sabres beat Capitals 6-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567177</link>
+</item>
+<item>
+<title>Holland's SO winner lifts Leafs over Sabres 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567139</link>
+</item>
+<item>
+<title>Reimer makes 34 saves, Maple Leafs beat Sabres 6-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567138</link>
+</item>
+<item>
+<title>Sabres' G Enroth blanks Hurricanes 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567193</link>
+</item>
+<item>
+<title>Capitals beat Sabres 1-0 in Trotz's debut</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567175</link>
+</item>
+</channel>
+</rss>

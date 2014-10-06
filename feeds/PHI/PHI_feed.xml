@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Flyers scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/pit</link>
+<item>
+<title>Capitals rally past Flyers, 3-2 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567178</link>
+</item>
+<item>
+<title>Simmonds helps Flyers beat Rangers 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567183</link>
+</item>
+<item>
+<title>Haggerty, Fast each score 2 as Rangers beat Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567182</link>
+</item>
+<item>
+<title>Gomez nets 2 in Devils' preseason win over Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567181</link>
+</item>
+<item>
+<title>Mason, Zepp lead Flyers past Devils, 4-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567180</link>
+</item>
+<item>
+<title>Youngster Nylander scores in Maple Leafs' win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567136</link>
+</item>
+<item>
+<title>Booth's SO goal lifts Leafs over Flyers 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400584907</link>
+</item>
+<item>
+<title>Flyers use four power-play goals to beat Capitals</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567237</link>
+</item>
+</channel>
+</rss>
