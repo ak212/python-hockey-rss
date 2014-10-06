@@ -8,7 +8,7 @@ import urllib2
 from bs4 import BeautifulSoup
 import sys
 import re
- 
+
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
