@@ -4,7 +4,7 @@ Created on Oct 6, 2014
 @author: Aaron
 '''
 import os
-
+ 
 def xml_markup(games, team_ab, team_name):
    file_name = team_ab + "_feed.xml"
    
