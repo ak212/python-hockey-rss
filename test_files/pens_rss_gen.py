@@ -1,7 +1,7 @@
 '''
 Created on Sep 24, 2014
 
-@author: Aaron Koeppel
+@author: Aaron
 '''
 
 import urllib2
