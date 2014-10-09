@@ -30,23 +30,31 @@ class GameData(object):
       self.link = link
       self.headline = headline
       
-   def char_convert_link(self, link):
+   def char_convert_link(self):
       self.link = re.sub('[&]', '&amp;', self.link)
+      
+   def print_game_data(self):
+      print self.headline
+      print self.link
+      
+def page_response(link):
+   response = urlopen_with_retry(link)
+   page_source = response.read()
+   
+   return BeautifulSoup(page_source)
 
 def extract_game_data(team):
    games = []
 #   sleep(0.5)
    link = "http://espn.go.com/nhl/team/schedule/_/name/" + team
-   response = urlopen_with_retry(link)
-   page_source = response.read()
-   soup = BeautifulSoup(page_source)
+   soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
 #      print complete_link
 
       new_game = GameData(complete_link, get_game_headline(complete_link))
-      new_game.char_convert_link(new_game.link)
+      new_game.char_convert_link()
       games.append(new_game)
       
    return games
@@ -56,13 +64,9 @@ def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
 def get_game_headline(link):
-#   print link
 #   sleep(1)
-   
    try:
-      response = urlopen_with_retry(link)
-      page_source = response.read()
-      soup = BeautifulSoup(page_source)
+      soup = page_response(link)
    
       for meta in soup.findAll('meta', {"property":'og:title'}):
          return meta.get('content')
@@ -75,8 +79,7 @@ def main():
       games.reverse()
      
       for game in games:
-         print game.link
-         print game.headline
+         game.print_game_data()
          
       markup.xml_markup(games, team_ab, team_name)
       

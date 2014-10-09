@@ -17,8 +17,13 @@ class GameData(object):
       self.link = link
       self.headline = headline
       
+   #delete link param
    def char_convert_link(self, link):
       self.link = re.sub('[&]', '&amp;', self.link)
+   
+   def print_game_data(self):
+      print self.link
+      print self.headline
 
 def extract_game_data():
    games = []
@@ -68,8 +73,8 @@ def main():
    games.reverse()
   
    for game in games:
-      print game.link
-      print game.headline
+      game.print_game_data()
+      
    markup(games)
          
 main()
