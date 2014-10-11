@@ -16,7 +16,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8") #@UndefinedVariable
 
 team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
-              'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NAS', 'NJ', 'NYI', 'NYR', 
+              'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR', 
               'OTT', 'PHI', 'PIT', 'SJ', 'STL', 'TB', 'TOR', 'VAN', 'WPG', 'WSH']
 
 team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jackets', 
@@ -42,6 +42,16 @@ class GameData(object):
    def list_data(self):
       return [self.headline, self.link, self.date]
    
+   def add_date_to_headline(self):
+      headline = self.headline
+      try:
+         if self.date[4] == "0":
+            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.headline
+         else:
+            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.headline
+      except TypeError:
+         self.headline = headline
+   
 def page_response(link):
    response = urlopen_with_retry(link)
    page_source = response.read()
@@ -57,7 +67,10 @@ def extract_game_data(team):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
 
       new_game = GameData(complete_link, get_game_headline(complete_link), get_game_date(complete_link))
+      
       new_game.char_convert_link()
+      new_game.add_date_to_headline()
+      
       games.append(new_game)
       
    return games
@@ -89,8 +102,8 @@ def main():
       games = extract_game_data(team_ab)
       games.sort(key=lambda x: x.date, reverse=True)
      
-#      for game in games:
-#         print game.list_data()
+      for game in games:
+         print game.list_data()
       markup.xml_markup(games, team_ab, team_name)
       
       print "Completed " + team_name
