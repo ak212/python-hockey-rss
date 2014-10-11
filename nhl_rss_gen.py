@@ -30,27 +30,47 @@ class GameData(object):
       self.link = link
       self.headline = headline
       self.date = date
+      self.result = 'pass'
       
    def char_convert_link(self):
       self.link = re.sub('[&]', '&amp;', self.link)
       
    def print_game_data(self):
-      print self.headline
-      print self.link
-      print self.date
+      print self.headline, self.link, self.date, self.result
       
    def list_data(self):
-      return [self.headline, self.link, self.date]
+      return [self.headline, self.link, self.date, self.result]
    
-   def add_date_to_headline(self):
+   def modify_headline(self):
       headline = self.headline
       try:
          if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.headline
+            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
          else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.headline
+            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
       except TypeError:
-         self.headline = headline
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "]" + self.result
+         
+   def find_winner(self, team):
+      soup = page_response(self.link)
+      
+      for div in soup.find_all(attrs={"class" : "scoreboard-container"}):
+         away_team = div.find_all(attrs={"class" : "away"})
+         home_team = div.find_all(attrs={"class" : "home"})
+         winner = div.find_all(attrs={"class" : "info"})
+         print winner
+         if str(winner).find("away"):
+            for team in away_team:
+               print str(team.text) + " " + str(team)
+               if str(team.text) == str(team):
+                  print "1"
+                  self.result = "W"
+         else:
+            for team in home_team:
+               print str(team.text) + " " + str(team)
+               if str(team.text) == str(team):
+                  print "2"
+                  self.result = "L"
    
 def page_response(link):
    response = urlopen_with_retry(link)
@@ -69,7 +89,8 @@ def extract_game_data(team):
       new_game = GameData(complete_link, get_game_headline(complete_link), get_game_date(complete_link))
       
       new_game.char_convert_link()
-      new_game.add_date_to_headline()
+      new_game.find_winner(team)
+      new_game.modify_headline()
       
       games.append(new_game)
       
