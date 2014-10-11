@@ -52,25 +52,39 @@ class GameData(object):
          self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "]" + self.result
          
    def find_winner(self, team):
+      print "Start"
+      print self.link
       soup = page_response(self.link)
       
       for div in soup.find_all(attrs={"class" : "scoreboard-container"}):
          away_team = div.find_all(attrs={"class" : "away"})
          home_team = div.find_all(attrs={"class" : "home"})
-         winner = div.find_all(attrs={"class" : "info"})
-         print winner
-         if str(winner).find("away"):
+         away_score = div.find_all(attrs={"class" : "awayScore"})
+         home_score = div.find_all(attrs={"class" : "homeScore"})
+         
+         for aScore in away_score:
+            aNumScore = int(aScore.text)
+         print aNumScore
+         
+         for hScore in home_score:
+            hNumScore = int(hScore.text)
+         print hNumScore
+          
+         if aNumScore > hNumScore:
             for team in away_team:
-               print str(team.text) + " " + str(team)
-               if str(team.text) == str(team):
-                  print "1"
-                  self.result = "W"
+               print team.text
+               winner = team.text
          else:
             for team in home_team:
-               print str(team.text) + " " + str(team)
-               if str(team.text) == str(team):
-                  print "2"
-                  self.result = "L"
+               print team.text
+               winner = team.text
+         
+         print winner, team
+         if winner == team:
+            self.result = "W"
+         else:
+            self.result = "L"
+      print "End"
    
 def page_response(link):
    response = urlopen_with_retry(link)

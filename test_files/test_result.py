@@ -17,7 +17,7 @@ def page_response(link):
    return BeautifulSoup(page_source)
 
 def main():
-   link = "http://scores.espn.go.com/nhl/recap?gameId=400564312"
+   link = "http://scores.espn.go.com/nhl/recap?gameId=400564461"
    soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "scoreboard-container"}):
@@ -27,9 +27,18 @@ def main():
       home_score = div.find_all(attrs={"class" : "homeScore"})
       
       for aScore in away_score:
-         print aScore.text
+         aNumScore = int(aScore.text)
+      print aNumScore
       
       for hScore in home_score:
-         print type(hScore.text)      
-               
+         hNumScore = int(hScore.text)
+      print hNumScore
+      
+      if aNumScore > hNumScore:
+         for team in away_team:
+            print team.text
+      else:
+         for team in home_team:
+            print team.text
+         
 main()
