@@ -5,6 +5,10 @@
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
 <item>
+<title>Hedman scores in OT, Lightning beat Panthers 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564146</link>
+</item>
+<item>
 <title>Bishop stops 36 shots as Lightning beat Panthers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400567154</link>
 </item>
@@ -17,20 +21,16 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567200</link>
 </item>
 <item>
-<title>Predators beat Panthers 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567114</link>
-</item>
-<item>
 <title>None</title>
 <link>http://espn.go.com/nhl/boxscore?gameId=400567155</link>
 </item>
 <item>
-<title>Ales Hemsky lifts Stars past Panthers in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567198</link>
+<title>Predators beat Panthers 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567114</link>
 </item>
 <item>
-<title>Hedman scores in OT, Lightning beat Panthers 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564146</link>
+<title>Ales Hemsky lifts Stars past Panthers in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567198</link>
 </item>
 </channel>
 </rss>

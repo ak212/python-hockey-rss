@@ -5,6 +5,10 @@
 <description>Latest Blue Jackets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CBJ</link>
 <item>
+<title>Blue Jackets beat Sabres 3-1 in season opener</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563800</link>
+</item>
+<item>
 <title>Foligno nets 2, Columbus beats Nashville 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400567157</link>
 </item>
@@ -29,16 +33,12 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567189</link>
 </item>
 <item>
-<title>Heatherington lifts Blue Jackets past Blues in OT</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567238</link>
-</item>
-<item>
 <title>Blue Jackets beat Hurricanes in exhibition opener</title>
 <link>http://espn.go.com/nhl/recap?gameId=400567188</link>
 </item>
 <item>
-<title>Blue Jackets beat Sabres 3-1 in season opener</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563800</link>
+<title>Heatherington lifts Blue Jackets past Blues in OT</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567238</link>
 </item>
 </channel>
 </rss>

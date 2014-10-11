@@ -5,6 +5,10 @@
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
 <item>
+<title>Plekanec lifts Canadiens past Maple Leafs, 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563878</link>
+</item>
+<item>
 <title>Kozun has goal, 2 assists as Toronto beats Detroit</title>
 <link>http://espn.go.com/nhl/recap?gameId=400567141</link>
 </item>
@@ -21,12 +25,12 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567138</link>
 </item>
 <item>
-<title>Bobby Ryan helps Senators beat Maple Leafs 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567112</link>
-</item>
-<item>
 <title>Senators beat Maple Leafs 4-3 in shootout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400567137</link>
+</item>
+<item>
+<title>Bobby Ryan helps Senators beat Maple Leafs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567112</link>
 </item>
 <item>
 <title>Youngster Nylander scores in Maple Leafs' win</title>
@@ -35,10 +39,6 @@
 <item>
 <title>Booth's SO goal lifts Leafs over Flyers 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400584907</link>
-</item>
-<item>
-<title>Plekanec lifts Canadiens past Maple Leafs, 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563878</link>
 </item>
 </channel>
 </rss>

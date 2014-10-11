@@ -26,9 +26,10 @@ team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jacket
               'Blues', 'Lightning', 'Maple Leafs', 'Canucks', 'Jets', 'Capitals']
 
 class GameData(object):
-   def __init__(self, link, headline):
+   def __init__(self, link, headline, date):
       self.link = link
       self.headline = headline
+      self.date = date
       
    def char_convert_link(self):
       self.link = re.sub('[&]', '&amp;', self.link)
@@ -36,7 +37,11 @@ class GameData(object):
    def print_game_data(self):
       print self.headline
       print self.link
+      print self.date
       
+   def list_data(self):
+      return [self.headline, self.link, self.date]
+   
 def page_response(link):
    response = urlopen_with_retry(link)
    page_source = response.read()
@@ -45,15 +50,13 @@ def page_response(link):
 
 def extract_game_data(team):
    games = []
-#   sleep(0.5)
    link = "http://espn.go.com/nhl/team/schedule/_/name/" + team
    soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
-#      print complete_link
 
-      new_game = GameData(complete_link, get_game_headline(complete_link))
+      new_game = GameData(complete_link, get_game_headline(complete_link), get_game_date(complete_link))
       new_game.char_convert_link()
       games.append(new_game)
       
@@ -64,7 +67,6 @@ def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
 def get_game_headline(link):
-#   sleep(1)
    try:
       soup = page_response(link)
    
@@ -73,14 +75,24 @@ def get_game_headline(link):
    except urllib2.HTTPError:
       print 'There was an error with the request'
       
+def get_game_date(link):
+   soup = page_response(link)
+   
+   for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
+      #print div
+      date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+      #print date_string
+      return date_string[21:]
+      
 def main():
    for team_ab, team_name in zip(team_abbrvs, team_names):
       games = extract_game_data(team_ab)
-      games.reverse()
+      games.sort(key=lambda x: x.date, reverse=True)
      
-      for game in games:
-         game.print_game_data()
-         
+#      for game in games:
+#         print game.list_data()
       markup.xml_markup(games, team_ab, team_name)
+      
+      print "Completed " + team_name
       
 main()
