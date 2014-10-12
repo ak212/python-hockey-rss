@@ -7,7 +7,6 @@ import urllib2
 from bs4 import BeautifulSoup
 import sys
 import re
-from time import sleep
 
 import markup
 import retry_decorator
