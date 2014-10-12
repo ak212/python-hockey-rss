@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -41,4 +42,49 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567188</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Hurricanes scores</title>
+<description>Latest Hurricanes scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
+<item>
+<title>[10/11] L - Isles top Canes to open final season at Coliseum</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564313</link>
+</item>
+<item>
+<title>[10/10] L - Nelson, Boychuk power Islanders vs. Canes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564312</link>
+</item>
+<item>
+<title>[10/05] L - Capitals beat Hurricanes 5-2 in preseason finale</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567179</link>
+</item>
+<item>
+<title>[10/03] W - Lindholm, Hurricanes beat Sabres 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567196</link>
+</item>
+<item>
+<title>[10/01] L - Calvert, Dano lead Blue Jackets past Hurricanes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567192</link>
+</item>
+<item>
+<title>[9/30] L - Blues beat Hurricanes 3-1 in preseason game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567195</link>
+</item>
+<item>
+<title>[9/24] W - Hurricanes beat Islanders 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567194</link>
+</item>
+<item>
+<title>[9/23] L - Sabres' G Enroth blanks Hurricanes 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567193</link>
+</item>
+<item>
+<title>[9/21] L - Blue Jackets beat Hurricanes in exhibition opener</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567188</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

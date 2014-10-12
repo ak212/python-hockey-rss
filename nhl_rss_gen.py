@@ -29,27 +29,61 @@ class GameData(object):
       self.link = link
       self.headline = headline
       self.date = date
+      self.result = None
       
    def char_convert_link(self):
       self.link = re.sub('[&]', '&amp;', self.link)
       
    def print_game_data(self):
-      print self.headline
-      print self.link
-      print self.date
+      print self.headline, self.link, self.date, self.result
       
    def list_data(self):
-      return [self.headline, self.link, self.date]
+      return [self.headline, self.link, self.date, self.result]
    
-   def add_date_to_headline(self):
-      headline = self.headline
+   def modify_headline(self):
       try:
          if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.headline
+            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
          else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.headline
+            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
       except TypeError:
-         self.headline = headline
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + "Error finding headline"
+         
+   def find_winner(self, team_name):
+      soup = page_response(self.link)
+      
+      home_team = ""
+      home_score = 0
+      away_score = 0
+      result = None
+      
+      for div in soup.find_all(attrs={"class" : "matchup"}):
+         for home in div.find_all(attrs={"class" : "team home"}):
+            for name in home.find('a'):
+               home_team = str(name)
+            for score in home.find_all(attrs={"class" : "gp-homeScore"}):
+               for val in score:
+                  home_score = int(val)
+                  
+         for away in div.find_all(attrs={"class" : "team away"}):
+            for score in away.find_all(attrs={"class" : "gp-awayScore"}):
+               for val in score:
+                  away_score = int(val)
+                  
+         home = home_team == team_name
+         
+         if home_score > away_score and home:
+            result = "W"
+         elif home_score < away_score and home:
+            result = "L"
+         elif home_score > away_score:
+            result = "L"
+         elif home_score < away_score:
+            result = "W"
+         else:
+            result = "error determining winner"
+            
+      self.result = result
    
 def page_response(link):
    response = urlopen_with_retry(link)
@@ -57,9 +91,9 @@ def page_response(link):
    
    return BeautifulSoup(page_source)
 
-def extract_game_data(team):
+def extract_game_data(team_ab, team_name):
    games = []
-   link = "http://espn.go.com/nhl/team/schedule/_/name/" + team
+   link = "http://espn.go.com/nhl/team/schedule/_/name/" + team_ab
    soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
@@ -68,7 +102,8 @@ def extract_game_data(team):
       new_game = GameData(complete_link, get_game_headline(complete_link), get_game_date(complete_link))
       
       new_game.char_convert_link()
-      new_game.add_date_to_headline()
+      new_game.find_winner(team_name)
+      new_game.modify_headline()
       
       games.append(new_game)
       
@@ -98,7 +133,7 @@ def get_game_date(link):
       
 def main():
    for team_ab, team_name in zip(team_abbrvs, team_names):
-      games = extract_game_data(team_ab)
+      games = extract_game_data(team_ab, team_name)
       games.sort(key=lambda x: x.date, reverse=True)
      
       for game in games:

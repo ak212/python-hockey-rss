@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -45,4 +46,53 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567158</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Bruins scores</title>
+<description>Latest Bruins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[10/11] L - Ovechkin nets 2 as Caps win 1st under Trotz</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563720</link>
+</item>
+<item>
+<title>[10/09] L - Red Wings edge Bruins on Nyquist's goal</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563719</link>
+</item>
+<item>
+<title>[10/08] W - Kelly's goal sends Bruins by Flyers in opener</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563718</link>
+</item>
+<item>
+<title>[10/04] L - Red Wings beat Bruins 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567164</link>
+</item>
+<item>
+<title>[10/03] W - Spooner scores 2 goals as Bruins beat Islanders</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567163</link>
+</item>
+<item>
+<title>[9/30] L - Clutterbuck leads Islanders to 5-3 win over Bruins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567162</link>
+</item>
+<item>
+<title>[9/27] W - Leino helps Bruins beat Red Wings 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567161</link>
+</item>
+<item>
+<title>[9/26] L - Ovechkin scores twice, Capitals beat Bruins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567160</link>
+</item>
+<item>
+<title>[9/24] W - Chara helps Bruins beat Capitals 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567159</link>
+</item>
+<item>
+<title>[9/23] L - Bowman's late goal gives Canadiens win over Bruins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567158</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

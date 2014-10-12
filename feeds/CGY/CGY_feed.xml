@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -53,4 +54,61 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567239</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Flames scores</title>
+<description>Latest Flames scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/CGY</link>
+<item>
+<title>[10/11] L - Lindstrom, Backes lead Blues past Flames, 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564648</link>
+</item>
+<item>
+<title>[10/09] W - Raymond's hat trick lifts Flames over Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564847</link>
+</item>
+<item>
+<title>[10/08] L - Miller wins Canucks debut, 4-2 over Flames</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564846</link>
+</item>
+<item>
+<title>[10/04] L - Jets get goals from 4 players, beat Calgary 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567210</link>
+</item>
+<item>
+<title>[10/02] W - Jooris, Monahan lift Flames past Jets, 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567209</link>
+</item>
+<item>
+<title>[9/30] W - Hiller, Flames beat Avalanche 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567146</link>
+</item>
+<item>
+<title>[9/28] W - Ferland scores twice as Flames beat Avs 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567145</link>
+</item>
+<item>
+<title>[9/26] L - Canucks' Miller, Eriksson team to blank Flames</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567208</link>
+</item>
+<item>
+<title>[9/25] L - Canucks beat Flames 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567207</link>
+</item>
+<item>
+<title>[9/24] W - Glencross lifts Flames past Coyotes in OT</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567206</link>
+</item>
+<item>
+<title>[9/21] L - Austin Schultz leads Oilers in split-squad game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567205</link>
+</item>
+<item>
+<title>[9/21] W - TJ Brodie scores in Flames' split-squad win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567239</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

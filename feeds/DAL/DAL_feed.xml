@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -37,4 +38,45 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567197</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Stars scores</title>
+<description>Latest Stars scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[10/11] L - Nystrom, Rinne lead Predators past Stars, 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564693</link>
+</item>
+<item>
+<title>[10/09] L - Blackhawks need shootout to slip past Stars</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564598</link>
+</item>
+<item>
+<title>[9/30] L - Paquette, Connolly lift Lightning over Stars 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567152</link>
+</item>
+<item>
+<title>[9/29] W - Seguin's hat trick rallies Stars past Panthers 5-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567200</link>
+</item>
+<item>
+<title>[9/27] W - Meech helps Stars beat Blues 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567199</link>
+</item>
+<item>
+<title>[9/26] L - Stralman helps Lightning beat Stars 6-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567151</link>
+</item>
+<item>
+<title>[9/24] W - Ales Hemsky lifts Stars past Panthers in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567198</link>
+</item>
+<item>
+<title>[9/22] W - Stars rally to beat Blues 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567197</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -45,4 +46,53 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567158</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Canadiens scores</title>
+<description>Latest Canadiens scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[10/11] W - Canadiens top Flyers 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563953</link>
+</item>
+<item>
+<title>[10/09] W - Plekanec, Canadiens top Capitals 2-1 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563952</link>
+</item>
+<item>
+<title>[10/08] W - Plekanec lifts Canadiens past Maple Leafs, 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563878</link>
+</item>
+<item>
+<title>[10/04] L - Zibanejad, Legwand score late, Sens top Habs 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567228</link>
+</item>
+<item>
+<title>[10/03] L - Ryan scores in OT to lift Senators past Canadiens</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567227</link>
+</item>
+<item>
+<title>[10/01] W - Canadiens, Price beat Blackhawks 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567203</link>
+</item>
+<item>
+<title>[9/28] L - Ward's 3rd-period goal lifts Caps over Canadiens</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567176</link>
+</item>
+<item>
+<title>[9/26] W - Brandon Prust lifts Canadiens past Avalanche</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567144</link>
+</item>
+<item>
+<title>[9/25] W - Galchenyuk scores in OT, Canadiens beat Avs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567143</link>
+</item>
+<item>
+<title>[9/23] W - Bowman's late goal gives Canadiens win over Bruins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567158</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

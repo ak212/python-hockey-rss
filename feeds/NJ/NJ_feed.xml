@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -37,4 +38,45 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567223</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Devils scores</title>
+<description>Latest Devils scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/NJ</link>
+<item>
+<title>[10/11] W - Severson helps Devils beat Panthers 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564202</link>
+</item>
+<item>
+<title>[10/09] W - Devils win their season opener, beat Flyers 6-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564254</link>
+</item>
+<item>
+<title>[10/04] W - Jagr, Schneider help Devils beat Rangers, 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567226</link>
+</item>
+<item>
+<title>[10/02] W - Zajac lifts Devils past Islanders in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567225</link>
+</item>
+<item>
+<title>[9/28] W - Gomez nets 2 in Devils' preseason win over Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567181</link>
+</item>
+<item>
+<title>[9/26] L - Islanders beat Devils at Barclays Center</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567224</link>
+</item>
+<item>
+<title>[9/25] L - Mason, Zepp lead Flyers past Devils, 4-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567180</link>
+</item>
+<item>
+<title>[9/22] W - Ryder scores 2 goals; Devils top Rangers 5-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567223</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

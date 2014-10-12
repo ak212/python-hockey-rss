@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -37,4 +38,45 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567175</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Sabres scores</title>
+<description>Latest Sabres scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/BUF</link>
+<item>
+<title>[10/11] L - Blackhawks break open tie with 4-goal 3rd</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563801</link>
+</item>
+<item>
+<title>[10/09] L - Blue Jackets beat Sabres 3-1 in season opener</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563800</link>
+</item>
+<item>
+<title>[10/03] L - Lindholm, Hurricanes beat Sabres 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567196</link>
+</item>
+<item>
+<title>[10/01] W - Moulson scores twice, Sabres beat Capitals 6-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567177</link>
+</item>
+<item>
+<title>[9/28] L - Holland's SO winner lifts Leafs over Sabres 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567139</link>
+</item>
+<item>
+<title>[9/26] L - Reimer makes 34 saves, Maple Leafs beat Sabres 6-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567138</link>
+</item>
+<item>
+<title>[9/23] W - Sabres' G Enroth blanks Hurricanes 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567193</link>
+</item>
+<item>
+<title>[9/21] L - Capitals beat Sabres 1-0 in Trotz's debut</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567175</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -37,4 +38,45 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567184</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Penguins scores</title>
+<description>Latest Penguins scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[10/11] W - Crosby's 3 points guide Penguins past Leafs</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563879</link>
+</item>
+<item>
+<title>[10/09] W - Crosby, Pens prevail despite Perry hat trick</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564461</link>
+</item>
+<item>
+<title>[10/01] W - Crosby makes preseason debut, Pens blank Wings 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567187</link>
+</item>
+<item>
+<title>[9/29] L - Pominville helps Wild beat Penguins 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567218</link>
+</item>
+<item>
+<title>[9/27] W - Kapanen, Ebbett score, Pens beat Blue Jackets 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567191</link>
+</item>
+<item>
+<title>[9/25] W - Sutter scores in OT, Penguins beat Wild 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567216</link>
+</item>
+<item>
+<title>[9/23] L - Blue Jackets make 42 saves in shutout of Penguins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567189</link>
+</item>
+<item>
+<title>[9/22] L - Red Wings edge Penguins 2-1 in exhibition game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

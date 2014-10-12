@@ -16,20 +16,46 @@ def page_response(link):
    
    return BeautifulSoup(page_source)
 
-def main():
-   link = "http://scores.espn.go.com/nhl/recap?gameId=400564312"
+def find_winner():
+   link = "http://scores.espn.go.com/nhl/recap?gameId=400564461"
    soup = page_response(link)
+   team_name = "Ducks"
    
-   for div in soup.find_all(attrs={"class" : "scoreboard-container"}):
-      away_team = div.find_all(attrs={"class" : "away"})
-      home_team = div.find_all(attrs={"class" : "home"})
-      away_score = div.find_all(attrs={"class" : "awayScore"})
-      home_score = div.find_all(attrs={"class" : "homeScore"})
-      
-      for aScore in away_score:
-         print aScore.text
-      
-      for hScore in home_score:
-         print type(hScore.text)      
+   home_team = ""
+   home_score = 0
+   away_score = 0
+   
+   for div in soup.find_all(attrs={"class" : "matchup"}):
+      for home in div.find_all(attrs={"class" : "team home"}):
+         for name in home.find('a'):
+            home_team = str(name)
+         for score in home.find_all(attrs={"class" : "gp-homeScore"}):
+            for val in score:
+               home_score = int(val)
                
+      for away in div.find_all(attrs={"class" : "team away"}):
+         for score in away.find_all(attrs={"class" : "gp-awayScore"}):
+            for val in score:
+               away_score = int(val)
+               
+
+      
+      home = home_team == team_name
+      
+      if home_score > away_score and home:
+         return "W"
+      elif home_score < away_score and home:
+         return "L"
+      elif home_score > away_score:
+         return "L"
+      elif home_score < away_score:
+         return "W"
+      else:
+         return "error determining winner"
+      
+         
+def main():
+   result = find_winner()  
+   print result
+         
 main()
