@@ -41,16 +41,16 @@ class GameData(object):
       return [self.headline, self.link, self.date, self.result]
    
    def modify_headline(self):
+      headline = self.headline
+      
+      if self.date[4] == "0":
+         self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] "
+      else:
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] "
       try:
-         if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
-         else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
+         self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-         if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] "  + self.result + " No Headline"
-         else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] "  + self.result + " No Headline"
+            self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup):
       home_team = ""
