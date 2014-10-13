@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Wild scores</title>
-<description>Latest Wild scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
-<item>
-<title>[10/11] Kuemper bottles up Avs as Wild win, 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564770</link>
-</item>
-<item>
-<title>[10/09] Parise, Wild overwhelm Avalanche in shutout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564769</link>
-</item>
-<item>
-<title>[10/04] Koivu lifts Wild past Blues, 5-4 in OT</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567214</link>
-</item>
-<item>
-<title>[10/02] Leopold scores in 3rd as Blues beat Wild, 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567213</link>
-</item>
-<item>
-<title>[9/29] Pominville helps Wild beat Penguins 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567218</link>
-</item>
-<item>
-<title>[9/27] Spurgeon lifts Wild past Jets, 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567217</link>
-</item>
-<item>
-<title>[9/25] Sutter scores in OT, Penguins beat Wild 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567216</link>
-</item>
-<item>
-<title>[9/22] Byfuglien leads Jets to 2-1 win over Wild</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567215</link>
-</item>
-</channel>
-=======
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -78,5 +37,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567215</link>
 </item>
 </channel>
->>>>>>> experimental
 </rss>

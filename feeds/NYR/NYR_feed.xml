@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Rangers scores</title>
-<description>Latest Rangers scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/NYR</link>
-<item>
-<title>[10/11] Atkinson scores 2 to lead CBJ past Rangers, 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564367</link>
-</item>
-<item>
-<title>[10/09] Nash's big night leads Rangers past Blues</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564366</link>
-</item>
-<item>
-<title>[10/04] Jagr, Schneider help Devils beat Rangers, 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567226</link>
-</item>
-<item>
-<title>[10/03] Malone lifts Rangers past Blackhawks, 3-2 in SO</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567204</link>
-</item>
-<item>
-<title>[9/30] Simmonds helps Flyers beat Rangers 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567183</link>
-</item>
-<item>
-<title>[9/29] Haggerty, Fast each score 2 as Rangers beat Flyers</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567182</link>
-</item>
-<item>
-<title>[9/26] Rangers beat Blackhawks 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567201</link>
-</item>
-<item>
-<title>[9/22] Ryder scores 2 goals; Devils top Rangers 5-4</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567223</link>
-</item>
-</channel>
-=======
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -78,5 +37,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567223</link>
 </item>
 </channel>
->>>>>>> experimental
 </rss>

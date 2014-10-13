@@ -47,7 +47,7 @@ class GameData(object):
          else:
             self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
       except TypeError:
-         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + "Error finding headline"
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " No Headline"
          
    def find_winner(self, team_name):
       soup = page_response(self.link)

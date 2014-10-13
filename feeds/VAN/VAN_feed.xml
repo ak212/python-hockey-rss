@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Canucks scores</title>
-<description>Latest Canucks scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
-<item>
-<title>[10/11] Higgins gets SO winner as Canucks beat Oilers, 5-4</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564875</link>
-</item>
-<item>
-<title>[10/08] Miller wins Canucks debut, 4-2 over Flames</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564846</link>
-</item>
-<item>
-<title>[10/04] Vrbata scores winning goal as Canucks beat Oilers</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567222</link>
-</item>
-<item>
-<title>[10/02] Edler has goal, assist as Canucks beat Oilers 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567221</link>
-</item>
-<item>
-<title>[9/29] Vitale, Smith lead Coyotes to 4-2 win over Canucks</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567211</link>
-</item>
-<item>
-<title>[9/26] Canucks' Miller, Eriksson team to blank Flames</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567208</link>
-</item>
-<item>
-<title>[9/25] Canucks beat Flames 3-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567207</link>
-</item>
-<item>
-<title>[9/23] Horvat nets winner as Canucks top Sharks 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567235</link>
-</item>
-<item>
-<title>[9/23] Thornton scores 2 goals, Sharks top Canucks 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567165</link>
-</item>
-</channel>
-=======
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -86,5 +41,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567165</link>
 </item>
 </channel>
->>>>>>> experimental
 </rss>

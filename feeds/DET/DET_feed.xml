@@ -1,52 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Red Wings scores</title>
-<description>Latest Red Wings scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
-<item>
-<title>[10/11] Getzlaf's late goal lifts Ducks over Red Wings</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564086</link>
-</item>
-<item>
-<title>[10/09] Red Wings edge Bruins on Nyquist's goal</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563719</link>
-</item>
-<item>
-<title>[10/04] Red Wings beat Bruins 4-3 in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567164</link>
-</item>
-<item>
-<title>[10/03] Kozun has goal, 2 assists as Toronto beats Detroit</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567141</link>
-</item>
-<item>
-<title>[10/01] Crosby makes preseason debut, Pens blank Wings 2-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567187</link>
-</item>
-<item>
-<title>[9/29] Mrazek helps Red Wings beat Maple Leafs 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567140</link>
-</item>
-<item>
-<title>[9/27] Leino helps Bruins beat Red Wings 3-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567161</link>
-</item>
-<item>
-<title>[9/25] Red Wings hold off Blackhawks 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567186</link>
-</item>
-<item>
-<title>[9/23] Toews' OT goal gives Blackhawks win over Red Wings</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567185</link>
-</item>
-<item>
-<title>[9/22] Red Wings edge Penguins 2-1 in exhibition game</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567184</link>
-</item>
-</channel>
-=======
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -94,5 +45,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567184</link>
 </item>
 </channel>
->>>>>>> experimental
 </rss>
