@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 '''
 Created on Oct 6, 2014
 
@@ -5,14 +7,10 @@ Created on Oct 6, 2014
 '''
 import urllib2
 from bs4 import BeautifulSoup
-import sys
 import re
 
 import markup
 import retry_decorator
- 
-reload(sys)
-sys.setdefaultencoding("utf-8") #@UndefinedVariable
 
 team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR', 
@@ -50,7 +48,7 @@ class GameData(object):
       try:
          self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-            self.headline = self.headline + self.result + " No Headline"
+         self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup):
       home_team = ""
@@ -127,9 +125,8 @@ def get_game_headline(soup):
       
 def get_game_date(soup):
    for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
-      #print div
       date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
-      #print date_string
+
       return date_string[21:]
       
 def main():
