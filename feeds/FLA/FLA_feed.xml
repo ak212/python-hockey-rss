@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -37,4 +38,45 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567198</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Panthers scores</title>
+<description>Latest Panthers scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[10/11] L - Severson helps Devils beat Panthers 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564202</link>
+</item>
+<item>
+<title>[10/09] L - Hedman scores in OT, Lightning beat Panthers 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564146</link>
+</item>
+<item>
+<title>[10/04] L - Bishop stops 36 shots as Lightning beat Panthers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567154</link>
+</item>
+<item>
+<title>[10/02] L - Kucherov scores 2 as Lightning beat Panthers 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567153</link>
+</item>
+<item>
+<title>[9/29] L - Seguin's hat trick rallies Stars past Panthers 5-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567200</link>
+</item>
+<item>
+<title>[9/27] </title>
+<link>http://espn.go.com/nhl/boxscore?gameId=400567155</link>
+</item>
+<item>
+<title>[9/27] L - Predators beat Panthers 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567114</link>
+</item>
+<item>
+<title>[9/24] L - Ales Hemsky lifts Stars past Panthers in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567198</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>
