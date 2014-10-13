@@ -47,11 +47,12 @@ class GameData(object):
          else:
             self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
       except TypeError:
-         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + "Error finding headline"
+         if self.date[4] == "0":
+            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " 
+         else:
+            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " 
          
-   def find_winner(self, team_name):
-      soup = page_response(self.link)
-      
+   def find_winner(self, team_name, soup):
       home_team = ""
       home_score = 0
       away_score = 0
@@ -82,7 +83,7 @@ class GameData(object):
             result = "W"
          else:
             result = "error determining winner"
-            
+
       self.result = result
    
 def page_response(link):
@@ -99,10 +100,14 @@ def extract_game_data(team_ab, team_name):
    for div in soup.find_all(attrs={"class" : "score"}):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
 
-      new_game = GameData(complete_link, get_game_headline(complete_link), get_game_date(complete_link))
+      complete_link_soup = page_response(complete_link)
+      game_headline = get_game_headline(complete_link_soup)
+      game_date = get_game_date(complete_link_soup)
+
+      new_game = GameData(complete_link, game_headline, game_date)
       
       new_game.char_convert_link()
-      new_game.find_winner(team_name)
+      new_game.find_winner(team_name, complete_link_soup)
       new_game.modify_headline()
       
       games.append(new_game)
@@ -113,18 +118,14 @@ def extract_game_data(team_ab, team_name):
 def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
-def get_game_headline(link):
+def get_game_headline(soup):
    try:
-      soup = page_response(link)
-   
       for meta in soup.findAll('meta', {"property":'og:title'}):
          return meta.get('content')
    except urllib2.HTTPError:
       print 'There was an error with the request'
       
-def get_game_date(link):
-   soup = page_response(link)
-   
+def get_game_date(soup):
    for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
       #print div
       date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
