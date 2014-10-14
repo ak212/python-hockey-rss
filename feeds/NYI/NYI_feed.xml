@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -34,7 +33,7 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567194</link>
 </item>
 <item>
-<title>[09/22] W No Headline</title>
+<title>[9/22] W No Headline</title>
 <link>http://espn.go.com/nhl/boxscore?gameId=400568135</link>
 </item>
 <item>
@@ -42,49 +41,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400568136</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Islanders scores</title>
-<description>Latest Islanders scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/NYI</link>
-<item>
-<title>[10/11] W - Isles top Canes to open final season at Coliseum</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564313</link>
-</item>
-<item>
-<title>[10/10] W - Nelson, Boychuk power Islanders vs. Canes</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564312</link>
-</item>
-<item>
-<title>[10/03] L - Spooner scores 2 goals as Bruins beat Islanders</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567163</link>
-</item>
-<item>
-<title>[10/02] L - Zajac lifts Devils past Islanders in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567225</link>
-</item>
-<item>
-<title>[9/30] W - Clutterbuck leads Islanders to 5-3 win over Bruins</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567162</link>
-</item>
-<item>
-<title>[9/26] W - Islanders beat Devils at Barclays Center</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567224</link>
-</item>
-<item>
-<title>[9/24] L - Hurricanes beat Islanders 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567194</link>
-</item>
-<item>
-<title>[9/22] </title>
-<link>http://espn.go.com/nhl/boxscore?gameId=400568135</link>
-</item>
-<item>
-<title>[9/22] W - Islanders beat Senators in pair of preseason games</title>
-<link>http://espn.go.com/nhl/recap?gameId=400568136</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>

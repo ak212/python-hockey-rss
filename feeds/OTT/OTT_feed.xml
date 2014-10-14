@@ -1,10 +1,13 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
 <title> Senators scores</title>
 <description>Latest Senators scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/OTT</link>
+<item>
+<title>[10/13] W - Anderson, MacArthur lead Sens over Panthers 1-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564024</link>
+</item>
 <item>
 <title>[10/11] W - Zibanejad lifts Senators past Lightning in SO</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564023</link>
@@ -34,7 +37,7 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567137</link>
 </item>
 <item>
-<title>[09/22] L No Headline</title>
+<title>[9/22] L No Headline</title>
 <link>http://espn.go.com/nhl/boxscore?gameId=400568135</link>
 </item>
 <item>
@@ -42,49 +45,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400568136</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Senators scores</title>
-<description>Latest Senators scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/OTT</link>
-<item>
-<title>[10/11] W - Zibanejad lifts Senators past Lightning in SO</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564023</link>
-</item>
-<item>
-<title>[10/09] L - Predators beat Ottawa 3-2 in Laviolette's debut</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564022</link>
-</item>
-<item>
-<title>[10/04] W - Zibanejad, Legwand score late, Sens top Habs 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567228</link>
-</item>
-<item>
-<title>[10/03] W - Ryan scores in OT to lift Senators past Canadiens</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567227</link>
-</item>
-<item>
-<title>[9/30] L - Pavelec helps Jets edge Senators 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567229</link>
-</item>
-<item>
-<title>[9/24] W - Bobby Ryan helps Senators beat Maple Leafs 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567112</link>
-</item>
-<item>
-<title>[9/24] W - Senators beat Maple Leafs 4-3 in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567137</link>
-</item>
-<item>
-<title>[9/22] </title>
-<link>http://espn.go.com/nhl/boxscore?gameId=400568135</link>
-</item>
-<item>
-<title>[9/22] L - Islanders beat Senators in pair of preseason games</title>
-<link>http://espn.go.com/nhl/recap?gameId=400568136</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>
