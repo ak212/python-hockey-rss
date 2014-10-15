@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 '''
 Created on Oct 6, 2014
 
@@ -5,14 +7,13 @@ Created on Oct 6, 2014
 '''
 import urllib2
 from bs4 import BeautifulSoup
-import sys
 import re
+import logging
+from datetime import date
+from time import localtime, strftime
 
 import markup
 import retry_decorator
- 
-reload(sys)
-sys.setdefaultencoding("utf-8") #@UndefinedVariable
 
 team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR', 
@@ -23,6 +24,11 @@ team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jacket
               'Panthers', 'Kings', 'Wild', 'Canadiens', 'Predators', 'Devils', 
               'Islanders', 'Rangers', 'Senators', 'Flyers', 'Penguins', 'Sharks', 
               'Blues', 'Lightning', 'Maple Leafs', 'Canucks', 'Jets', 'Capitals']
+
+file_name = str(date.today()) + '.log'
+
+logging.basicConfig(filename=file_name,
+                    level=logging.DEBUG)
 
 class GameData(object):
    def __init__(self, link, headline, date):
@@ -41,22 +47,22 @@ class GameData(object):
       return [self.headline, self.link, self.date, self.result]
    
    def modify_headline(self):
+      headline = self.headline
+      
+      if self.date[4] == "0":
+         self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] "
+      else:
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] "
       try:
-         if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
-         else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " + self.result + " - " + self.headline
+         self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-         if self.date[4] == "0":
-            self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] " 
-         else:
-            self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] " 
+         logging.debug("TypeError from: " + self.headline)
+         self.headline = self.headline + self.result + " No Headline"
          
-   def find_winner(self, team_name, soup):
+   def find_winner(self, team_name, soup, link):
       home_team = ""
       home_score = 0
       away_score = 0
-      result = None
       
       for div in soup.find_all(attrs={"class" : "matchup"}):
          for home in div.find_all(attrs={"class" : "team home"}):
@@ -82,7 +88,8 @@ class GameData(object):
          elif home_score < away_score:
             result = "W"
          else:
-            result = "error determining winner"
+            logging.debug("Error determining winner from: " + link)
+            result = ""
 
       self.result = result
    
@@ -101,13 +108,13 @@ def extract_game_data(team_ab, team_name):
       complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
 
       complete_link_soup = page_response(complete_link)
-      game_headline = get_game_headline(complete_link_soup)
+      game_headline = get_game_headline(complete_link_soup, complete_link)
       game_date = get_game_date(complete_link_soup)
 
       new_game = GameData(complete_link, game_headline, game_date)
       
       new_game.char_convert_link()
-      new_game.find_winner(team_name, complete_link_soup)
+      new_game.find_winner(team_name, complete_link_soup, complete_link)
       new_game.modify_headline()
       
       games.append(new_game)
@@ -118,18 +125,17 @@ def extract_game_data(team_ab, team_name):
 def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
-def get_game_headline(soup):
+def get_game_headline(soup, link):
    try:
       for meta in soup.findAll('meta', {"property":'og:title'}):
          return meta.get('content')
    except urllib2.HTTPError:
-      print 'There was an error with the request'
+      logging.debug('There was an error with the request from: ' + link)
       
 def get_game_date(soup):
    for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
-      #print div
       date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
-      #print date_string
+
       return date_string[21:]
       
 def main():
@@ -137,10 +143,9 @@ def main():
       games = extract_game_data(team_ab, team_name)
       games.sort(key=lambda x: x.date, reverse=True)
      
-      for game in games:
-         print game.list_data()
       markup.xml_markup(games, team_ab, team_name)
-      
-      print "Completed " + team_name
+
+      logging.info(str(len(games)) + " logged for " + team_name)
+      logging.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
       
 main()
