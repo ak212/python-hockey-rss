@@ -8,6 +8,7 @@ Created on Oct 6, 2014
 import urllib2
 from bs4 import BeautifulSoup
 import re
+import os
 import logging
 from datetime import date
 from time import localtime, strftime
@@ -27,7 +28,17 @@ team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jacket
 
 file_name = str(date.today()) + '.log'
 
-logging.basicConfig(filename=file_name,
+script_dir = os.path.dirname(os.path.abspath(__file__))
+dest_dir = os.path.join(script_dir, "logs")
+   
+try:
+   os.makedirs(dest_dir)
+except OSError:
+   pass # already exists\\
+
+path = os.path.join(dest_dir, file_name)
+
+logging.basicConfig(filename=path,
                     level=logging.DEBUG)
 
 class GameData(object):
@@ -46,7 +57,7 @@ class GameData(object):
    def list_data(self):
       return [self.headline, self.link, self.date, self.result]
    
-   def modify_headline(self):
+   def modify_headline(self, link):
       headline = self.headline
       
       if self.date[4] == "0":
@@ -56,7 +67,7 @@ class GameData(object):
       try:
          self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-         logging.debug("TypeError from: " + self.headline)
+         logging.debug("TypeError from: " + link)
          self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup, link):
@@ -115,7 +126,7 @@ def extract_game_data(team_ab, team_name):
       
       new_game.char_convert_link()
       new_game.find_winner(team_name, complete_link_soup, complete_link)
-      new_game.modify_headline()
+      new_game.modify_headline(complete_link)
       
       games.append(new_game)
       
@@ -145,7 +156,7 @@ def main():
      
       markup.xml_markup(games, team_ab, team_name)
 
-      logging.info(str(len(games)) + " logged for " + team_name)
+      logging.info(str(len(games)) + " games logged for " + team_name)
       logging.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
       
 main()
