@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 import re
 import os
 import logging
-from datetime import date
-from time import localtime, strftime
+from datetime import date, timedelta
+from time import localtime, strftime, mktime
  
 import markup
 import retry_decorator
@@ -34,7 +34,7 @@ dest_dir = os.path.join(script_dir, "logs")
 try:
    os.makedirs(dest_dir)
 except OSError:
-   pass # already exists\\
+   pass
 
 path = os.path.join(dest_dir, file_name)
 
@@ -71,36 +71,25 @@ class GameData(object):
          self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup, link):
-      home_team = ""
-      home_score = 0
-      away_score = 0
+      matchup = soup.find(class_="matchup")
+      home = matchup.find(class_="team home")
+      home_team = str(home.find('a').text)
+      home_score = int(home.find(class_="gp-homeScore").text)
+      away_score = int(matchup.find(class_="team away").find(class_="gp-awayScore").text)
+                     
+      home = home_team == team_name
       
-      for div in soup.find_all(attrs={"class" : "matchup"}):
-         for home in div.find_all(attrs={"class" : "team home"}):
-            for name in home.find('a'):
-               home_team = str(name)
-            for score in home.find_all(attrs={"class" : "gp-homeScore"}):
-               for val in score:
-                  home_score = int(val)
-                  
-         for away in div.find_all(attrs={"class" : "team away"}):
-            for score in away.find_all(attrs={"class" : "gp-awayScore"}):
-               for val in score:
-                  away_score = int(val)
-                  
-         home = home_team == team_name
-         
-         if home_score > away_score and home:
-            result = "W"
-         elif home_score < away_score and home:
-            result = "L"
-         elif home_score > away_score:
-            result = "L"
-         elif home_score < away_score:
-            result = "W"
-         else:
-            logging.debug("Error determining winner from: " + link)
-            result = ""
+      if home_score > away_score and home:
+         result = "W"
+      elif home_score < away_score and home:
+         result = "L"
+      elif home_score > away_score:
+         result = "L"
+      elif home_score < away_score:
+         result = "W"
+      else:
+         logging.debug("Error determining winner from: " + link)
+         result = ""
 
       self.result = result
    
@@ -150,6 +139,9 @@ def get_game_date(soup):
       return date_string[21:]
       
 def main():
+   start_time = localtime()
+   logging.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
+   
    for team_ab, team_name in zip(team_abbrvs, team_names):
       games = extract_game_data(team_ab, team_name)
       games.sort(key=lambda x: x.date, reverse=True)
@@ -158,5 +150,10 @@ def main():
 
       logging.info(str(len(games)) + " games logged for " + team_name)
       logging.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
-      
-main()
+   
+   finish_time = localtime()
+   logging.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
+   logging.info("Total time: " + str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
+   
+if __name__ == '__main__':
+   main()
