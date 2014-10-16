@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -53,4 +54,61 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567239</link>
 </item>
 </channel>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version='2.0'>
+<channel>
+<title> Oilers scores</title>
+<description>Latest Oilers scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/EDM</link>
+<item>
+<title>[10/15] L - Oilers remain winless on Boedker's hat trick</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564877</link>
+</item>
+<item>
+<title>[10/14] L - Tanner Pearson leads LA Kings' 6-1 rout of Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564876</link>
+</item>
+<item>
+<title>[10/11] L - Higgins gets SO winner as Canucks beat Oilers, 5-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564875</link>
+</item>
+<item>
+<title>[10/09] L - Raymond's hat trick lifts Flames over Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564847</link>
+</item>
+<item>
+<title>[10/04] L - Vrbata scores winning goal as Canucks beat Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567222</link>
+</item>
+<item>
+<title>[10/02] L - Edler has goal, assist as Canucks beat Oilers 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567221</link>
+</item>
+<item>
+<title>[10/01] W - Joensuu scores twice, Oilers beat Coyotes 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567212</link>
+</item>
+<item>
+<title>[9/29] W - Taylor Hall scores twice, Oilers beat Jets 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567220</link>
+</item>
+<item>
+<title>[9/28] L - Darling makes 26 saves, Blackhawks blank Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567202</link>
+</item>
+<item>
+<title>[9/24] W - Oilers rally to beat Jets 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567219</link>
+</item>
+<item>
+<title>[9/21] W - Austin Schultz leads Oilers in split-squad game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567205</link>
+</item>
+<item>
+<title>[9/21] L - TJ Brodie scores in Flames' split-squad win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400567239</link>
+</item>
+</channel>
+>>>>>>> experimental
 </rss>

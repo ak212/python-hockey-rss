@@ -25,33 +25,24 @@ def find_winner():
    home_score = 0
    away_score = 0
    
-   for div in soup.find_all(attrs={"class" : "matchup"}):
-      for home in div.find_all(attrs={"class" : "team home"}):
-         for name in home.find('a'):
-            home_team = str(name)
-         for score in home.find_all(attrs={"class" : "gp-homeScore"}):
-            for val in score:
-               home_score = int(val)
-               
-      for away in div.find_all(attrs={"class" : "team away"}):
-         for score in away.find_all(attrs={"class" : "gp-awayScore"}):
-            for val in score:
-               away_score = int(val)
-               
-
+   matchup = soup.find(class_="matchup")
+   home = matchup.find(class_="team home")
+   home_team = str(home.find('a').text)
+   home_score = int(home.find(class_="gp-homeScore").text)
+   away_score = int(matchup.find(class_="team away").find(class_="gp-awayScore").text)
       
-      home = home_team == team_name
-      
-      if home_score > away_score and home:
-         return "W"
-      elif home_score < away_score and home:
-         return "L"
-      elif home_score > away_score:
-         return "L"
-      elif home_score < away_score:
-         return "W"
-      else:
-         return "error determining winner"
+   home = home_team == team_name
+   
+   if home_score > away_score and home:
+      return "W"
+   elif home_score < away_score and home:
+      return "L"
+   elif home_score > away_score:
+      return "L"
+   elif home_score < away_score:
+      return "W"
+   else:
+      return "error determining winner"
       
          
 def main():
