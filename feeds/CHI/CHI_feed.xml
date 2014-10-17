@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -42,49 +41,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567185</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Blackhawks scores</title>
-<description>Latest Blackhawks scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
-<item>
-<title>[10/15] L - Hiller's 49 saves help lift Flames at Chicago</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564599</link>
-</item>
-<item>
-<title>[10/11] W - Blackhawks break open tie with 4-goal 3rd</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563801</link>
-</item>
-<item>
-<title>[10/09] W - Blackhawks need shootout to slip past Stars</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564598</link>
-</item>
-<item>
-<title>[10/03] L - Malone lifts Rangers past Blackhawks, 3-2 in SO</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567204</link>
-</item>
-<item>
-<title>[10/01] L - Canadiens, Price beat Blackhawks 3-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567203</link>
-</item>
-<item>
-<title>[9/28] W - Darling makes 26 saves, Blackhawks blank Oilers</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567202</link>
-</item>
-<item>
-<title>[9/26] L - Rangers beat Blackhawks 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567201</link>
-</item>
-<item>
-<title>[9/25] L - Red Wings hold off Blackhawks 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567186</link>
-</item>
-<item>
-<title>[9/23] W - Toews' OT goal gives Blackhawks win over Red Wings</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567185</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>

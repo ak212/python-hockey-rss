@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -54,61 +53,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400584907</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Flyers scores</title>
-<description>Latest Flyers scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/PHI</link>
-<item>
-<title>[10/14] L - Ducks score twice in shootout, defeat Flyers 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564415</link>
-</item>
-<item>
-<title>[10/11] L - Canadiens top Flyers 4-3 in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563953</link>
-</item>
-<item>
-<title>[10/09] L - Devils win their season opener, beat Flyers 6-4</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564254</link>
-</item>
-<item>
-<title>[10/08] L - Kelly's goal sends Bruins by Flyers in opener</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563718</link>
-</item>
-<item>
-<title>[10/02] L - Capitals rally past Flyers, 3-2 in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567178</link>
-</item>
-<item>
-<title>[9/30] W - Simmonds helps Flyers beat Rangers 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567183</link>
-</item>
-<item>
-<title>[9/29] L - Haggerty, Fast each score 2 as Rangers beat Flyers</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567182</link>
-</item>
-<item>
-<title>[9/28] L - Gomez nets 2 in Devils' preseason win over Flyers</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567181</link>
-</item>
-<item>
-<title>[9/25] W - Mason, Zepp lead Flyers past Devils, 4-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567180</link>
-</item>
-<item>
-<title>[9/23] L - Youngster Nylander scores in Maple Leafs' win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567136</link>
-</item>
-<item>
-<title>[9/22] W - Flyers use four power-play goals to beat Capitals</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567237</link>
-</item>
-<item>
-<title>[9/22] L - Booth's SO goal lifts Leafs over Flyers 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400584907</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>

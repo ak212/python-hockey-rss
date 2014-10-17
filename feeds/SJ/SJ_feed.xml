@@ -1,10 +1,13 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
 <title> Sharks scores</title>
 <description>Latest Sharks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/SJ</link>
+<item>
+<title>[10/16] L - Tavares scores in SO as Isles stay unbeaten</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564315</link>
+</item>
 <item>
 <title>[10/14] W - Sharks move to 3-0 with 6-5 SO win over Capitals</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564501</link>
@@ -46,53 +49,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567165</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Sharks scores</title>
-<description>Latest Sharks scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/SJ</link>
-<item>
-<title>[10/14] W - Sharks move to 3-0 with 6-5 SO win over Capitals</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564501</link>
-</item>
-<item>
-<title>[10/11] W - Stalock makes 30 saves in Sharks' 3-0 win vs. Jets</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564801</link>
-</item>
-<item>
-<title>[10/08] W - Kings start defense with lopsided loss to Sharks</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564943</link>
-</item>
-<item>
-<title>[10/04] L - Perry, Kesler lead Ducks over Sharks in OT</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567170</link>
-</item>
-<item>
-<title>[10/03] W - Sharks beat Coyotes 3-1 in preseason game</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567169</link>
-</item>
-<item>
-<title>[9/30] L - Brown nets go-ahead goal, Kings top Sharks 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567168</link>
-</item>
-<item>
-<title>[9/27] W - Goodrow leads Sharks to 3-1 win over Duckss</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567167</link>
-</item>
-<item>
-<title>[9/26] L - Lessio lifts Coyotes past Sharks in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567166</link>
-</item>
-<item>
-<title>[9/23] L - Horvat nets winner as Canucks top Sharks 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567235</link>
-</item>
-<item>
-<title>[9/23] W - Thornton scores 2 goals, Sharks top Canucks 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567165</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>

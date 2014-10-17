@@ -57,11 +57,7 @@ class GameData(object):
    def list_data(self):
       return [self.headline, self.link, self.date, self.result]
    
-<<<<<<< HEAD
-   def modify_headline(self):
-=======
    def modify_headline(self, link):
->>>>>>> experimental
       headline = self.headline
       
       if self.date[4] == "0":
@@ -71,10 +67,7 @@ class GameData(object):
       try:
          self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-<<<<<<< HEAD
-=======
          logging.debug("TypeError from: " + link)
->>>>>>> experimental
          self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup, link):

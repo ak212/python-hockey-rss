@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
@@ -50,57 +49,4 @@
 <link>http://espn.go.com/nhl/recap?gameId=400567113</link>
 </item>
 </channel>
-=======
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version='2.0'>
-<channel>
-<title> Ducks scores</title>
-<description>Latest Ducks scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/ANA</link>
-<item>
-<title>[10/14] W - Ducks score twice in shootout, defeat Flyers 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564415</link>
-</item>
-<item>
-<title>[10/13] W - Karlsson scores 2 in Ducks' 5-1 win over Sabres</title>
-<link>http://espn.go.com/nhl/recap?gameId=400563802</link>
-</item>
-<item>
-<title>[10/11] W - Getzlaf's late goal lifts Ducks over Red Wings</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564086</link>
-</item>
-<item>
-<title>[10/09] L - Crosby, Pens prevail despite Perry hat trick</title>
-<link>http://espn.go.com/nhl/recap?gameId=400564461</link>
-</item>
-<item>
-<title>[10/04] W - Perry, Kesler lead Ducks over Sharks in OT</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567170</link>
-</item>
-<item>
-<title>[9/28] L - Carter scores 3 goals in Kings' 4-2 win over Ducks</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567173</link>
-</item>
-<item>
-<title>[9/27] L - Goodrow leads Sharks to 3-1 win over Duckss</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567167</link>
-</item>
-<item>
-<title>[9/25] L - Kings beat Ducks 4-3 in shootout</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567172</link>
-</item>
-<item>
-<title>[9/23] L - Domingue dominates Ducks in Coyotes' 4-0 win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567171</link>
-</item>
-<item>
-<title>[9/22] W - Ducks rally for 5-2 win over Avs in preseason game</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567142</link>
-</item>
-<item>
-<title>[9/22] W - Andersen's 27 saves help Ducks beat Avs 4-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400567113</link>
-</item>
-</channel>
->>>>>>> experimental
 </rss>
