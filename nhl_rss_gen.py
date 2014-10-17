@@ -1,0 +1,159 @@
+# -*- coding: utf-8 -*-
+
+'''
+Created on Oct 6, 2014
+
+@author: Aaron
+'''
+import urllib2
+from bs4 import BeautifulSoup
+import re
+import os
+import logging
+from datetime import date, timedelta
+from time import localtime, strftime, mktime
+ 
+import markup
+import retry_decorator
+
+team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
+              'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR', 
+              'OTT', 'PHI', 'PIT', 'SJ', 'STL', 'TB', 'TOR', 'VAN', 'WPG', 'WSH']
+
+team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jackets', 
+              'Flames', 'Blackhawks', 'Avalanche', 'Stars','Red Wings', 'Oilers', 
+              'Panthers', 'Kings', 'Wild', 'Canadiens', 'Predators', 'Devils', 
+              'Islanders', 'Rangers', 'Senators', 'Flyers', 'Penguins', 'Sharks', 
+              'Blues', 'Lightning', 'Maple Leafs', 'Canucks', 'Jets', 'Capitals']
+
+file_name = str(date.today()) + '.log'
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+dest_dir = os.path.join(script_dir, "logs")
+   
+try:
+   os.makedirs(dest_dir)
+except OSError:
+   pass
+
+path = os.path.join(dest_dir, file_name)
+
+logging.basicConfig(filename=path,
+                    level=logging.DEBUG)
+
+class GameData(object):
+   def __init__(self, link, headline, date):
+      self.link = link
+      self.headline = headline
+      self.date = date
+      self.result = None
+      
+   def char_convert_link(self):
+      self.link = re.sub('[&]', '&amp;', self.link)
+      
+   def print_game_data(self):
+      print self.headline, self.link, self.date, self.result
+      
+   def list_data(self):
+      return [self.headline, self.link, self.date, self.result]
+   
+   def modify_headline(self, link):
+      headline = self.headline
+      
+      if self.date[4] == "0":
+         self.headline = "[" + self.date[5:6] + "/" + self.date[6:] + "] "
+      else:
+         self.headline = "[" + self.date[4:6] + "/" + self.date[6:] + "] "
+      try:
+         self.headline = self.headline + self.result + " - " + headline
+      except TypeError:
+         logging.debug("TypeError from: " + link)
+         self.headline = self.headline + self.result + " No Headline"
+         
+   def find_winner(self, team_name, soup, link):
+      matchup = soup.find(class_="matchup")
+      home = matchup.find(class_="team home")
+      home_team = str(home.find('a').text)
+      home_score = int(home.find(class_="gp-homeScore").text)
+      away_score = int(matchup.find(class_="team away").find(class_="gp-awayScore").text)
+                     
+      home = home_team == team_name
+      
+      if home_score > away_score and home:
+         result = "W"
+      elif home_score < away_score and home:
+         result = "L"
+      elif home_score > away_score:
+         result = "L"
+      elif home_score < away_score:
+         result = "W"
+      else:
+         logging.debug("Error determining winner from: " + link)
+         result = ""
+
+      self.result = result
+   
+def page_response(link):
+   response = urlopen_with_retry(link)
+   page_source = response.read()
+   
+   return BeautifulSoup(page_source)
+
+def extract_game_data(team_ab, team_name):
+   games = []
+   link = "http://espn.go.com/nhl/team/schedule/_/name/" + team_ab
+   soup = page_response(link)
+   
+   for div in soup.find_all(attrs={"class" : "score"}):
+      complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
+
+      complete_link_soup = page_response(complete_link)
+      game_headline = get_game_headline(complete_link_soup, complete_link)
+      game_date = get_game_date(complete_link_soup)
+
+      new_game = GameData(complete_link, game_headline, game_date)
+      
+      new_game.char_convert_link()
+      new_game.find_winner(team_name, complete_link_soup, complete_link)
+      new_game.modify_headline(complete_link)
+      
+      games.append(new_game)
+      
+   return games
+
+@retry_decorator.retry(urllib2.URLError, tries=4, delay=5, backoff=2)
+def urlopen_with_retry(link):
+   return urllib2.urlopen(link)
+
+def get_game_headline(soup, link):
+   try:
+      for meta in soup.findAll('meta', {"property":'og:title'}):
+         return meta.get('content')
+   except urllib2.HTTPError:
+      logging.debug('There was an error with the request from: ' + link)
+      
+def get_game_date(soup):
+   for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
+      date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+
+      return date_string[21:]
+      
+def main():
+   start_time = localtime()
+   logging.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
+   
+   for team_ab, team_name in zip(team_abbrvs, team_names):
+      games = extract_game_data(team_ab, team_name)
+      games.sort(key=lambda x: x.date, reverse=True)
+     
+      markup.xml_markup(games, team_ab, team_name)
+
+      logging.info(str(len(games)) + " games logged for " + team_name)
+      logging.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
+   
+   finish_time = localtime()
+   logging.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
+   logging.info("Total time: " + str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
+   
+if __name__ == '__main__':
+   main()
