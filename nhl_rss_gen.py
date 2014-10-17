@@ -40,7 +40,6 @@ path = os.path.join(dest_dir, file_name)
 
 logging.basicConfig(filename=path,
                     level=logging.DEBUG)
-logger = logging.getLogger(__name__)
 
 class GameData(object):
    def __init__(self, link, headline, date):
@@ -68,7 +67,7 @@ class GameData(object):
       try:
          self.headline = self.headline + self.result + " - " + headline
       except TypeError:
-         logger.debug("TypeError from: " + link)
+         logging.debug("TypeError from: " + link)
          self.headline = self.headline + self.result + " No Headline"
          
    def find_winner(self, team_name, soup, link):
@@ -89,7 +88,7 @@ class GameData(object):
       elif home_score < away_score:
          result = "W"
       else:
-         logger.debug("Error determining winner from: " + link)
+         logging.debug("Error determining winner from: " + link)
          result = ""
 
       self.result = result
@@ -131,7 +130,7 @@ def get_game_headline(soup, link):
       for meta in soup.findAll('meta', {"property":'og:title'}):
          return meta.get('content')
    except urllib2.HTTPError:
-      logger.debug('There was an error with the request from: ' + link)
+      logging.debug('There was an error with the request from: ' + link)
       
 def get_game_date(soup):
    for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
@@ -141,7 +140,7 @@ def get_game_date(soup):
       
 def main():
    start_time = localtime()
-   logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
+   logging.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
    
    for team_ab, team_name in zip(team_abbrvs, team_names):
       games = extract_game_data(team_ab, team_name)
@@ -149,12 +148,12 @@ def main():
      
       markup.xml_markup(games, team_ab, team_name)
 
-      logger.info(str(len(games)) + " games logged for " + team_name)
-      logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
+      logging.info(str(len(games)) + " games logged for " + team_name)
+      logging.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
    
    finish_time = localtime()
-   logger.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
-   logger.info("Total time: " + str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
+   logging.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
+   logging.info("Total time: " + str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
    
 if __name__ == '__main__':
    main()
