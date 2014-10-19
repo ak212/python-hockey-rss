@@ -122,7 +122,7 @@ def extract_game_data(team_ab, team_name):
       
    return games
 
-@retry_decorator.retry(urllib2.URLError, tries=4, delay=5, backoff=2)
+@retry_decorator.retry(urllib2.URLError, tries=4, delay=5, backoff=2, logger)
 def urlopen_with_retry(link):
    return urllib2.urlopen(link)
 
