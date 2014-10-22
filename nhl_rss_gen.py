@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 import re
 import os
 import logging
+import threading
 from datetime import date, timedelta
 from time import localtime, strftime, mktime
  
@@ -39,6 +40,7 @@ except OSError:
 path = os.path.join(dest_dir, file_name)
 
 logging.basicConfig(filename=path,
+                    format='(%(threadName)-10s) %(message)s',
                     level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
@@ -100,6 +102,14 @@ def page_response(link):
    
    return BeautifulSoup(page_source)
 
+def thread_jumpoff(team_ab, team_name):
+   games = extract_game_data(team_ab, team_name)
+   games.sort(key=lambda x: x.date, reverse=True)
+     
+   markup.xml_markup(games, team_ab, team_name)
+
+   logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed with " + str(len(games)) + " games logged")
+
 def extract_game_data(team_ab, team_name):
    games = []
    link = "http://espn.go.com/nhl/team/schedule/_/name/" + team_ab
@@ -143,14 +153,16 @@ def main():
    start_time = localtime()
    logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
    
+   threads = []
    for team_ab, team_name in zip(team_abbrvs, team_names):
-      games = extract_game_data(team_ab, team_name)
-      games.sort(key=lambda x: x.date, reverse=True)
-     
-      markup.xml_markup(games, team_ab, team_name)
+      t = threading.Thread(name="Thread-" + team_ab, target=thread_jumpoff, args=(team_ab, team_name))
+      threads.append(t)
 
-      logger.info(str(len(games)) + " games logged for " + team_name)
-      logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed")
+   # Start all threads
+   [x.start() for x in threads]
+
+   # Wait for all of them to finish
+   [x.join() for x in threads]
    
    finish_time = localtime()
    logger.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
