@@ -17,15 +17,15 @@ from time import localtime, strftime, mktime
 import markup
 import retry_decorator
 
-team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
-              'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR', 
-              'OTT', 'PHI', 'PIT', 'SJ', 'STL', 'TB', 'TOR', 'VAN', 'WPG', 'WSH']
+team_abbrvs = ['ANA','ARI','BOS','BUF','CAR','CBJ','CGY','CHI','COL','DAL',
+              'DET','EDM','FLA','LA','MIN','MTL','NSH','NJ','NYI','NYR', 
+              'OTT','PHI','PIT','SJ','STL','TB','TOR','VAN','WPG','WSH']
 
-team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jackets', 
-              'Flames', 'Blackhawks', 'Avalanche', 'Stars','Red Wings', 'Oilers', 
-              'Panthers', 'Kings', 'Wild', 'Canadiens', 'Predators', 'Devils', 
-              'Islanders', 'Rangers', 'Senators', 'Flyers', 'Penguins', 'Sharks', 
-              'Blues', 'Lightning', 'Maple Leafs', 'Canucks', 'Jets', 'Capitals']
+team_names = ['Ducks','Coyotes','Bruins','Sabres','Hurricanes','Blue Jackets', 
+              'Flames','Blackhawks','Avalanche','Stars','Red Wings','Oilers', 
+              'Panthers','Kings','Wild','Canadiens','Predators','Devils', 
+              'Islanders','Rangers','Senators','Flyers','Penguins','Sharks', 
+              'Blues','Lightning','Maple Leafs','Canucks','Jets','Capitals']
 
 file_name = str(date.today()) + '.log'
 
@@ -78,7 +78,9 @@ class GameData(object):
       home = matchup.find(class_="team home")
       home_team = str(home.find('a').text)
       home_score = int(home.find(class_="gp-homeScore").text)
-      away_score = int(matchup.find(class_="team away").find(class_="gp-awayScore").text)
+      away_score = int(matchup.
+                       find(class_="team away").
+                       find(class_="gp-awayScore").text)
                      
       home = home_team == team_name
       
@@ -108,7 +110,8 @@ def thread_jumpoff(team_ab, team_name):
      
    markup.xml_markup(games, team_ab, team_name)
 
-   logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + " completed with " + str(len(games)) + " games logged")
+   logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + 
+               " completed with " + str(len(games)) + " games logged")
 
 def extract_game_data(team_ab, team_name):
    games = []
@@ -116,7 +119,9 @@ def extract_game_data(team_ab, team_name):
    soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
-      complete_link = "http://espn.go.com" + str(div.find('a').get('href').encode('utf-8', 'ignore'))
+      complete_link = "http://espn.go.com" + str(
+                                                 div.find('a').get('href').
+                                                 encode('utf-8', 'ignore'))
 
       complete_link_soup = page_response(complete_link)
       game_headline = get_game_headline(complete_link_soup, complete_link)
@@ -155,7 +160,9 @@ def main():
    
    threads = []
    for team_ab, team_name in zip(team_abbrvs, team_names):
-      t = threading.Thread(name="Thread-" + team_ab, target=thread_jumpoff, args=(team_ab, team_name))
+      t = threading.Thread(name="Thread-" + team_ab,
+                           target=thread_jumpoff,
+                           args=(team_ab, team_name))
       threads.append(t)
 
    # Start all threads
@@ -166,7 +173,8 @@ def main():
    
    finish_time = localtime()
    logger.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finish_time))
-   logger.info("Total time: " + str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
+   logger.info("Total time: " + 
+               str(timedelta(seconds=mktime(finish_time)-mktime(start_time))))
    
 if __name__ == '__main__':
    main()
