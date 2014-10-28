@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Canadiens scores</title>
+<title>Canadiens scores</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[10/27] L - Scrivens, Pouliot lead Oilers over Canadiens 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563957</link>
+</item>
 <item>
 <title>[10/25] W - Eller breaks 2nd-period tie; Canadiens top Rangers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400563956</link>
