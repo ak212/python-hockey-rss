@@ -24,9 +24,9 @@ def xml_markup(games, team_ab, team_name):
       xml.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
       xml.write("<rss version='2.0'>\n")
       xml.write("<channel>\n")
-      xml.write("<title>%s scores</title>\n" % team_name)
-      xml.write("<description>Latest %s scores</description>\n" % team_name)
-      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/%s</link>\n" % team_ab)
+      xml.write("<title> " + team_name + " scores</title>\n")
+      xml.write("<description>Latest " + team_name + " scores</description>\n")
+      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/" + team_ab + "</link>\n")
    
       for game in games:
          xml.write("<item>\n")
