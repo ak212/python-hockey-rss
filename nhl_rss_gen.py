@@ -119,9 +119,8 @@ def extract_game_data(team_ab, team_name):
    soup = page_response(link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
-      complete_link = "http://espn.go.com" + str(
-                                                 div.find('a').get('href').
-                                                 encode('utf-8', 'ignore'))
+      link_ending = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+      complete_link = "http://espn.go.com" + link_ending
 
       complete_link_soup = page_response(complete_link)
       game_headline = get_game_headline(complete_link_soup, complete_link)
@@ -149,10 +148,10 @@ def get_game_headline(soup, link):
       logger.debug('There was an error with the request from: ' + link)
       
 def get_game_date(soup):
-   for div in soup.find_all(attrs={"class" : "scoreboard-strip-wrapper"}):
-      date_string = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+   scoreboard = soup.find(class_="scoreboard-strip-wrapper").find('a')
+   date_string = str(scoreboard.get('href').encode('utf-8', 'ignore'))
 
-      return date_string[21:]
+   return date_string[21:]
       
 def main():
    start_time = localtime()
