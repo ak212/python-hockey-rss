@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Kings scores</title>
+<title>Kings scores</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LA</link>
+<item>
+<title>[10/30] L - Fleury's shutout boosts Penguins past Kings </title>
+<link>http://espn.go.com/nhl/recap?gameId=400564464</link>
+</item>
 <item>
 <title>[10/28] L - Flyers snap Kings' six-game winning streak</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564419</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Senators scores</title>
+<title>Senators scores</title>
 <description>Latest Senators scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/OTT</link>
+<item>
+<title>[10/30] L - Hossa gets 1,000th point in Blackhawks' win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564030</link>
+</item>
 <item>
 <title>[10/28] W - Injuries mount for Jackets in loss to Senators</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564029</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Canucks scores</title>
+<title>Canucks scores</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[10/30] W - Daniel Sedin's OT goal lifts Canucks over Montreal</title>
+<link>http://espn.go.com/nhl/recap?gameId=400563959</link>
+</item>
 <item>
 <title>[10/28] W - Canucks' Miller 30th goalie to 300th victory</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564541</link>

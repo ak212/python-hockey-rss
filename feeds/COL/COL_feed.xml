@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Avalanche scores</title>
+<title>Avalanche scores</title>
 <description>Latest Avalanche scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/COL</link>
+<item>
+<title>[10/30] W - MacKinnon scores twice, Avs beat Islanders 5-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564319</link>
+</item>
 <item>
 <title>[10/28] L - Niemi has 31 saves as Sharks top Avalanche, 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564827</link>

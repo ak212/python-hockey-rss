@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Coyotes scores</title>
+<title>Coyotes scores</title>
 <description>Latest Coyotes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ARI</link>
+<item>
+<title>[10/30] L - Panthers edge Coyotes 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564206</link>
+</item>
 <item>
 <title>[10/28] L - Kucherov has hat trick, Lightning beat Coyotes 7-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564153</link>

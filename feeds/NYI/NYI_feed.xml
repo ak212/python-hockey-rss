@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title> Islanders scores</title>
+<title>Islanders scores</title>
 <description>Latest Islanders scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYI</link>
+<item>
+<title>[10/30] L - MacKinnon scores twice, Avs beat Islanders 5-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400564319</link>
+</item>
 <item>
 <title>[10/28] L - Ladd's 2 goals lift Jets over Islanders 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400564318</link>
