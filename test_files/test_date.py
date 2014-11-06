@@ -6,9 +6,6 @@ Created on Oct 10, 2014
 
 import urllib2
 from bs4 import BeautifulSoup
-import sys
-import re
-import retry_decorator
 
 def page_response(link):
    response = urllib2.urlopen(link)
