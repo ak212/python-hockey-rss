@@ -1,14 +1,22 @@
-'''
-Created on Oct 6, 2014
-
-@author: Aaron
-'''
 import os
+
+__author__ = "Aaron Koeppel"
+__version__ = 1.0
  
 def xml_markup(games, team_ab, team_name):
+   '''Markup the RSS feed using the data obtained.
+
+   :param games: list of games that the team played this season
+   :type games: list of GameData
+   :param team_ab: the team's abbreviated name
+   :type team_ab: string
+   :param team_name: the team's name
+   :type team_name: string'''
+   
    file_name = team_ab + "_feed.xml"
    
-   #Used code from http://stackoverflow.com/questions/7935972/writing-to-a-new-directory-in-python-without-changing-directory
+   '''Used code from http://stackoverflow.com/questions/7935972/
+   writing-to-a-new-directory-in-python-without-changing-directory'''
    
    script_dir = os.path.dirname(os.path.abspath(__file__))
    dest_dir = os.path.join(script_dir, "feeds", team_ab)
@@ -16,7 +24,7 @@ def xml_markup(games, team_ab, team_name):
    try:
       os.makedirs(dest_dir)
    except OSError:
-      pass # already exists\\
+      pass
 
    path = os.path.join(dest_dir, file_name)
    
@@ -24,9 +32,10 @@ def xml_markup(games, team_ab, team_name):
       xml.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
       xml.write("<rss version='2.0'>\n")
       xml.write("<channel>\n")
-      xml.write("<title> " + team_name + " scores</title>\n")
-      xml.write("<description>Latest " + team_name + " scores</description>\n")
-      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/" + team_ab + "</link>\n")
+      xml.write("<title>%s scores</title>\n" % team_name)
+      xml.write("<description>Latest %s scores</description>\n" % team_name)
+      xml.write("<link>http://espn.go.com/nhl/team/schedule/_/name/%s</link>\n"
+                % team_ab)
    
       for game in games:
          xml.write("<item>\n")
