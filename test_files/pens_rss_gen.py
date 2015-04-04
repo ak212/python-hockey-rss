@@ -1,13 +1,15 @@
 '''
 Created on Sep 24, 2014
 
-@author: Aaron
+@author: Aaron Koeppel
 '''
 
-import urllib2
-from bs4 import BeautifulSoup
-import sys
 import re
+import sys
+import urllib2
+
+from bs4 import BeautifulSoup
+
 
 reload(sys)
 sys.setdefaultencoding("utf-8") #@UndefinedVariable
