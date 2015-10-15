@@ -1,14 +1,18 @@
 # -*- coding: utf-8 -*-
 
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import logging
+import math
 import os
 import re
+import sys
 import threading
 from time import localtime, strftime, mktime 
 import urllib2
 
 from bs4 import BeautifulSoup
+import pymysql
+from selenium import webdriver
 
 import GameData
 import markup
@@ -16,8 +20,8 @@ import retry_decorator
 
 
 __author__ = "Aaron Koeppel"
-__version__ = 1.12
-__modified__ = '9/18/15'
+__version__ = 2.0
+__modified__ = '10/14/15'
 
 team_abbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR',
@@ -31,36 +35,118 @@ team_names = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jacket
 
 total_games = 0
 
-file_name = str(date.today()) + '.log'
+logger = None
+dbLastDate = None
+driver = None
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-dest_dir = os.path.join(script_dir, "logs")
+def initLogging():
+   global logger
+   file_name = str(date.today()) + '.log'
    
-try:
-   os.makedirs(dest_dir)
-except OSError:
-   pass
-
-path = os.path.join(dest_dir, file_name)
-
-logging.basicConfig(filename=path,
-                    format='(%(threadName)-10s) %(message)s',
-                    level=logging.DEBUG)
-logger = logging.getLogger(__name__)
+   script_dir = os.path.dirname(os.path.abspath(__file__))
+   dest_dir = os.path.join(script_dir, "logs")
+      
+   try:
+      os.makedirs(dest_dir)
+   except OSError:
+      pass
    
-def page_response(link):
+   path = os.path.join(dest_dir, file_name)
+   
+   logging.basicConfig(filename=path,
+                       format='(%(threadName)-10s) %(message)s',
+                       level=logging.DEBUG)
+   logger = logging.getLogger(__name__)
+   
+def initDB():
+   return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NHL')
+   
+def initDriver():
+   global driver
+   driver = webdriver.Firefox()
+   
+def insertGame(gameData, teamAb, teamName):
+   connection = initDB()
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "INSERT INTO `GameData` VALUES (%s, %s, %s, %s, %s, %s, %s)"
+         cursor.execute(sql, (gameData.id, gameData.link, gameData.headline,
+                              gameData.date, gameData.result, teamAb, teamName))
+
+      connection.commit()
+
+   finally:
+    connection.close()
+
+def retrieveGames(teamAb):
+   connection = initDB()
+   result = None
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
+         cursor.execute(sql, (teamAb))
+         result = cursor.fetch()
+
+   finally:
+    connection.close()
+    
+   return result
+
+def getTotalGames():
+   connection = initDB()
+   result = None
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT max(`id`) FROM `GameData`"
+         cursor.execute(sql)
+         result = cursor.fetchone()
+
+   finally:
+      connection.close()
+   
+   return result if result != None else 0
+
+def getLastDate():
+   connection = initDB()
+   daysAgo = 365
+   
+   try:
+      with connection.cursor() as cursor:
+         sql = "SELECT game_date FROM `GameData` WHERE `id`=%s"
+         cursor.execute(sql, (total_games))
+         result = cursor.fetchone()
+         
+         currentDate = date.today()
+       
+         if result != None:
+            for dateDB in result:
+               # whatever the date string is
+               formatDate = datetime.strptime(dateDB, "%Y%m%d").date()
+               
+               daysAgo = min((currentDate - formatDate).days, daysAgo)
+
+   finally:
+    connection.close()
+    
+    
+   return currentDate - timedelta(days=daysAgo)
+
+def pageResponse(link):
    '''Retrieve the source code of the page
 
    :param link: the link to the page that will be scraped
    :type link: string'''
    
-#   logger.debug("Requesting: " + link)
-   response = urlopen_with_retry(link)
+   logger.debug("Requesting: " + link)
+   response = urlopenWithRetry(link)
    page_source = response.read()
    
    return BeautifulSoup(page_source)
 
-def thread_jumpoff(team_ab, team_name):
+def threadJumpoff(team_ab, team_name):
    '''Intermediary function between the main function and the game extraction
    and xml generation
 
@@ -69,15 +155,15 @@ def thread_jumpoff(team_ab, team_name):
    :param team_name: the team's name
    :type team_name: string'''
    
-   games = extract_game_data(team_ab, team_name)
+   games = extractGameData(team_ab, team_name)
    games.sort(key=lambda x: x.date, reverse=True)
      
-   markup.xml_markup(games, team_ab, team_name)
+   markup.xmlMarkup(games, team_ab, team_name)
 
    logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + team_name + 
                " completed with " + str(len(games)) + " games logged")
 
-def extract_game_data(team_ab, team_name):
+def extractGameData(team_ab, team_name):
    '''Extract the game data (date, headline, result) for each game the team 
    has played.
 
@@ -88,39 +174,43 @@ def extract_game_data(team_ab, team_name):
    
    games = []
    link = "http://espn.go.com/nhl/team/schedule/_/name/" + team_ab
-   soup = page_response(link)
+   soup = pageResponse(link)
    global total_games
    
    for div in soup.find_all(attrs={"class" : "score"}):
-      link_ending = str(div.find('a').get('href').encode('utf-8', 'ignore'))
-      recap_link = "http://espn.go.com" + link_ending
-      boxscore_link = "http://espn.go.com/nhl/boxscore?gameId=" + recap_link[36:]
+      recap_link_ending = str(div.find('a').get('href').encode('utf-8', 'ignore'))
+      recap_link = "http://espn.go.com" + recap_link_ending
+#      boxscore_link = "http://espn.go.com/nhl/boxscore?gameId=" + recap_link[36:]
+      boxscore_link = recap_link
       
-      recap_link_soup = page_response(recap_link)
-      game_headline = get_game_headline(recap_link_soup, recap_link)
+      recap_link_soup = pageResponse(recap_link)
+      game_headline = getGameHeadline(recap_link_soup, recap_link)
       
-      boxscore_link_soup = page_response(boxscore_link)
-      game_date = get_game_date(boxscore_link_soup)
+      boxscore_link_soup = pageResponse(boxscore_link)
+      game_date = getGameDate(boxscore_link_soup, boxscore_link)
 
-      new_game = GameData(recap_link, game_headline, game_date)
+#      if game_date != None:
+#         date_of_game = datetime.strptime(game_date, "%d%m%Y").date()
+#       
+#      if (dbLastDate - date_of_game).days > 0:
+      new_game = GameData.GameData(total_games, logger, recap_link, game_headline, game_date)
+   
       total_games += 1
       
-      new_game.char_convert_link()
-      new_game.find_winner(team_name, boxscore_link_soup)
-      new_game.modify_headline()
-      
-#      new_game.print_game_data()
-
+      new_game.charConvertLink()
+      new_game.findWinner(team_name, boxscore_link_soup)
+      new_game.modifyHeadline()
+      #      new_game.print_game_data()
+      insertGame(new_game, team_ab, team_name)
       games.append(new_game)
-      
       
    return games
 
 @retry_decorator.retry(urllib2.URLError, logger, tries=4, delay=3, backoff=2)
-def urlopen_with_retry(link):
+def urlopenWithRetry(link):
    return urllib2.urlopen(link)
 
-def get_game_headline(soup, link):
+def getGameHeadline(soup, link):
    '''Extract the headline from the page source.
 
    :param soup: the source file of the recap page
@@ -129,31 +219,53 @@ def get_game_headline(soup, link):
    error for logging
    :type link: string'''
    
+#   driver = webdriver.Firefox()
+#   driver.get(link)
+#   headline = driver.title
+#   driver.close()
+#   return headline
+   
    try:
-      for meta in soup.findAll('meta', {"property":'og:title'}):
-         return meta.get('content')
+      return soup.title.string
    except urllib2.HTTPError:
       logger.debug('There was an error with the request from: ' + link)
       
-def get_game_date(soup):
+def getGameDate(soup, link):
    '''Extract the headline from the page source.
 
    :param soup: the source file of the recap page
    :type soup: string'''
    
-   for item in soup.find_all('a'):
-      if '/nhl/scoreboard?date=' in item.get('href'):
-         return item.get('href')[21:]
+#   driver = webdriver.Firefox()
+#   driver.get(link)
+#   date = driver.find_element_by_partial_link_text("Scores for").get_attribute("href")[39:]
+#   driver.close()
+#   return date
+
+   try:
+      base = soup.findAll('meta', {"name":'DC.date.issued'})
+      date = base[0]['content'].encode('utf-8')[:10]
+      return re.sub('-', '', date)
+   except urllib2.HTTPError:
+      logger.debug('There was an error with the request from: ' + link)
+   except IndexError:
+      logger.debug('Could not extract date from: ' + str(base))
 
       
 def main():
+   initLogging()
+#   initDriver()
+   total_games = getTotalGames()
+   dbLastDate = getLastDate()
+   
+   
    start_time = localtime()
    logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", start_time))
    
    threads = []
    for team_ab, team_name in zip(team_abbrvs, team_names):
       t = threading.Thread(name="Thread-" + team_ab,
-                           target=thread_jumpoff,
+                           target=threadJumpoff,
                            args=(team_ab, team_name))
       threads.append(t)
 

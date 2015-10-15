@@ -3,7 +3,7 @@ import os
 __author__ = "Aaron Koeppel"
 __version__ = 1.0
  
-def xml_markup(games, team_ab, team_name):
+def xmlMarkup(games, team_ab, team_name):
    '''Markup the RSS feed using the data obtained.
 
    :param games: list of games that the team played this season
