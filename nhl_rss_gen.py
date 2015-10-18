@@ -12,7 +12,6 @@ import urllib2
 
 from bs4 import BeautifulSoup
 import pymysql
-from selenium import webdriver
 
 import GameData
 import markup
@@ -20,8 +19,8 @@ import retry_decorator
 
 
 __author__ = "Aaron Koeppel"
-__version__ = 2.01
-__modified__ = '10/16/15'
+__version__ = 2.02
+__modified__ = '10/17/15'
 
 teamAbbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR',
@@ -107,7 +106,7 @@ def getTotalGames():
       connection.close()
    
    if result[0] != None:
-      totalGames = int(result[0])
+      totalGames = int(result[0]) + 1
    else:
       totalGames = 0
 
@@ -218,7 +217,7 @@ def extractGameData(teamAb, teamName):
                games.append(newGame)
 
          else:
-            logger.debug("Already have game with link" + recapLink)
+            logger.debug("Already have game with link " + recapLink)
       
    return games
 
