@@ -150,7 +150,7 @@ def pageResponse(link):
    
    return BeautifulSoup(pageSource)
 
-def threadJumpoff(teamAb, teamName):
+def teamExtractAndMarkup(teamAb, teamName):
    '''Intermediary function between the main function and the game extraction
    and xml generation
 
@@ -274,7 +274,7 @@ def main():
    threads = []
    for teamAb, teamName in zip(teamAbbrvs, teamNames):
       t = threading.Thread(name="Thread-" + teamAb,
-                           target=threadJumpoff,
+                           target=teamExtractAndMarkup,
                            args=(teamAb, teamName))
       threads.append(t)
 
