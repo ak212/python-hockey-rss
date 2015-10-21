@@ -203,8 +203,10 @@ def extractGameData(teamAb, teamName):
             else:
                formattedDate = datetime.strptime("20150901", "%Y%m%d").date()
              
+            formattedDate = formattedDate - timedelta(days=1)
+             
             if (formattedDate - dbLastDate).days > 0:
-               newGame = GameData.GameData(totalGames, recapLink, gameHeadline, gameDate)
+               newGame = GameData.GameData(totalGames, recapLink, gameHeadline, re.sub('-', '', str(formattedDate)))
          
                totalGames += 1
                
