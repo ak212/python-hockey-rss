@@ -56,7 +56,7 @@ def initLogging():
    logger = logging.getLogger(__name__)
    
 def initDB():
-   return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NHL')
+   return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NHL_RSS')
    
 def insertGame(gameData, teamAb, teamName):
    connection = initDB()
@@ -70,7 +70,7 @@ def insertGame(gameData, teamAb, teamName):
       connection.commit()
 
    finally:
-    connection.close()
+      connection.close()
 
 def retrieveGames(teamAb):
    connection = initDB()
@@ -84,7 +84,7 @@ def retrieveGames(teamAb):
          result = cursor.fetchall()
 
    finally:
-    connection.close()
+      connection.close()
     
    for game in result:
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
@@ -133,7 +133,7 @@ def getLastDate():
                daysAgo = min((currentDate - formatDate).days, daysAgo)
 
    finally:
-    connection.close()
+      connection.close()
     
     
    dbLastDate = currentDate - timedelta(days=daysAgo)
