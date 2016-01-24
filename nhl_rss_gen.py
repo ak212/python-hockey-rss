@@ -131,6 +131,7 @@ def pageResponse(link):
    logger.debug("Requesting: " + link)
    response = urlopenWithRetry(link)
    pageSource = response.read()
+   logger.debug("Read page: " + link)
    
    return BeautifulSoup(pageSource)
 
@@ -166,6 +167,7 @@ def extractGameData(teamAb, teamName):
    links = [game.link for game in games]
    schedLink = "http://espn.go.com/nhl/team/schedule/_/name/" + teamAb
    soup = pageResponse(schedLink)
+   logger.debug("Got soup: " + link)
    
    for div in soup.find_all(attrs={"class" : "score"}):
       recapLinkEnding = str(div.find('a').get('href').encode('utf-8', 'ignore'))
