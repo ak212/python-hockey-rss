@@ -22,8 +22,8 @@ import retry_decorator
 
 
 __author__ = "Aaron Koeppel"
-__version__ = 2.02
-__modified__ = '10/17/15'
+__version__ = 2.1
+__modified__ = '1/23/2016'
 
 teamAbbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR',
