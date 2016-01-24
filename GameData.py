@@ -72,6 +72,7 @@ class GameData(object):
          homeSoup = soup.find(class_="top-col home")
    
          if homeSoup == None:
+            print soup
             matchup = soup.find(class_="matchup")
             home = matchup.find(class_="team home")
             homeTeam = str(home.find('a').text)
