@@ -14,8 +14,11 @@ from bs4 import BeautifulSoup
 import pymysql
 
 import GameData
+import log
 import markup
 import retry_decorator
+
+
 
 
 __author__ = "Aaron Koeppel"
@@ -32,28 +35,9 @@ teamNames = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jackets
               'Islanders', 'Rangers', 'Senators', 'Flyers', 'Penguins', 'Sharks',
               'Blues', 'Lightning', 'Maple Leafs', 'Canucks', 'Jets', 'Capitals']
 
-logger = None
+logger = log.setup_custom_logger('root')
 dbLastDate = None
 totalGames = None
-
-def initLogging():
-   global logger
-   fileName = str(date.today()) + '.log'
-   
-   scriptDir = os.path.dirname(os.path.abspath(__file__))
-   destDir = os.path.join(scriptDir, "logs")
-      
-   try:
-      os.makedirs(destDir)
-   except OSError:
-      pass
-   
-   path = os.path.join(destDir, fileName)
-   
-   logging.basicConfig(filename=path,
-                       format='(%(threadName)-10s) %(message)s',
-                       level=logging.DEBUG)
-   logger = logging.getLogger(__name__)
    
 def initDB():
    return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NHL_RSS')
@@ -164,8 +148,7 @@ def teamExtractAndMarkup(teamAb, teamName):
      
    markup.xmlMarkup(games, teamAb, teamName)
 
-   logger.info(strftime("%d-%b-%Y %H:%M:%S ", localtime()) + teamName + 
-               " completed with " + str(len(games)) + " games logged")
+   logger.info(teamName + " completed with " + str(len(games)) + " games logged")
 
 def extractGameData(teamAb, teamName):
    '''Extract the game data (date, headline, result) for each game the team 
@@ -265,13 +248,13 @@ def getGameDate(soup, link):
       
 def main():
    global totalGames
-   initLogging()
+#   initLogging()
    getTotalGames()
    dbLastDate = getLastDate()
    
    
    startTime = localtime()
-   logger.info("Start time: " + strftime("%d-%b-%Y %H:%M:%S ", startTime))
+   logger.info("START RUN")
    
    threads = []
    for teamAb, teamName in zip(teamAbbrvs, teamNames):
@@ -288,7 +271,7 @@ def main():
    
    getTotalGames()
    finishTime = localtime()
-   logger.info("Finish time: " + strftime("%d-%b-%Y %H:%M:%S ", finishTime))
+   logger.info("FINISH RUN")
    logger.info("Total games: " + str(totalGames))
    logger.info("Total time: " + 
                str(timedelta(seconds=mktime(finishTime) - mktime(startTime))))
