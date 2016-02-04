@@ -250,7 +250,6 @@ def getGameDate(soup, link):
       
 def main():
    global totalGames
-#   initLogging()
    getTotalGames()
    dbLastDate = getLastDate()
    
