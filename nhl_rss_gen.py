@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from datetime import date, timedelta, datetime
-import logging
-import math
-import os
 import re
 import sys
 import threading
-from time import localtime, strftime, mktime 
+from time import localtime, mktime 
 import urllib2
 
 from bs4 import BeautifulSoup
@@ -17,9 +14,6 @@ import GameData
 import log
 import markup
 import retry_decorator
-
-
-
 
 __author__ = "Aaron Koeppel"
 __version__ = 2.1
@@ -144,12 +138,17 @@ def teamExtractAndMarkup(teamAb, teamName):
    :param teamName: the team's name
    :type teamName: string'''
    
-   games = extractGameData(teamAb, teamName)
+   gamesInfo = extractGameData(teamAb, teamName)
+   teamRecord = gamesInfo[0]
+   games = gamesInfo[1]
    games.sort(key=lambda x: x.date, reverse=True)
-     
-   markup.xmlMarkup(games, teamAb, teamName)
+   
+   markup.xmlMarkup(games, teamAb, teamName, teamRecord)
 
    logger.info(teamName + " completed with " + str(len(games)) + " games logged")
+
+def getTeamRecord(soup):
+   return soup.find(class_="sub-title").text
 
 def extractGameData(teamAb, teamName):
    '''Extract the game data (date, headline, result) for each game the team 
@@ -167,7 +166,7 @@ def extractGameData(teamAb, teamName):
    links = [game.link for game in games]
    schedLink = "http://espn.go.com/nhl/team/schedule/_/name/" + teamAb
    soup = pageResponse(schedLink)
-   logger.debug("Got soup: " + schedLink)
+   teamRecord = getTeamRecord(soup)
    
    for div in soup.find_all(attrs={"class" : "score"}):
       recapLinkEnding = str(div.find('a').get('href').encode('utf-8', 'ignore'))
@@ -206,7 +205,7 @@ def extractGameData(teamAb, teamName):
          else:
             logger.debug("Already have game with link " + recapLink)
       
-   return games
+   return [teamRecord, games]
 
 @retry_decorator.retry(urllib2.URLError, logger, tries=4, delay=3, backoff=2)
 def urlopenWithRetry(link):
