@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rangers - 30-18-5, 2nd in Metropolitan Division</title>
+<title>Rangers - 31-18-5, 2nd in Metropolitan Division</title>
 <description>Latest Rangers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYR</link>
+<item>
+<title>[2/10] W - Lundqvist stops 34 shots, Rangers blank Penguins 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815671</link>
+</item>
 <item>
 <title>[2/08] W - Lundqvist makes 27 saves, Rangers win third in row</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815654</link>

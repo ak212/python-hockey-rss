@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 27-18-7, 4th in Metropolitan Division</title>
+<title>Penguins - 27-19-7, 4th in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[2/10] L - Lundqvist stops 34 shots, Rangers blank Penguins 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815671</link>
+</item>
 <item>
 <title>[2/08] W - Crosby scores in 7th straight, Penguins top Ducks 6-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815655</link>

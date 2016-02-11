@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Avalanche - 27-24-4, 4th in Central Division</title>
+<title>Avalanche - 27-25-4, 4th in Central Division</title>
 <description>Latest Avalanche scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/COL</link>
+<item>
+<title>[2/09] L - Horvat's 2 points lead Canucks past Avalanche 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815668</link>
+</item>
 <item>
 <title>[2/06] L - Stafford scores 2 goals, Jets beat Avalanche 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815649</link>
