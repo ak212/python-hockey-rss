@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Jets - 24-27-3, 7th in Central Division</title>
+<title>Jets - 25-27-3, 7th in Central Division</title>
 <description>Latest Jets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WPG</link>
+<item>
+<title>[2/13] W - Ladd gets winner in shootout as Jets beat Oilers 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815697</link>
+</item>
 <item>
 <title>[2/11] L - Bergeron scores twice and Bruins beat Jets 6-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815678</link>
