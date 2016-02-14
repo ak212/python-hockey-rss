@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 28-19-6, 3rd in Atlantic Division</title>
+<title>Bruins - 30-19-6, 2nd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[2/13] W - David Krejci breaks tie, Bruins beat Wild 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815690</link>
+</item>
+<item>
+<title>[2/11] W - Bergeron scores twice and Bruins beat Jets 6-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815678</link>
+</item>
 <item>
 <title>[2/09] L - Lucic scores in return to Boston; Kings rout Bruins 9-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815658</link>

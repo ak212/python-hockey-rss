@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Predators - 25-21-8, 5th in Central Division</title>
+<title>Predators - 25-21-9, 5th in Central Division</title>
 <description>Latest Predators scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NSH</link>
+<item>
+<title>[2/12] L - Johnson scores OT goal, Lightning beat Predators 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815686</link>
+</item>
 <item>
 <title>[2/09] L - Johansson has goal, 2 assists as Caps beat Predators 5-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815665</link>
