@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 30-20-4, 4th in Atlantic Division</title>
+<title>Lightning - 30-21-4, 4th in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[2/14] L - Fabbri, Berglund score goals, Blues hold off Lightning 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815702</link>
+</item>
 <item>
 <title>[2/12] W - Johnson scores OT goal, Lightning beat Predators 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815686</link>
