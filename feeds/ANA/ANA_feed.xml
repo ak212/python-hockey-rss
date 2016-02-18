@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Ducks - 27-19-8, 3rd in Pacific Division</title>
+<title>Ducks - 29-19-8, 2nd in Pacific Division</title>
 <description>Latest Ducks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ANA</link>
+<item>
+<title>[2/16] W - Surging Ducks earn 5-3 victory over Oilers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815718</link>
+</item>
+<item>
+<title>[2/15] W - Ducks convert 3 power-play chances in 6-4 win over Flames</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815705</link>
+</item>
 <item>
 <title>[2/13] W - Getzlaf lifts Ducks to 3-2 win over Blackhawks</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815696</link>

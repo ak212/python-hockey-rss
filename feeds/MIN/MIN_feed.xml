@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 23-22-10, 6th in Central Division</title>
+<title>Wild - 24-22-10, 6th in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[2/15] W - Wild pound Canucks 5-2 to snap eight-game skid</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815710</link>
+</item>
 <item>
 <title>[2/13] L - David Krejci breaks tie, Bruins beat Wild 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815690</link>

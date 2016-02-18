@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 32-18-6, 1st in Atlantic Division</title>
+<title>Panthers - 33-18-6, 1st in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[2/15] W - Jokinen scores winner to lift Panthers over Penguins</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815706</link>
+</item>
 <item>
 <title>[2/13] L - Backup Hutton gets shutout in Preds 5-0 win over Panthers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815691</link>

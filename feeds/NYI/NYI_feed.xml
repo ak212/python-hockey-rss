@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Islanders - 29-19-6, 4th in Metropolitan Division</title>
+<title>Islanders - 30-19-6, 3rd in Metropolitan Division</title>
 <description>Latest Islanders scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYI</link>
+<item>
+<title>[2/14] W - Nelson keys 3-goal second period as Islanders beat Red Wings</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815704</link>
+</item>
 <item>
 <title>[2/13] L - Nestrasil, Rask score 2 each, Hurricanes beat Islanders 6-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815692</link>
