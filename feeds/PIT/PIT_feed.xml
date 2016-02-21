@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 28-19-8, 5th in Metropolitan Division</title>
+<title>Penguins - 30-20-8, 4th in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[2/20] W - Penguins score twice in 2nd period in 4-3 win over Sabres</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815747</link>
+</item>
+<item>
+<title>[2/19] L - Steven Stamkos 3rd player in franchise history with 300 goals</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815738</link>
+</item>
+<item>
+<title>[2/18] W - Kessel scores twice, Penguins double up Red Wings 6-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815723</link>
+</item>
 <item>
 <title>[2/15] L - Jokinen scores winner to lift Panthers over Penguins</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815706</link>

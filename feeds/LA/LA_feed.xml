@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 33-20-3, 1st in Pacific Division</title>
+<title>Kings - 34-20-4, 1st in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LA</link>
+<item>
+<title>[2/20] W - Pearson scores at 1:18 of OT as Kings beat Predators 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815743</link>
+</item>
+<item>
+<title>[2/18] L - Schwartz scores in OT as Blues beat Kings 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815728</link>
+</item>
 <item>
 <title>[2/16] L - Kuznetsov, Burakovsky lead Caps to 3-1 comeback over Kings</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815712</link>
