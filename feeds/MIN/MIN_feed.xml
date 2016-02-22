@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 26-22-10, 6th in Central Division</title>
+<title>Wild - 27-22-10, 6th in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[2/21] W - Wild romp past Blackhawks outdoors at TCF Bank Stadium</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815748</link>
+</item>
 <item>
 <title>[2/18] W - Wild win 3rd straight under Torchetti, 5-2 over Oilers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815730</link>
