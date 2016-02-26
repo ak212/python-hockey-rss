@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 34-18-7, 1st in Atlantic Division</title>
+<title>Panthers - 35-18-7, 1st in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[2/25] W - Barkov scores 2 goals, leads Panthers over Coyotes 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815773</link>
+</item>
 <item>
 <title>[2/20] W - Jaromir Jagr passes Brett Hull, moves into third on career goals list</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815741</link>
@@ -17,10 +21,6 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815706</link>
 </item>
 <item>
-<title>[2/13] L - Pavel Datsyuk scores 2 in 3rd, Red Wings beat Panthers 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815657</link>
-</item>
-<item>
 <title>[2/13] L - Backup Hutton gets shutout in Preds 5-0 win over Panthers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815691</link>
 </item>
@@ -31,6 +31,10 @@
 <item>
 <title>[2/09] W - Fast-starting Florida Panthers beat Buffalo Sabres 7-4</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815659</link>
+</item>
+<item>
+<title>[2/08] L - Pavel Datsyuk scores 2 in 3rd, Red Wings beat Panthers 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815657</link>
 </item>
 <item>
 <title>[2/06] L - Letang, Crosby lead Pens comeback win against Panthers</title>
@@ -49,12 +53,12 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815600</link>
 </item>
 <item>
-<title>[1/22] W - Luongo saves 27, Ekblad scores, Panthers top Blackhawks 4-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815571</link>
+<title>[1/23] W - Huberdeau and Panthers stop Lightning's winning streak, 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815578</link>
 </item>
 <item>
-<title>[1/22] W - Lightning-Panthers Preview</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815578</link>
+<title>[1/22] W - Luongo saves 27, Ekblad scores, Panthers top Blackhawks 4-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815571</link>
 </item>
 <item>
 <title>[1/18] L - Oilers add to Florida's sudden woes, top Panthers 4-2</title>

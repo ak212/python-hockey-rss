@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<<<<<<< Updated upstream
-<title>Wild - 27-22-10, 6th in Central Division</title>
+<title>Wild - 27-24-10, 6th in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
 <item>
-=======
-<title>Wild - 27-23-10, 6th in Central Division</title>
-<description>Latest Wild scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<title>[2/25] L - Bellemare's third-period goal leads Flyers past Wild 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815770</link>
+</item>
 <item>
 <title>[2/23] L - Nielsen, Tavares lead Islanders to 4-1 win against Wild</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815762</link>
 </item>
 <item>
->>>>>>> Stashed changes
 <title>[2/21] W - Wild romp past Blackhawks outdoors at TCF Bank Stadium</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815748</link>
 </item>

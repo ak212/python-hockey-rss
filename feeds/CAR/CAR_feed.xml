@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hurricanes - 27-23-10, 6th in Metropolitan Division</title>
+<title>Hurricanes - 28-24-10, 6th in Metropolitan Division</title>
 <description>Latest Hurricanes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
+<item>
+<title>[2/25] L - Parenteau lifts Maple Leafs past Hurricanes 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815772</link>
+</item>
+<item>
+<title>[2/23] W - Jordan and Eric Staal lead Hurricanes over Flyers 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815758</link>
+</item>
 <item>
 <title>[2/21] L - Callahan, Stamkos power Lightning past Hurricanes 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815750</link>

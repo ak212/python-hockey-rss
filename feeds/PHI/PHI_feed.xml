@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Flyers - 26-22-11, 7th in Metropolitan Division</title>
+<title>Flyers - 27-22-11, 7th in Metropolitan Division</title>
 <description>Latest Flyers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PHI</link>
+<item>
+<title>[2/25] W - Bellemare's third-period goal leads Flyers past Wild 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815770</link>
+</item>
 <item>
 <title>[2/23] L - Jordan and Eric Staal lead Hurricanes over Flyers 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815758</link>
@@ -37,7 +41,7 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815661</link>
 </item>
 <item>
-<title>[2/07] L - Alex Ovechkin reaches 30 goals again as Capitals beat Flyers</title>
+<title>[2/06] L - Alex Ovechkin reaches 30 goals again as Capitals beat Flyers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815651</link>
 </item>
 <item>

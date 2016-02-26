@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 23-24-12, 5th in Pacific Division</title>
+<title>Canucks - 24-24-12, 4th in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[2/25] W - Bartkowski, Etem lead Canucks past Senators 5-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815778</link>
+</item>
 <item>
 <title>[2/21] W - Hansen, Miller lift Canucks over Avalanche 5-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815752</link>

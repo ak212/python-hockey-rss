@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<<<<<<< Updated upstream
-<title>Blackhawks - 38-19-5, 1st in Central Division</title>
-=======
-<title>Blackhawks - 38-19-5, 2nd in Central Division</title>
->>>>>>> Stashed changes
+<title>Blackhawks - 38-20-5, 2nd in Central Division</title>
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[2/25] L - Jarnkrok scores in 3rd as Predators top Blackhawks 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815775</link>
+</item>
 <item>
 <title>[2/21] L - Wild romp past Blackhawks outdoors at TCF Bank Stadium</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815748</link>
