@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 30-20-8, 4th in Metropolitan Division</title>
+<title>Penguins - 30-21-8, 4th in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[2/24] L - Pastrnak scores twice, Bruins blow by Penguins 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815767</link>
+</item>
 <item>
 <title>[2/20] W - Penguins score twice in 2nd period in 4-3 win over Sabres</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815747</link>

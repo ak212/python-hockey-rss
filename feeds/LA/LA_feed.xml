@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 34-20-4, 1st in Pacific Division</title>
+<title>Kings - 35-20-4, 1st in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LA</link>
+<item>
+<title>[2/23] W - Anze Kopitar's go-ahead goal helps Kings beat Flames 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815765</link>
+</item>
 <item>
 <title>[2/20] W - Pearson scores at 1:18 of OT as Kings beat Predators 2-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815743</link>

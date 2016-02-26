@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
+<<<<<<< Updated upstream
 <title>Flames - 26-29-3, 6th in Pacific Division</title>
 <description>Latest Flames scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CGY</link>
 <item>
+=======
+<title>Flames - 26-30-3, 6th in Pacific Division</title>
+<description>Latest Flames scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/CGY</link>
+<item>
+<title>[2/23] L - Anze Kopitar's go-ahead goal helps Kings beat Flames 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815765</link>
+</item>
+<item>
+>>>>>>> Stashed changes
 <title>[2/21] L - Kesler powers Ducks to 5th straight win, 5-2 over Flames</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815751</link>
 </item>

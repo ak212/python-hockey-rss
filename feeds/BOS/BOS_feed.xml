@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 32-21-6, 2nd in Atlantic Division</title>
+<title>Bruins - 33-22-6, 2nd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[2/24] W - Pastrnak scores twice, Bruins blow by Penguins 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815767</link>
+</item>
+<item>
+<title>[2/22] L - Boone Jenner's 2 goals help Columbus beat Boston</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815753</link>
+</item>
 <item>
 <title>[2/20] W - Marchand scores 2, Bruins rally to beat Stars 7-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815744</link>

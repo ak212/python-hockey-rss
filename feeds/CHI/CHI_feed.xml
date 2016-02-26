@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
+<<<<<<< Updated upstream
 <title>Blackhawks - 38-19-5, 1st in Central Division</title>
+=======
+<title>Blackhawks - 38-19-5, 2nd in Central Division</title>
+>>>>>>> Stashed changes
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
 <item>

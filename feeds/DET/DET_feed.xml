@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
+<<<<<<< Updated upstream
 <title>Red Wings - 29-20-11, 4th in Atlantic Division</title>
 <description>Latest Red Wings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
 <item>
+=======
+<title>Red Wings - 30-20-11, 4th in Atlantic Division</title>
+<description>Latest Red Wings scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
+<item>
+<title>[2/23] W - Sheahan leads Red Wings to 2-1 win over Blue Jackets</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815760</link>
+</item>
+<item>
+>>>>>>> Stashed changes
 <title>[2/21] L - Klein's overtime goal gives Rangers 1-0 win over Detroit</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815749</link>
 </item>

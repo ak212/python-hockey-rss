@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blues - 35-17-9, 3rd in Central Division</title>
+<title>Blues - 35-18-9, 3rd in Central Division</title>
 <description>Latest Blues scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/STL</link>
+<item>
+<title>[2/22] L - Sharks use big 1st period to beat Blues 6-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815756</link>
+</item>
 <item>
 <title>[2/20] W - Blues score 4 in first period, beat Coyotes 6-4</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815745</link>
