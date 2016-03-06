@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 34-22-4, 2nd in Atlantic Division</title>
+<title>Lightning - 39-22-4, 1st in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[3/05] W - Lightning win 9th game in row, 4-3 over the Hurricanes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815839</link>
+</item>
+<item>
+<title>[3/03] W - Lightning win 8th straight, 4-1 over Senators</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815823</link>
+</item>
+<item>
+<title>[2/29] W - Johnson has 2 goals, Lightning top Leafs to win 7th straight</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815804</link>
+</item>
+<item>
+<title>[2/28] W - Lightning strike quickly, beat Bruins 4-1 for 6th straight</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815797</link>
+</item>
+<item>
+<title>[2/26] W - Stamkos scores in fifth straight, Tampa wins fifth in row</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815780</link>
+</item>
 <item>
 <title>[2/23] W - Stamkos scores again, streaking Lightning beat Coyotes 2-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815761</link>
@@ -107,10 +127,6 @@
 <item>
 <title>[12/22] L - Markstrom makes 26 saves to help Canucks beat Lightning 2-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815374</link>
-</item>
-<item>
-<title>[12/20] W - Angelidis gets rare goal, Lightning beat Senators 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815359</link>
 </item>
 <item>
 <title>[12/18] L - Ovechkin, Oshie score 2 each as Caps rally to beat Lightning</title>
@@ -243,6 +259,10 @@
 <item>
 <title>[10/08] W - Jason Garrison has 2 goals, including OT winner, as Lightning beat Flyers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400814780</link>
+</item>
+<item>
+<title>[8/31] W - ESPN: The Worldwide Leader in Sports</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815359</link>
 </item>
 </channel>
 </rss>
