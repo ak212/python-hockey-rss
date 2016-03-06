@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 24-24-12, 4th in Pacific Division</title>
+<title>Canucks - 25-27-12, 4th in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[3/05] W - Hamhuis, Markstrom lead Canucks past Sharks 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815843</link>
+</item>
+<item>
+<title>[3/03] L - Marleau leads Sharks past Canucks 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815828</link>
+</item>
+<item>
+<title>[3/01] L - Hickey scores in 3rd to help Islanders top Canucks 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815814</link>
+</item>
+<item>
+<title>[2/28] L - Pavelski, Hertl lead Sharks over Canucks 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815798</link>
+</item>
 <item>
 <title>[2/25] W - Bartkowski, Etem lead Canucks past Senators 5-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815778</link>

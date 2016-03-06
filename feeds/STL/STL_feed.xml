@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blues - 35-19-9, 3rd in Central Division</title>
+<title>Blues - 37-20-9, 3rd in Central Division</title>
 <description>Latest Blues scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/STL</link>
+<item>
+<title>[3/01] W - Blues top Senators 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815810</link>
+</item>
+<item>
+<title>[2/27] L - Filip Forsberg's hat trick lifts Predators over Blues 5-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815788</link>
+</item>
+<item>
+<title>[2/27] W - Backes, Brodziak lead Blues past Hurricanes, 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815795</link>
+</item>
 <item>
 <title>[2/25] L - Lundqvist has milestone night as Rangers beat Blues 2-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815774</link>

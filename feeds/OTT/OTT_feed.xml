@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Senators - 29-27-6, 5th in Atlantic Division</title>
+<title>Senators - 31-28-7, 5th in Atlantic Division</title>
 <description>Latest Senators scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/OTT</link>
+<item>
+<title>[3/05] W - Smith's late goal leads Senators past Maple Leafs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815838</link>
+</item>
+<item>
+<title>[3/03] L - Lightning win 8th straight, 4-1 over Senators</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815823</link>
+</item>
+<item>
+<title>[3/01] L - Blues top Senators 4-3 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815810</link>
+</item>
+<item>
+<title>[2/27] W - Zibanejad's natural hat trick leads Senators past Flames 6-4</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815792</link>
+</item>
 <item>
 <title>[2/25] L - Bartkowski, Etem lead Canucks past Senators 5-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815778</link>
@@ -115,10 +131,6 @@
 <item>
 <title>[12/22] L - Jaromir Jagr takes stick to face, loses teeth in Panthers' win</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815375</link>
-</item>
-<item>
-<title>[12/20] L - Angelidis gets rare goal, Lightning beat Senators 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815359</link>
 </item>
 <item>
 <title>[12/18] W - Ryan has goal, assist and Senators beat Sharks 4-2</title>
@@ -251,6 +263,10 @@
 <item>
 <title>[10/08] W - Turris scores 2 in Senators 3-1 win over Sabres</title>
 <link>http://espn.go.com/nhl/recap?gameId=400814775</link>
+</item>
+<item>
+<title>[8/31] L - ESPN: The Worldwide Leader in Sports</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815359</link>
 </item>
 </channel>
 </rss>

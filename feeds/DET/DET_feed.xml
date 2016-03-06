@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Red Wings - 30-20-11, 4th in Atlantic Division</title>
+<title>Red Wings - 32-21-11, 4th in Atlantic Division</title>
 <description>Latest Red Wings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
+<item>
+<title>[3/02] L - Kane's goal and 2 assists help Blackhawks rout Red Wings 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815816</link>
+</item>
+<item>
+<title>[2/29] W - Pavel Datysuk scores in overtime, Red Wings beat Stars 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815805</link>
+</item>
+<item>
+<title>[2/27] W - Richards helps Red Wings to 5-3 win over Avs in outdoor game</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815791</link>
+</item>
 <item>
 <title>[2/23] W - Sheahan leads Red Wings to 2-1 win over Blue Jackets</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815760</link>
@@ -29,16 +41,16 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815704</link>
 </item>
 <item>
+<title>[2/13] W - Pavel Datsyuk scores 2 in 3rd, Red Wings beat Panthers 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815657</link>
+</item>
+<item>
 <title>[2/12] L - Varlamov, Avalanche edge Red Wings 3-2 in shootout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815685</link>
 </item>
 <item>
 <title>[2/10] W - Dion Phaneuf loses in Senators debut 3-1 against Red Wings</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815670</link>
-</item>
-<item>
-<title>[2/08] W - Pavel Datsyuk scores 2 in 3rd, Red Wings beat Panthers 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815657</link>
 </item>
 <item>
 <title>[2/06] W - Red Wings rout Islanders 5-1 for first home win of 2016</title>

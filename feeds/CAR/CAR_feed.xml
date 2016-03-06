@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hurricanes - 28-24-10, 6th in Metropolitan Division</title>
+<title>Hurricanes - 29-26-11, 6th in Metropolitan Division</title>
 <description>Latest Hurricanes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
+<item>
+<title>[3/05] L - Lightning win 9th game in row, 4-3 over the Hurricanes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815839</link>
+</item>
+<item>
+<title>[3/01] W - Hurricanes snap 3-game skid with 3-1 win over Devils</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815809</link>
+</item>
+<item>
+<title>[2/27] L - Backes, Brodziak lead Blues past Hurricanes, 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815795</link>
+</item>
+<item>
+<title>[2/26] L - Beleskey scores twice in Bruins' 4-1 win over Hurricanes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815782</link>
+</item>
 <item>
 <title>[2/25] L - Parenteau lifts Maple Leafs past Hurricanes 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815772</link>
