@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 36-21-8, 2nd in Atlantic Division</title>
+<title>Panthers - 38-21-9, 2nd in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[3/12] W - Barkov scores winning goal in shootout, Panthers beat Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815887</link>
+</item>
+<item>
+<title>[3/10] W - Jagr scores 2 goals as Panthers beat Senators 6-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815874</link>
+</item>
+<item>
+<title>[3/07] L - Jaromir Jagr moves into 3rd on all-time points list but Panthers fall in OT</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815852</link>
+</item>
 <item>
 <title>[3/05] L - Tanguay scores twice in Coyotes debut, 5-1 win over Panthers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815842</link>

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Flyers - 30-23-11, 5th in Metropolitan Division</title>
+<title>Flyers - 32-23-12, 5th in Metropolitan Division</title>
 <description>Latest Flyers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PHI</link>
+<item>
+<title>[3/12] L - Barkov scores winning goal in shootout, Panthers beat Flyers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815887</link>
+</item>
+<item>
+<title>[3/11] W - 2 power-play goals help Flyers beat Lightning 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815878</link>
+</item>
+<item>
+<title>[3/07] W - Gostisbehere scores 2 goals, Flyers end Lightning's streak</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815850</link>
+</item>
 <item>
 <title>[3/05] W - Gudas' 4 points lead Flyers to 6-0 rout of Blue Jackets</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815840</link>

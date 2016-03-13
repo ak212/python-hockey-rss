@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 33-23-8, 4th in Metropolitan Division</title>
+<title>Penguins - 35-24-8, 4th in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[3/11] W - Fleury gets 350th win, Penguins beat Blue Jackets 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815877</link>
+</item>
+<item>
+<title>[3/08] L - Lee helps Halak get 200th win; Islanders beat Penguins 2-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815858</link>
+</item>
+<item>
+<title>[3/06] W - Malkin scores two goals as Penguins beat Devils</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815845</link>
+</item>
 <item>
 <title>[3/05] L - Backlund, Bouma help Flames, defeat Pens, snap skid</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815834</link>

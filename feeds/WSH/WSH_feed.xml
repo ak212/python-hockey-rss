@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Capitals - 48-13-4, 1st in Metropolitan Division</title>
+<title>Capitals - 49-13-5, 1st in Metropolitan Division</title>
 <description>Latest Capitals scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WSH</link>
+<item>
+<title>[3/09] L - Carter scores in OT, Kings rebound for 4-3 win over Caps</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815870</link>
+</item>
+<item>
+<title>[3/07] W - Caps end Ducks' 11-game win streak with 2-1 shootout win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815855</link>
+</item>
 <item>
 <title>[3/05] W - Niskanen scores in OT to give Caps 2-1 win over Bruins</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815837</link>

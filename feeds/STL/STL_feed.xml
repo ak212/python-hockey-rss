@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blues - 37-20-9, 3rd in Central Division</title>
+<title>Blues - 40-20-9, 2nd in Central Division</title>
 <description>Latest Blues scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/STL</link>
+<item>
+<title>[3/11] W - Allen wins fifth straight; Blues beat Ducks 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815879</link>
+</item>
+<item>
+<title>[3/09] W - Blues outlast Blackhawks in shootout for 4th straight win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815866</link>
+</item>
+<item>
+<title>[3/06] W - Lehtera helps Blues defeat Wild 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815849</link>
+</item>
 <item>
 <title>[3/01] W - Blues top Senators 4-3 in shootout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815810</link>

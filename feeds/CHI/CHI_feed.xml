@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blackhawks - 40-21-5, 1st in Central Division</title>
+<title>Blackhawks - 41-22-6, 3rd in Central Division</title>
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[3/11] L - Spezza scores in 5th straight, Stars beat Blackhawks 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815880</link>
+</item>
+<item>
+<title>[3/09] L - Blues outlast Blackhawks in shootout for 4th straight win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815866</link>
+</item>
+<item>
+<title>[3/06] W - Kane, Blackhawks beat Red Wings 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815847</link>
+</item>
 <item>
 <title>[3/03] L - Bergeron, Marchand lift Bruins over Blackhawks 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815818</link>

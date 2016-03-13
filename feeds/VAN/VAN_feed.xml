@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 25-27-12, 4th in Pacific Division</title>
+<title>Canucks - 26-28-12, 5th in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[3/09] W - Granlund scores in OT, Canucks beat Coyotes 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815869</link>
+</item>
+<item>
+<title>[3/07] L - Carter's 2 goals help Kings beat Canucks 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815856</link>
+</item>
 <item>
 <title>[3/05] W - Hamhuis, Markstrom lead Canucks past Sharks 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815843</link>

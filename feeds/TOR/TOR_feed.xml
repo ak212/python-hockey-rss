@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 21-33-10, 8th in Atlantic Division</title>
+<title>Maple Leafs - 22-34-11, 8th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[3/12] L - Senators sweep season series against Leafs with 4-0 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815886</link>
+</item>
+<item>
+<title>[3/09] W - Nylander, Soshnikov help Maple Leafs beat Islanders in SO</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815865</link>
+</item>
+<item>
+<title>[3/07] L - Sabres rally for 4-3 victory over Leafs</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815851</link>
+</item>
 <item>
 <title>[3/05] L - Smith's late goal leads Senators past Maple Leafs 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815838</link>
