@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 27-28-12, 5th in Pacific Division</title>
+<title>Canucks - 27-29-12, 5th in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[3/14] L - Dano has 2 goals, assist to lead Jets past Canucks, 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815901</link>
+</item>
 <item>
 <title>[3/12] W - Canucks end Predators' point streak at 14 games with 4-2 win</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815891</link>
