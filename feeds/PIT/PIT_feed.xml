@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 36-24-8, 4th in Metropolitan Division</title>
+<title>Penguins - 37-24-8, 4th in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[3/15] W - Penguins edge Islanders 2-1 in shootout</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815904</link>
+</item>
 <item>
 <title>[3/12] W - Short-handed Penguins surge past Rangers 5-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815894</link>

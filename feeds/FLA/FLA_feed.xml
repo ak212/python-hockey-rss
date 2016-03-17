@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 38-22-9, 2nd in Atlantic Division</title>
+<title>Panthers - 39-22-9, 1st in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[3/15] W - Panthers surge past Canadiens 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815907</link>
+</item>
 <item>
 <title>[3/14] L - Clutterbuck caps 3-goal 3rd as Islanders beat Panthers 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815897</link>
