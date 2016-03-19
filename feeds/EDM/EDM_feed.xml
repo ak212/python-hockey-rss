@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Oilers - 28-38-7, 7th in Pacific Division</title>
+<title>Oilers - 29-38-7, 7th in Pacific Division</title>
 <description>Latest Oilers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/EDM</link>
+<item>
+<title>[3/18] W - Talbot stops 40 shots, Oilers top Canucks 2-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815929</link>
+</item>
 <item>
 <title>[3/16] W - Nugent-Hopkins, Letestu each score 2, Oilers top Blues 6-4</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815913</link>
