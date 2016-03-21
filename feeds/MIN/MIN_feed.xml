@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 33-28-11, 6th in Central Division</title>
+<title>Wild - 34-28-11, 6th in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[3/20] W - Coyle's shootout goal gives Wild 3-2 win over Blackhawks</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815946</link>
+</item>
 <item>
 <title>[3/18] W - Coyle, Parise give Wild 3-2 shootout win</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815932</link>
