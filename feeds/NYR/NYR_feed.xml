@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rangers - 40-24-8, 2nd in Metropolitan Division</title>
+<title>Rangers - 41-24-8, 2nd in Metropolitan Division</title>
 <description>Latest Rangers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYR</link>
+<item>
+<title>[3/21] W - Nash, Lundqvist lead Rangers to 4-2 win over Panthers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815950</link>
+</item>
 <item>
 <title>[3/18] L - Sharks solve Lundqvist late in 4-1 victory over Rangers</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815933</link>
