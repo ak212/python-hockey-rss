@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Stars - 44-22-9, 1st in Central Division</title>
+<title>Stars - 45-22-9, 1st in Central Division</title>
 <description>Latest Stars scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[3/26] W - Mattias Janmark scored twice to lead Stars past Sharks 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815982</link>
+</item>
 <item>
 <title>[3/24] L - Hanzal's 2 goals lead Coyotes past West-leading Stars 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815974</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canadiens - 34-35-6, 6th in Atlantic Division</title>
+<title>Canadiens - 34-36-6, 6th in Atlantic Division</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[3/26] L - Kreider scores twice, Rangers beat Canadiens 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815984</link>
+</item>
 <item>
 <title>[3/24] L - Sheahan scores 2, helps Red Wings hold off Canadiens 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815969</link>
