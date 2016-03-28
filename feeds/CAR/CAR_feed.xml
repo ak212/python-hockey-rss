@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hurricanes - 32-28-15, 7th in Metropolitan Division</title>
+<title>Hurricanes - 33-28-15, 6th in Metropolitan Division</title>
 <description>Latest Hurricanes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
+<item>
+<title>[3/27] W - Rask nets 1st multigoal game, Hurricanes beat Devils 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815993</link>
+</item>
 <item>
 <title>[3/26] L - Clutterbuck scores in OT, Islanders beat Hurricanes 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815988</link>

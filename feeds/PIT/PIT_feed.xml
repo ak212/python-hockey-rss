@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 41-25-8, 3rd in Metropolitan Division</title>
+<title>Penguins - 42-25-8, 3rd in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[3/27] W - Crosby nets OT winner, Penguins top Rangers 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400815994</link>
+</item>
 <item>
 <title>[3/25] W - Penguins score 4 in 2nd period in 7-2 win over Red Wings</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815979</link>
