@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blues - 45-22-9, 1st in Central Division</title>
+<title>Blues - 46-22-9, 1st in Central Division</title>
 <description>Latest Blues scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/STL</link>
+<item>
+<title>[3/29] W - Blues beat Avalanche 3-1, keep pace with Stars atop Central</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816009</link>
+</item>
 <item>
 <title>[3/26] W - Blues beat Capitals for fourth consecutive shutout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815987</link>

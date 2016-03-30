@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 37-28-11, 5th in Central Division</title>
+<title>Wild - 38-28-11, 5th in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[3/29] W - Wild surge past Blackhawks 4-1 for 6th straight win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816010</link>
+</item>
 <item>
 <title>[3/26] W - Parise, Dubnyk lift Wild to 4-0 win over Avalanche</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815981</link>
