@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Stars - 46-22-9, 1st in Central Division</title>
+<title>Stars - 48-22-9, 1st in Central Division</title>
 <description>Latest Stars scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[4/02] W - Benn brothers score in Dallas' 3-2 win over Kings</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816033</link>
+</item>
+<item>
+<title>[3/31] W - Benn scores 40th goal, Stars beat Coyotes 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816023</link>
+</item>
 <item>
 <title>[3/29] W - Stars beat Predators 5-2 to keep pace with Blues</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816011</link>

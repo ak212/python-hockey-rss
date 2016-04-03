@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Sabres - 31-35-11, 7th in Atlantic Division</title>
+<title>Sabres - 33-35-11, 7th in Atlantic Division</title>
 <description>Latest Sabres scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BUF</link>
+<item>
+<title>[4/02] W - O'Reilly scores twice, Sabres deny Rangers with 4-3 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816037</link>
+</item>
+<item>
+<title>[3/31] W - Cal O'Reilly, Larsson lead Sabres over Maple Leafs 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816016</link>
+</item>
 <item>
 <title>[3/29] L - Penguins rally, top Sabres 5-4 in shootout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816006</link>

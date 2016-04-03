@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 28-37-11, 8th in Atlantic Division</title>
+<title>Maple Leafs - 28-39-11, 8th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[4/02] L - Red Wings edge Maple Leafs 3-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816034</link>
+</item>
+<item>
+<title>[3/31] L - Cal O'Reilly, Larsson lead Sabres over Maple Leafs 4-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816016</link>
+</item>
 <item>
 <title>[3/29] W - Kadri gets hat trick, Maple Leafs beat Panthers 5-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816008</link>

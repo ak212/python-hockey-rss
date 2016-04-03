@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 43-25-8, 3rd in Metropolitan Division</title>
+<title>Penguins - 45-25-8, 2nd in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[4/01] W - Murray, Crosby spearhead Penguins' rout of Islanders</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816031</link>
+</item>
+<item>
+<title>[3/31] W - Kessel scores twice, Penguins topple Predators 5-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816018</link>
+</item>
 <item>
 <title>[3/29] W - Penguins rally, top Sabres 5-4 in shootout</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816006</link>

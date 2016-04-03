@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 40-29-8, 3rd in Atlantic Division</title>
+<title>Bruins - 41-29-8, 4th in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[4/01] W - Krejci has big game, Bruins hold off Blues 6-5</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816027</link>
+</item>
 <item>
 <title>[3/29] L - Boucher scores as Devils beat Bruins 2-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816004</link>

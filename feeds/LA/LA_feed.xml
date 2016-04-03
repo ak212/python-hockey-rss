@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 45-26-5, 2nd in Pacific Division</title>
+<title>Kings - 46-27-5, 1st in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LA</link>
+<item>
+<title>[4/02] L - Benn brothers score in Dallas' 3-2 win over Kings</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816033</link>
+</item>
+<item>
+<title>[3/31] W - Carter, Quick help Kings beat Flames to reclaim Pacific lead</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816024</link>
+</item>
 <item>
 <title>[3/28] L - Thornton helps Sharks clinch playoffs with 5-2 win vs. Kings</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816003</link>

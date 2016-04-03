@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 44-27-5, 1st in Atlantic Division</title>
+<title>Lightning - 45-28-5, 2nd in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[4/02] W - Boyle scores go-ahead goal, Lightning beat Devils 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816035</link>
+</item>
+<item>
+<title>[3/31] L - Condon gets 1st shutout, Canadiens beat Lightning 3-0</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816020</link>
+</item>
 <item>
 <title>[3/28] W - Hedman, Bishop lift Lightning over Maple Leafs 3-0</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815999</link>

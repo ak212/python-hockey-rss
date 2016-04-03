@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 27-36-13, 6th in Pacific Division</title>
+<title>Canucks - 29-36-13, 5th in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[4/01] W - Etem burns Ducks in Canucks' 3rd-period rally for 3-2 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816030</link>
+</item>
+<item>
+<title>[3/31] W - Hansen helps Canucks snap 9-game skid with 4-2 win vs Sharks</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816025</link>
+</item>
 <item>
 <title>[3/29] L - Couture gets first hat trick, Sharks beat Canucks 4-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816012</link>
