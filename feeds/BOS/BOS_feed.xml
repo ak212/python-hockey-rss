@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 41-30-8, 4th in Atlantic Division</title>
+<title>Bruins - 42-30-9, 3rd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[4/07] W - Bruins take it to Red Wings with playoff hopes on line</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816066</link>
+</item>
+<item>
+<title>[4/05] L - Hurricanes beats Bruins 2-1 in SO to hurt B's playoff hopes</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816052</link>
+</item>
 <item>
 <title>[4/02] L - Kane hat trick leads Blackhawks past Bruins 6-4</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816042</link>

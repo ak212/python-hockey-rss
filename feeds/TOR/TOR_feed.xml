@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 28-39-11, 8th in Atlantic Division</title>
+<title>Maple Leafs - 29-41-11, 8th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[4/07] W - Jake Gardiner scores in OT, Maple Leafs beat Flyers 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816069</link>
+</item>
+<item>
+<title>[4/06] L - Blue Jackets rout Maple Leafs 5-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816063</link>
+</item>
+<item>
+<title>[4/04] L - Panthers beat Leafs for franchise's best record</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816049</link>
+</item>
 <item>
 <title>[4/02] L - Red Wings edge Maple Leafs 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816034</link>

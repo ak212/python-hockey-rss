@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 44-25-9, 1st in Atlantic Division</title>
+<title>Panthers - 46-26-9, 1st in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[4/07] L - Robinson's 1st NHL goal helps Senators top Panthers 3-1</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816072</link>
+</item>
+<item>
+<title>[4/05] W - Luongo, Panthers beat Canadiens 4-1 for fourth straight win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816056</link>
+</item>
+<item>
+<title>[4/04] W - Panthers beat Leafs for franchise's best record</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816049</link>
+</item>
 <item>
 <title>[4/02] W - Barkov scores with 28.1 left, leads Panthers past Canadiens</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816036</link>

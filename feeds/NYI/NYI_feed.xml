@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Islanders - 42-26-9, 4th in Metropolitan Division</title>
+<title>Islanders - 45-26-9, 3rd in Metropolitan Division</title>
 <description>Latest Islanders scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYI</link>
+<item>
+<title>[4/07] W - Islanders finish season sweep of Rangers with 4-1 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816068</link>
+</item>
+<item>
+<title>[4/05] W - Islanders clinch playoff spot by beating Capitals in OT</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816055</link>
+</item>
+<item>
+<title>[4/04] W - Tavares caps Islanders' 3-goal 2nd in 5-2 win over Lightning</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816047</link>
+</item>
 <item>
 <title>[4/01] L - Murray, Crosby spearhead Penguins' rout of Islanders</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816031</link>

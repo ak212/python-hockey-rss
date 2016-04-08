@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rangers - 43-26-9, 3rd in Metropolitan Division</title>
+<title>Rangers - 45-27-9, 3rd in Metropolitan Division</title>
 <description>Latest Rangers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYR</link>
+<item>
+<title>[4/07] L - Islanders finish season sweep of Rangers with 4-1 win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816068</link>
+</item>
+<item>
+<title>[4/05] W - Stepan scores 2, Kreider 1 in Rangers win over Lightning</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816054</link>
+</item>
+<item>
+<title>[4/04] W - Rangers clinch playoff berth with 4-2 win over Blue Jackets</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816048</link>
+</item>
 <item>
 <title>[4/02] L - O'Reilly scores twice, Sabres deny Rangers with 4-3 win</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816037</link>

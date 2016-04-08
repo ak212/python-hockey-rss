@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Red Wings - 40-28-11, 3rd in Atlantic Division</title>
+<title>Red Wings - 41-29-11, 3rd in Atlantic Division</title>
 <description>Latest Red Wings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DET</link>
+<item>
+<title>[4/07] L - Bruins take it to Red Wings with playoff hopes on line</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816066</link>
+</item>
+<item>
+<title>[4/06] W - Detroit shuts out Flyers 3-0 as playoff race winds down</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816064</link>
+</item>
 <item>
 <title>[4/02] W - Red Wings edge Maple Leafs 3-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816034</link>

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 45-28-5, 2nd in Atlantic Division</title>
+<title>Lightning - 46-30-5, 2nd in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[4/07] W - Jonathan Drouin scores in NHL return; Lightning clinch home ice</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816067</link>
+</item>
+<item>
+<title>[4/05] L - Stepan scores 2, Kreider 1 in Rangers win over Lightning</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816054</link>
+</item>
+<item>
+<title>[4/04] L - Tavares caps Islanders' 3-goal 2nd in 5-2 win over Lightning</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816047</link>
+</item>
 <item>
 <title>[4/02] W - Boyle scores go-ahead goal, Lightning beat Devils 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816035</link>
