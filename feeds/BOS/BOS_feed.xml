@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 42-30-9, 3rd in Atlantic Division</title>
+<title>Bruins - 42-31-9, 3rd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[4/09] L - Bruins collapse with playoffs on line, lose 6-1 to Senators</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816080</link>
+</item>
 <item>
 <title>[4/07] W - Bruins take it to Red Wings with playoff hopes on line</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816066</link>

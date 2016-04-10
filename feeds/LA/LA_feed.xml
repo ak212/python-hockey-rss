@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Kings - 48-28-5, 1st in Pacific Division</title>
+<title>Kings - 48-28-6, 1st in Pacific Division</title>
 <description>Latest Kings scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/LA</link>
+<item>
+<title>[4/09] L - Winnipeg Jets rally from 3 goals down to stun LA Kings 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816093</link>
+</item>
 <item>
 <title>[4/07] W - Kings hold off rival Ducks 2-1, close in on division title</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816077</link>

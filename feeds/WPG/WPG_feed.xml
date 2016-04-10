@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Jets - 34-39-8, 7th in Central Division</title>
+<title>Jets - 35-39-8, 7th in Central Division</title>
 <description>Latest Jets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WPG</link>
+<item>
+<title>[4/09] W - Winnipeg Jets rally from 3 goals down to stun LA Kings 4-3</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816093</link>
+</item>
 <item>
 <title>[4/07] W - Byfuglien scores late to give Jets 5-4 victory over Sharks</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816078</link>

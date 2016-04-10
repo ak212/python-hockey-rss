@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Stars - 49-23-9, 1st in Central Division</title>
+<title>Stars - 50-23-9, 1st in Central Division</title>
 <description>Latest Stars scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[4/09] W - Stars beat Predators 3-2 to clinch Central title</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816091</link>
+</item>
 <item>
 <title>[4/07] W - Stars edge closer to clinching by beating Avalanche 4-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816075</link>

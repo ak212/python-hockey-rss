@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canadiens - 36-37-6, 6th in Atlantic Division</title>
+<title>Canadiens - 38-38-6, 6th in Atlantic Division</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[4/09] W - Galchenyuk, Pacioretty score twice; Canadiens beat Lightning</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816084</link>
+</item>
+<item>
+<title>[4/07] W - Pacioretty, Lindgren lead Canadiens past Hurricanes 4-2</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816071</link>
+</item>
+<item>
+<title>[4/05] L - Luongo, Panthers beat Canadiens 4-1 for fourth straight win</title>
+<link>http://espn.go.com/nhl/recap?gameId=400816056</link>
+</item>
 <item>
 <title>[4/02] L - Barkov scores with 28.1 left, leads Panthers past Canadiens</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816036</link>
