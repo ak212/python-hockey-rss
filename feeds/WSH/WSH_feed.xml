@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Capitals - 56-17-8, 1st in Metropolitan Division</title>
+<title>Capitals - Metropolitan Division</title>
 <description>Latest Capitals scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WSH</link>
+<item>
+<title>[4/10] L - Ducks win 4th straight Pacific title with shutout win over Caps</title>
+<link>http://espn.go.com/nhl/recap?gameId=400865737</link>
+</item>
 <item>
 <title>[4/09] W - Alex Ovechkin (50th goal), Braden Holtby (record-tying 48th win) spark Caps</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816090</link>

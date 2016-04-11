@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Islanders - 45-26-10, 4th in Metropolitan Division</title>
+<title>Islanders - Metropolitan Division</title>
 <description>Latest Islanders scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYI</link>
+<item>
+<title>[4/10] L - Islanders fall to Flyers to seal playoff date with Panthers</title>
+<link>http://espn.go.com/nhl/recap?gameId=400865738</link>
+</item>
 <item>
 <title>[4/09] L - Gionta scores twice to lead Sabres over Islanders in OT</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816089</link>
