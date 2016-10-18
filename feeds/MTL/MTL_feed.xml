@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canadiens - 1-0-1, 4th in Atlantic Division</title>
+<title>Canadiens - 1-0-1, 5th in Atlantic Division</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[10/15]  - Karlsson gets shootout winner as Senators edge Canadiens 4-3</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884414</link>
+</item>
+<item>
+<title>[10/13]  - Gallagher scores twice in Canadiens 4-1 win over Sabres</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884401</link>
+</item>
 <item>
 <title>[2/24] W - Galchenyuk scores twice, Canadiens top Capitals 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815766</link>

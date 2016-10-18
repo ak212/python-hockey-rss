@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 1-0-1, 4th in Atlantic Division</title>
+<title>Maple Leafs - 1-0-1, 5th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[10/15]  - Marner, Brown score to help Leafs beat Bruins 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884413</link>
+</item>
+<item>
+<title>[10/12]  - Maple Leafs' Matthews has record 4 goals in NHL debut</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884397</link>
+</item>
 <item>
 <title>[2/25] W - Parenteau lifts Maple Leafs past Hurricanes 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815772</link>
