@@ -16,8 +16,8 @@ import markup
 import retry_decorator
 
 __author__ = "Aaron Koeppel"
-__version__ = 2.1
-__modified__ = '1/23/2016'
+__version__ = 2.11
+__modified__ = '10/17/2016'
 
 teamAbbrvs = ['ANA', 'ARI', 'BOS', 'BUF', 'CAR', 'CBJ', 'CGY', 'CHI', 'COL', 'DAL',
               'DET', 'EDM', 'FLA', 'LA', 'MIN', 'MTL', 'NSH', 'NJ', 'NYI', 'NYR',
@@ -32,6 +32,8 @@ teamNames = ['Ducks', 'Coyotes', 'Bruins', 'Sabres', 'Hurricanes', 'Blue Jackets
 logger = log.setup_custom_logger('root')
 dbLastDate = None
 totalGames = None
+
+seasonStart = "20160901"
    
 def initDB():
    return pymysql.connect(host='localhost', port=3306, user='root', passwd=sys.argv[1], db='NHL_RSS')
@@ -169,23 +171,21 @@ def extractGameData(teamAb, teamName):
    teamRecord = getTeamRecord(soup)
    
    for div in soup.find_all(attrs={"class" : "score"}):
-      recapLinkEnding = str(div.find('a').get('href').encode('utf-8', 'ignore'))
-      if "recap" in recapLinkEnding:
-         recapLink = "http://espn.go.com" + recapLinkEnding
-         
+      recapLink = re.sub('//www.', 'http://', str(div.find('a').get('href').encode('utf-8', 'ignore')))
+      if "recap" in recapLink:
          if recapLink not in links:
-            boxscoreLink = "http://espn.go.com/nhl/boxscore?gameId=" + recapLink[36:]
+            boxscoreLink = "http://espn.go.com/nhl/boxscore?gameId=" + recapLink[34:]
             
             recapLinkSoup = pageResponse(recapLink)
             gameHeadline = getGameHeadline(recapLinkSoup, recapLink)
             gameDate = getGameDate(recapLinkSoup, recapLink)
       
             if gameDate == "PRE":
-               formattedDate = datetime.strptime("20150901", "%Y%m%d").date()
+               formattedDate = datetime.strptime(seasonStart, "%Y%m%d").date()
             elif gameDate != None:
                formattedDate = datetime.strptime(gameDate, "%Y%m%d").date()
             else:
-               formattedDate = datetime.strptime("20150901", "%Y%m%d").date()
+               formattedDate = datetime.strptime(seasonStart, "%Y%m%d").date()
              
             formattedDate = formattedDate - timedelta(days=1)
              
