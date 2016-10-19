@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - Metropolitan Division</title>
+<title>Penguins - 2-0-1, 1st in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[10/17]  - Landeskog's OT winner lifts Avalanche by Penguins 4-3</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884430</link>
+</item>
+<item>
+<title>[10/15]  - Kessel, Fleury lead Penguins in 3-2 win over Ducks</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884417</link>
+</item>
+<item>
+<title>[10/13]  - Penguins begin title defense with 3-2 win over Capitals</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884403</link>
+</item>
 <item>
 <title>[6/12] W - Kris Letang scores go-ahead goal as Penguins earn 4th Stanley Cup title</title>
 <link>http://espn.go.com/nhl/recap?gameId=400877459</link>
