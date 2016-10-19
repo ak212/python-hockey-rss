@@ -9,6 +9,10 @@
 <link>http://espn.com/nhl/recap/_/gameId/400884435</link>
 </item>
 <item>
+<title>Capitals - 1-0-1, 3rd in Metropolitan Division</title>
+<description>Latest Capitals scores</description>
+<link>http://espn.go.com/nhl/team/schedule/_/name/WSH</link>
+<item>
 <title>[10/15]  - Winnik scores twice as Caps beat Isles in home opener</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884418</link>
 </item>
@@ -17,6 +21,7 @@
 <link>http://espn.com/nhl/recap/_/gameId/400884403</link>
 </item>
 <item>
+<<<<<<< HEAD
 <title>[5/10] L - Penguins edge Capitals in OT to win series in 6 games</title>
 <link>http://espn.go.com/nhl/recap?gameId=400875706</link>
 </item>
@@ -157,6 +162,8 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815781</link>
 </item>
 <item>
+=======
+>>>>>>> 28670756d8ab5afebbecb8ea2aa114906ea35f84
 <title>[2/24] L - Galchenyuk scores twice, Canadiens top Capitals 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815766</link>
 </item>

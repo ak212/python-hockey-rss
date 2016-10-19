@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hurricanes - 0-0-2, 6th in Metropolitan Division</title>
+<title>Hurricanes - 0-0-2, 5th in Metropolitan Division</title>
 <description>Latest Hurricanes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
 <item>
@@ -13,6 +13,7 @@
 <link>http://espn.com/nhl/recap/_/gameId/400884408</link>
 </item>
 <item>
+<<<<<<< HEAD
 <title>[4/09] L - Panthers score 3 early goals, beat Hurricanes 5-2</title>
 <link>http://espn.go.com/nhl/recap?gameId=400816085</link>
 </item>
@@ -93,6 +94,8 @@
 <link>http://espn.go.com/nhl/recap?gameId=400815782</link>
 </item>
 <item>
+=======
+>>>>>>> 28670756d8ab5afebbecb8ea2aa114906ea35f84
 <title>[2/25] L - Parenteau lifts Maple Leafs past Hurricanes 3-1</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815772</link>
 </item>
