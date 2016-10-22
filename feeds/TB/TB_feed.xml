@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 2-0-0, 1st in Atlantic Division</title>
+<title>Lightning - 3-1-0, 2nd in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[10/20]  - Duchene, Varlamov lead Avalanche past Lightning 4-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884451</link>
+</item>
+<item>
+<title>[10/18]  - Point scores shootout winner, Lightning beat Panthers 4-3</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884438</link>
+</item>
 <item>
 <title>[10/15]  - Filppula scores go-ahead goal, Lightning beat Devils 3-2</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884415</link>
