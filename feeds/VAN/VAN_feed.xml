@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canucks - 2-0-0, 2nd in Pacific Division</title>
->>>>>>> 28670756d8ab5afebbecb8ea2aa114906ea35f84
+<title>Canucks - 4-0-0, 1st in Pacific Division</title>
 <description>Latest Canucks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/VAN</link>
+<item>
+<title>[10/20]  - Canucks stay perfect, down Sabres 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884457</link>
+</item>
+<item>
+<title>[10/18]  - Henrik Sedin scores in OT, Canucks beat Blues 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884444</link>
+</item>
 <item>
 <title>[10/16]  - Canucks erase 3-goal deficit vs 'Canes, Sutter scores in OT</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884428</link>
@@ -12,94 +19,6 @@
 <item>
 <title>[10/15]  - Sutter's shootout goal lifts Canucks past Flames, 2-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884425</link>
-</item>
-<item>
-<title>[4/09] W - Etem scores shootout winner as Canucks beat Oilers 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816092</link>
-</item>
-<item>
-<title>[4/07] L - Mikael Backlund has first hat trick, Flames beat Canucks 7-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816076</link>
-</item>
-<item>
-<title>[4/06] L - Oilers rout Canucks 6-2 in final game at Rexall Place</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816065</link>
-</item>
-<item>
-<title>[4/04] W - McCann, Miller lead Canucks over Kings</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816051</link>
-</item>
-<item>
-<title>[4/01] W - Etem burns Ducks in Canucks' 3rd-period rally for 3-2 win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816030</link>
-</item>
-<item>
-<title>[3/31] W - Hansen helps Canucks snap 9-game skid with 4-2 win vs Sharks</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816025</link>
-</item>
-<item>
-<title>[3/29] L - Couture gets first hat trick, Sharks beat Canucks 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816012</link>
-</item>
-<item>
-<title>[3/27] L - Blackhawks beat skidding Canucks 3-2 to clinch playoff spot</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815995</link>
-</item>
-<item>
-<title>[3/25] L - Elliott has 3rd straight shutout, Blues clinch playoff spot</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815978</link>
-</item>
-<item>
-<title>[3/24] L - Craig Smith scores in SO as Predators rally past Canucks</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815970</link>
-</item>
-<item>
-<title>[3/22] L - Jets send Canucks to third straight shutout loss</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815959</link>
-</item>
-<item>
-<title>[3/19] L - Elliot makes 19 saves in return, Blues beat Canucks 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815939</link>
-</item>
-<item>
-<title>[3/18] L - Talbot stops 40 shots, Oilers top Canucks 2-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815929</link>
-</item>
-<item>
-<title>[3/16] L - Boedker scores twice, Avalanche beat Canucks 3 -1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815915</link>
-</item>
-<item>
-<title>[3/14] L - Dano has 2 goals, assist to lead Jets past Canucks, 5-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815901</link>
-</item>
-<item>
-<title>[3/12] W - Canucks end Predators' point streak at 14 games with 4-2 win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815891</link>
-</item>
-<item>
-<title>[3/09] W - Granlund scores in OT, Canucks beat Coyotes 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815869</link>
-</item>
-<item>
-<title>[3/07] L - Carter's 2 goals help Kings beat Canucks 5-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815856</link>
-</item>
-<item>
-<title>[3/05] W - Hamhuis, Markstrom lead Canucks past Sharks 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815843</link>
-</item>
-<item>
-<title>[3/03] L - Marleau leads Sharks past Canucks 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815828</link>
-</item>
-<item>
-<title>[3/01] L - Hickey scores in 3rd to help Islanders top Canucks 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815814</link>
-</item>
-<item>
-<title>[2/28] L - Pavelski, Hertl lead Sharks over Canucks 4-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815798</link>
 </item>
 <item>
 <title>[2/25] W - Bartkowski, Etem lead Canucks past Senators 5-3</title>

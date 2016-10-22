@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Oilers - 2-1-0, 2nd in Pacific Division</title>
+<title>Oilers - 4-1-0, 1st in Pacific Division</title>
 <description>Latest Oilers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/EDM</link>
+<item>
+<title>[10/20]  - Yakupov scores in return but McDavid's 2 points lead Oilers</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884456</link>
+</item>
+<item>
+<title>[10/18]  - Pitlick gets winner in Oilers' 3-2 win over Hurricanes</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884443</link>
+</item>
 <item>
 <title>[10/16]  - O'Reilly's 4 points lift Sabres over Oilers 6-2</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884427</link>
@@ -15,86 +23,6 @@
 <item>
 <title>[10/12]  - McDavid scores twice, Oilers beat Flames 7-4 in new arena</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884399</link>
-</item>
-<item>
-<title>[4/09] L - Etem scores shootout winner as Canucks beat Oilers 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816092</link>
-</item>
-<item>
-<title>[4/06] W - Oilers rout Canucks 6-2 in final game at Rexall Place</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816065</link>
-</item>
-<item>
-<title>[4/02] L - Ortio earns 2nd career shutout, leads Flames past Oilers 5-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816040</link>
-</item>
-<item>
-<title>[3/28] L - Gibson makes 27 saves, Ducks beat Oilers 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816001</link>
-</item>
-<item>
-<title>[3/26] L - Kings complete 5-game season sweep of Oilers with 6-4 win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815992</link>
-</item>
-<item>
-<title>[3/24] W - Maroon keys big 2nd period that leads Oilers past Sharks 6-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815975</link>
-</item>
-<item>
-<title>[3/22] L - Ekman-Larsson sparks Coyotes to another win over Oilers, 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815961</link>
-</item>
-<item>
-<title>[3/20] L - Landeskog helps Avalanche beat Oilers for 3rd straight win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815947</link>
-</item>
-<item>
-<title>[3/18] W - Talbot stops 40 shots, Oilers top Canucks 2-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815929</link>
-</item>
-<item>
-<title>[3/16] W - Nugent-Hopkins, Letestu each score 2, Oilers top Blues 6-4</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815913</link>
-</item>
-<item>
-<title>[3/14] L - James Neal nets hat trick, Predators edge Oilers 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815900</link>
-</item>
-<item>
-<title>[3/12] L - Smith makes 44 saves in return, Coyotes beat Oilers 4-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815890</link>
-</item>
-<item>
-<title>[3/10] W - McDavid's goal gives Oilers 2-1 victory over Wild</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815875</link>
-</item>
-<item>
-<title>[3/08] L - Reimer gets first shutout of season, Sharks beat Oilers 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815864</link>
-</item>
-<item>
-<title>[3/06] W - Korpikoski, Talbot lift Oilers past Jets 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815848</link>
-</item>
-<item>
-<title>[3/04] L - Savard leads Blue Jackets past Oilers 6-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815831</link>
-</item>
-<item>
-<title>[3/03] W - Talbot, Edmonton blank Flyers for third straight win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815820</link>
-</item>
-<item>
-<title>[3/01] W - Oilers' Connor McDavid nets OT winner in matchup vs. Jack Eichel, Sabres</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815808</link>
-</item>
-<item>
-<title>[2/28] W - Oilers score 3 times in third, top Islanders 3-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815800</link>
-</item>
-<item>
-<title>[2/26] L - Rakell's OT goal lifts Ducks over Oilers 2-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815783</link>
 </item>
 <item>
 <title>[2/25] L - Carter, King score in 3rd to lift Kings over Oilers 2-1</title>

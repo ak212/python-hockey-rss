@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Avalanche - 2-1-0, 2nd in Central Division</title>
+<title>Avalanche - 3-1-0, 2nd in Central Division</title>
 <description>Latest Avalanche scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/COL</link>
+<item>
+<title>[10/20]  - Duchene, Varlamov lead Avalanche past Lightning 4-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884451</link>
+</item>
 <item>
 <title>[10/18]  - Ovechkin, Oshie score as Capitals hand Avalanche first loss</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884435</link>
 </item>
-<item>
-<title>Avalanche - 2-0-0, 2nd in Central Division</title>
-<description>Latest Avalanche scores</description>
-<link>http://espn.go.com/nhl/team/schedule/_/name/COL</link>
 <item>
 <title>[10/17]  - Landeskog's OT winner lifts Avalanche by Penguins 4-3</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884430</link>
@@ -21,84 +21,6 @@
 <link>http://espn.com/nhl/recap/_/gameId/400884423</link>
 </item>
 <item>
-<title>[4/09] L - Jakob Silfverberg scores twice as Ducks beat Avalanche 5-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816083</link>
-</item>
-<item>
-<title>[4/07] L - Stars edge closer to clinching by beating Avalanche 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816075</link>
-</item>
-<item>
-<title>[4/05] L - Nashville's 4-3 win eliminates Avs from playoff contention</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816058</link>
-</item>
-<item>
-<title>[4/03] L - Blues score 3 times in 1st period, beat Avalanche 5-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816045</link>
-</item>
-<item>
-<title>[4/01] L - Capitals break single-season franchise record for wins</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816029</link>
-</item>
-<item>
-<title>[3/29] L - Blues beat Avalanche 3-1, keep pace with Stars atop Central</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816009</link>
-</item>
-<item>
-<title>[3/28] W - Avalanche beat Predators 4-3, keep Nashville from clinching</title>
-<link>http://espn.go.com/nhl/recap?gameId=400816000</link>
-</item>
-<item>
-<title>[3/26] L - Parise, Dubnyk lift Wild to 4-0 win over Avalanche</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815981</link>
-</item>
-<item>
-<title>[3/24] L - Gudas, Giroux score late as Flyers beat Avs 4-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815973</link>
-</item>
-<item>
-<title>[3/20] W - Landeskog helps Avalanche beat Oilers for 3rd straight win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815947</link>
-</item>
-<item>
-<title>[3/18] W - Boedker's shootout goal lifts Avalanche over Flames 4-3</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815928</link>
-</item>
-<item>
-<title>[3/16] W - Boedker scores twice, Avalanche beat Canucks 3 -1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815915</link>
-</item>
-<item>
-<title>[3/12] L - Scheifele extends points streak, Jets beat Avs 3-2</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815888</link>
-</item>
-<item>
-<title>[3/09] W - Varlamov stops 37 shots, Avalanche beat Ducks 3-0</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815868</link>
-</item>
-<item>
-<title>[3/07] W - Varlamov makes 37 saves in return, Avs beat Coyotes 3-1</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815853</link>
-</item>
-<item>
-<title>[3/05] L - Fisher helps Predators to 5-2 win over Avalanche</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815835</link>
-</item>
-<item>
-<title>[3/03] W - Jaromir Jagr ties Gordie Howe for 3rd all-time in scoring, but Avs win</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815826</link>
-</item>
-<item>
-<title>[3/01] L - Coyle helps Wild beat Avs 6-3, take lead in playoff chase</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815812</link>
-</item>
-<item>
-<title>[2/27] L - Richards helps Red Wings to 5-3 win over Avs in outdoor game</title>
-<link>http://espn.go.com/nhl/recap?gameId=400815791</link>
-</item>
-<item>
-=======
->>>>>>> 28670756d8ab5afebbecb8ea2aa114906ea35f84
 <title>[2/24] W - MacKinnon, Duchene score in shootout; Avs beat Sharks 4-3</title>
 <link>http://espn.go.com/nhl/recap?gameId=400815768</link>
 </item>
