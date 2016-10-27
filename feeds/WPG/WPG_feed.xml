@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Jets - 2-2-0, 5th in Central Division</title>
+<title>Jets - 2-4-0, 6th in Central Division</title>
 <description>Latest Jets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WPG</link>
+<item>
+<title>[10/25]  - Niemi makes 28 saves, Stars beat Jets 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884486</link>
+</item>
+<item>
+<title>[10/23]  - Oilers top Jets in sun-delayed Heritage Classic</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884473</link>
+</item>
 <item>
 <title>[10/19]  - Laine gets 3rd goal in OT to lift Jets over Maple Leafs</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884446</link>

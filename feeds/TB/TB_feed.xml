@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 3-1-0, 2nd in Atlantic Division</title>
+<title>Lightning - 5-1-0, 2nd in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[10/25]  - Stamkos' 4 points lead Lightning over Maple Leafs</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884483</link>
+</item>
+<item>
+<title>[10/22]  - Vasilevskiy makes 27 saves, Lightning beat Senators 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884462</link>
+</item>
 <item>
 <title>[10/20]  - Duchene, Varlamov lead Avalanche past Lightning 4-0</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884451</link>

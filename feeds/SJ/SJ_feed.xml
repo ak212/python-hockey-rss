@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Sharks - 3-2-0, 3rd in Pacific Division</title>
+<title>Sharks - 4-3-0, 3rd in Pacific Division</title>
 <description>Latest Sharks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/SJ</link>
+<item>
+<title>[10/25]  - Sharks' Vlasic scores game-winner in OT</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884489</link>
+</item>
+<item>
+<title>[10/22]  - Howard, Nyquist lead Red Wings over Sharks 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884463</link>
+</item>
 <item>
 <title>[10/20]  - Penguins rally in 3rd, top Sharks 3-2 in Stanley Cup rematch</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884449</link>

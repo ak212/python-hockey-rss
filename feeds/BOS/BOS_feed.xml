@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 3-1-0, 2nd in Atlantic Division</title>
+<title>Bruins - 3-4-0, 6th in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[10/25]  - Dubnyk makes 27 saves, Wild beat Bruins 5-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884479</link>
+</item>
+<item>
+<title>[10/22]  - Price stops 19 shots in 2nd start, Canadiens beat Bruins 4-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884461</link>
+</item>
 <item>
 <title>[10/20]  - Bergeron returns, leads Bruins to 2-1 victory over Devils</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884447</link>
