@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 4-2-1, 1st in Central Division</title>
+<title>Wild - 6-2-1, 1st in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[10/29]  - Dubnyk gets third straight shutout as Wild beat Stars 4-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884515</link>
+</item>
+<item>
+<title>[10/27]  - Dubnyk, Wild beat Sabres 4-0 for 2nd straight shutout</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884494</link>
+</item>
 <item>
 <title>[10/25]  - Dubnyk makes 27 saves, Wild beat Bruins 5-0</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884479</link>

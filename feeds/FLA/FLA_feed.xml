@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Panthers - 3-2-1, 5th in Atlantic Division</title>
+<title>Panthers - 4-4-1, 5th in Atlantic Division</title>
 <description>Latest Panthers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/FLA</link>
+<item>
+<title>[10/30]  - Sceviour's hat trick leads Panthers past Red Wings, 5-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884520</link>
+</item>
+<item>
+<title>[10/28]  - Nilsson, Sabres shut out Panthers 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884509</link>
+</item>
+<item>
+<title>[10/27]  - Marner's 3 assists lead Maple Leafs over Panthers</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884497</link>
+</item>
 <item>
 <title>[10/25]  - Crosby returns, leads Penguins past Panthers</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884482</link>
