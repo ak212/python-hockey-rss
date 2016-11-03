@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 4-4-0, 6th in Atlantic Division</title>
+<title>Bruins - 5-4-0, 5th in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[11/01]  - Marchand, Moore, Rask lead Bruins to 2-1 win over Panthers</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884532</link>
+</item>
 <item>
 <title>[10/29]  - Rask gets 31st career shutout, Bruins beat Red Wings 1-0</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884511</link>

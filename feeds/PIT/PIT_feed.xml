@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 6-2-1, 1st in Metropolitan Division</title>
+<title>Penguins - 7-2-1, 1st in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[11/02]  - Letang leads Penguins over Ducks 5-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884541</link>
+</item>
 <item>
 <title>[10/29]  - Evgeni Malkin nets twice to reach 300 career goals in Penguins win</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884513</link>

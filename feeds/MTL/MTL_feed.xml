@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canadiens - 6-0-1, 1st in Atlantic Division</title>
+<title>Canadiens - 9-0-1, 1st in Atlantic Division</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[11/02]  - Price makes 42 saves, Canadiens win 8th straight win</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884539</link>
+</item>
+<item>
+<title>[10/29]  - Weber scores on power play, Canadiens get 7th straight win</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884510</link>
+</item>
+<item>
+<title>[10/27]  - Pacioretty, Canadiens beat Lightning for 6th straight win</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884498</link>
+</item>
 <item>
 <title>[10/26]  - Weber gives Canadiens 5th straight win, 3-2 over Islanders</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884490</link>

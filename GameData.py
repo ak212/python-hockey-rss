@@ -76,9 +76,7 @@ class GameData(object):
             home = matchup.find(class_="team home")
             homeTeam = str(home.find('a').text)
             homeScore = int(home.find(class_="gp-homeScore").text)
-            awayScore = int(matchup.
-                             find(class_="team away").
-                             find(class_="gp-awayScore").text)
+            awayScore = int(matchup.find(class_="team away").find(class_="gp-awayScore").text)
          else:
             homeTeam = homeSoup.find(class_="teamname").text.encode('utf-8').lstrip().rstrip()
             homeScore = int(soup.find(class_="home-score").text)

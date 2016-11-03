@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 2-4-3, 8th in Atlantic Division</title>
+<title>Maple Leafs - 3-4-3, 7th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[11/01]  - Leafs beat Oilers in OT; Matthews, McDavid held scoreless</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884530</link>
+</item>
 <item>
 <title>[10/30]  - Nelson, Prince lead Islanders to 5-1 win overMaple Leafs</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884522</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Avalanche - 4-3-0, 4th in Central Division</title>
+<title>Avalanche - 4-4-0, 4th in Central Division</title>
 <description>Latest Avalanche scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/COL</link>
+<item>
+<title>[11/01]  - Craig Smith scores twice, Predators beat Avalanche 5-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884536</link>
+</item>
 <item>
 <title>[10/29]  - Duchene scores twice, Avalanche beat Coyotes 3-2</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884516</link>

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Ducks - 3-4-2, 5th in Pacific Division</title>
+<title>Ducks - 4-5-2, 3rd in Pacific Division</title>
 <description>Latest Ducks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/ANA</link>
+<item>
+<title>[11/02]  - Letang leads Penguins over Ducks 5-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884541</link>
+</item>
+<item>
+<title>[11/01]  - Rakell returns to lead Anaheim Ducks' 4-0 rout of LA Kings</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884538</link>
+</item>
 <item>
 <title>[10/28]  - Gagner and Saad score 2 each as Blue Jackets beat Ducks 4-0</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884508</link>
