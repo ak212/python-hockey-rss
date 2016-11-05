@@ -174,7 +174,7 @@ def extractGameData(teamAb, teamName):
       recapLink = re.sub('//www.', 'http://', str(div.find('a').get('href').encode('utf-8', 'ignore')))
       if "recap" in recapLink:
          if recapLink not in links:
-            boxscoreLink = "http://espn.go.com/nhl/boxscore?gameId=" + recapLink[34:]
+            boxscoreLink = "http://espn.go.com/nhl/boxscore?gameId=" + recapLink[35:]
             
             recapLinkSoup = pageResponse(recapLink)
             gameHeadline = getGameHeadline(recapLinkSoup, recapLink)
