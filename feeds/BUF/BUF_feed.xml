@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Sabres - 4-4-2, 8th in Atlantic Division</title>
+<title>Sabres - 5-7-4, 8th in Atlantic Division</title>
 <description>Latest Sabres scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BUF</link>
+<item>
+<title>[11/15] L - Schwartz, Brodziak score in third as Blues beat Sabres 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884632</link>
+</item>
+<item>
+<title>[11/12] L - Lappin, Palmieri lead Devils to 4-2 win over Sabres</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884611</link>
+</item>
+<item>
+<title>[11/11] L - Greene's penalty shot in OT lifts Devils past Sabres 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884602</link>
+</item>
+<item>
+<title>[11/09] L - Ryan scores in shootout to lead Senators over Sabres 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884590</link>
+</item>
+<item>
+<title>[11/07] L - Rask's 32 saves, 3 PP goals lift Bruins past Sabres 4-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884576</link>
+</item>
+<item>
+<title>[11/05] W - Sam Reinhart scores tiebreaker, Sabres beat Senators 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884561</link>
+</item>
 <item>
 <title>[11/03] L - Marner scores twice in Leafs' 2-1 win over Sabres</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884542</link>
