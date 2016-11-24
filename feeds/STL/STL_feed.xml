@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blues - 8-6-3, 3rd in Central Division</title>
+<title>Blues - 11-6-3, 2nd in Central Division</title>
 <description>Latest Blues scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/STL</link>
+<item>
+<title>[11/22] W - Allen stops 39 for Blues in 4-2 win at Boston</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884679</link>
+</item>
+<item>
+<title>[11/19] W - Brodziak, Tarasenko score as Blues beat Predators 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884663</link>
+</item>
+<item>
+<title>[11/17] W - Schwartz, Perron lead Blues to 3-2 win over Sharks</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884645</link>
+</item>
 <item>
 <title>[11/15] W - Schwartz, Brodziak score in third as Blues beat Sabres 4-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884632</link>

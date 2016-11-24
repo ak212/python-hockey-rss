@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Lightning - 10-6-1, 2nd in Atlantic Division</title>
+<title>Lightning - 12-7-1, 2nd in Atlantic Division</title>
 <description>Latest Lightning scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TB</link>
+<item>
+<title>[11/21] L - Subban, Rinne lead Predators over Lightning 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884675</link>
+</item>
+<item>
+<title>[11/18] W - Vasilevskiy stops 32 shots, Lightning beat Flyers 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884656</link>
+</item>
+<item>
+<title>[11/17] W - Killorn leads Lightning to 4-1 win over Sabres</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884641</link>
+</item>
 <item>
 <title>[11/15] W - Kucherov's late goal gives Lightning 4-3 win over Wings</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884631</link>
