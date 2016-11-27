@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Jets - 9-10-2, 4th in Central Division</title>
+<title>Jets - 10-12-2, 6th in Central Division</title>
 <description>Latest Jets scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WPG</link>
+<item>
+<title>[11/26] W - Jets blank Predators 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884721</link>
+</item>
+<item>
+<title>[11/25] L - Wilson, Johansen each score twice, Predators beat Jets 5-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884703</link>
+</item>
+<item>
+<title>[11/23] L - Dubnyk makes 15 saves, Wild beat road-weary Jets 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884689</link>
+</item>
 <item>
 <title>[11/20] L - Rask, Hanifin help Hurricanes win 4th straight, beat Jets</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884669</link>

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Maple Leafs - 8-8-3, 6th in Atlantic Division</title>
+<title>Maple Leafs - 9-8-4, 6th in Atlantic Division</title>
 <description>Latest Maple Leafs scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/TOR</link>
+<item>
+<title>[11/26] W - Marner, Matthew helps Maple Leafs beat Capitals 4-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884709</link>
+</item>
+<item>
+<title>[11/23] L - Cammalleri has 4 points in return, Devils edge Leafs in SO</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884685</link>
+</item>
 <item>
 <title>[11/22] L - Stalberg scores SHG, Canes top Leafs for 5th straight win</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884680</link>

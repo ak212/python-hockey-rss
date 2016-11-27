@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 11-8-0, 4th in Atlantic Division</title>
+<title>Bruins - 12-10-0, 4th in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[11/26] W - Hayes scores as Bruins beat Lightning 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884718</link>
+</item>
+<item>
+<title>[11/25] L - Chad Johnson makes 35 saves, Flames beat Bruins 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884704</link>
+</item>
+<item>
+<title>[11/24] L - Wideman, Turris score in third, Senators beat Bruins 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884697</link>
+</item>
 <item>
 <title>[11/22] L - Allen stops 39 for Blues in 4-2 win at Boston</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884679</link>
