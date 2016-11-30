@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Hurricanes - 8-8-4, 7th in Metropolitan Division</title>
+<title>Hurricanes - 9-9-4, 7th in Metropolitan Division</title>
 <description>Latest Hurricanes scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CAR</link>
+<item>
+<title>[11/29] L - Vesey scores late in 3rd as Rangers beat Hurricanes 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884726</link>
+</item>
+<item>
+<title>[11/27] W - Skinner has goal and assist, Hurricanes beat Panthers 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884720</link>
+</item>
 <item>
 <title>[11/26] L - Turris scores 10th goal, Senators beat Hurricanes 2-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884710</link>
