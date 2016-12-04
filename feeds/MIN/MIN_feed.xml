@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 11-8-3, 3rd in Central Division</title>
+<title>Wild - 11-8-4, 3rd in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[12/02] L - Sean Monahan scores shootout winner, Flames beat Wild 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884753</link>
+</item>
 <item>
 <title>[11/29] L - Baertschi scores 2 to help Canucks beat Wild 5-4</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884735</link>

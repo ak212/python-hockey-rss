@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Stars - 9-9-6, 5th in Central Division</title>
+<title>Stars - 10-10-6, 3rd in Central Division</title>
 <description>Latest Stars scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/DAL</link>
+<item>
+<title>[12/03] W - Lehtonen leads Stars past Avalanche 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884765</link>
+</item>
+<item>
+<title>[12/01] L - Crosby leads Penguins past Stars 6-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884743</link>
+</item>
 <item>
 <title>[11/29] L - Mantha helps Red Wings beat Stars 3-1 for 3rd win in 4 games</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884730</link>

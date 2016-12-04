@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blackhawks - 15-6-3, 1st in Central Division</title>
+<title>Blackhawks - 16-7-3, 1st in Central Division</title>
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[12/02] L - Provorov scores 2, prevents 1 as Flyers beat Blackhawks 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884757</link>
+</item>
+<item>
+<title>[12/01] W - Hossa's 12th goal gives Blackhawks 4-3 OT win over Devils</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884749</link>
+</item>
 <item>
 <title>[11/29] W - Panik, Blackhawks beat Panthers 2-1 in shootout</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884732</link>
