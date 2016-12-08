@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Capitals - 13-7-3, 5th in Metropolitan Division</title>
+<title>Capitals - 15-7-3, 4th in Metropolitan Division</title>
 <description>Latest Capitals scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/WSH</link>
+<item>
+<title>[12/07] W - Capitals lose 3-goal lead, recover to beat Bruins in OT</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884788</link>
+</item>
+<item>
+<title>[12/05] W - Johansson scores twice as Caps beat Sabres 3-2 in OT</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884776</link>
+</item>
 <item>
 <title>[12/03] L - Boyle scores winner in shootout, Lightning beat Capitals 2-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884760</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Wild - 12-8-4, 3rd in Central Division</title>
+<title>Wild - 13-8-4, 3rd in Central Division</title>
 <description>Latest Wild scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MIN</link>
+<item>
+<title>[12/07] W - Staal scores again on Leafs, Wild win 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884787</link>
+</item>
 <item>
 <title>[12/04] W - Mikko Koivu scores winner, Wild top Oilers 2-1 in overtime</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884772</link>

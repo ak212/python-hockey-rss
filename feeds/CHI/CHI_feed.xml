@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blackhawks - 16-7-3, 1st in Central Division</title>
+<title>Blackhawks - 17-8-3, 1st in Central Division</title>
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[12/06] W - Darling gets first shutout; Blackhawks beat tired Coyotes</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884785</link>
+</item>
+<item>
+<title>[12/04] L - Copp scores winner with 4:45 left, Jets top Blackhawks 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884770</link>
+</item>
 <item>
 <title>[12/02] L - Provorov scores 2, prevents 1 as Flyers beat Blackhawks 3-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884757</link>

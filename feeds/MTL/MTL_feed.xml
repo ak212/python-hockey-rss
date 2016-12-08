@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Canadiens - 17-6-2, 1st in Atlantic Division</title>
+<title>Canadiens - 17-6-3, 1st in Atlantic Division</title>
 <description>Latest Canadiens scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/MTL</link>
+<item>
+<title>[12/06] L - Schwartz gets 2nd goal in OT, Blues beat Canadiens 3-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884782</link>
+</item>
 <item>
 <title>[12/04] W - Pacioretty propels Canadiens to 5-4 shootout win over Kings</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884773</link>
