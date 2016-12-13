@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 16-7-3, 1st in Metropolitan Division</title>
+<title>Penguins - 18-7-3, 2nd in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[12/10] W - Sidney Crosby returns after early hit, scores 2 in Pens' win</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884811</link>
+</item>
+<item>
+<title>[12/08] W - Crosby paces Penguins to 5-1 win over Panthers</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884796</link>
+</item>
 <item>
 <title>[12/05] W - Rust's hat trick rallies Penguins past Senators, 8-5</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884775</link>

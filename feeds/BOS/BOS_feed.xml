@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 15-10-2, 2nd in Atlantic Division</title>
+<title>Bruins - 15-12-2, 3rd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[12/10] L - Matthews, Hyman score in 2nd, Maple Leafs beat Bruins 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884809</link>
+</item>
+<item>
+<title>[12/08] L - Duchene gets 10th goal, Avalanche beat Bruins 4-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884791</link>
+</item>
 <item>
 <title>[12/07] L - Capitals lose 3-goal lead, recover to beat Bruins in OT</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884788</link>
