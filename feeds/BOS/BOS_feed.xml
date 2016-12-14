@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 15-12-2, 3rd in Atlantic Division</title>
+<title>Bruins - 16-12-2, 2nd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[12/12] W - Spooner scores in OT to lift Bruins over Canadiens 2-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884826</link>
+</item>
 <item>
 <title>[12/10] L - Matthews, Hyman score in 2nd, Maple Leafs beat Bruins 4-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884809</link>
