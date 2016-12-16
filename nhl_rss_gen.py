@@ -165,6 +165,7 @@ def extractGameData(teamAb, teamName):
    global logger
    
    games = retrieveGames(teamAb)
+   logger.info("Found " + len(games) + " games for " + teamName)
    links = [game.link for game in games]
    schedLink = "http://espn.go.com/nhl/team/schedule/_/name/" + teamAb
    soup = pageResponse(schedLink)
