@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Penguins - 19-7-3, 1st in Metropolitan Division</title>
+<title>Penguins - 20-7-3, 1st in Metropolitan Division</title>
 <description>Latest Penguins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/PIT</link>
+<item>
+<title>[12/14] W - Rust lifts Penguins past Bruins, 4-3 in overtime</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884838</link>
+</item>
 <item>
 <title>[12/12] W - Crosby picks up 21st, Penguins throttle Coyotes 7-0</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884825</link>

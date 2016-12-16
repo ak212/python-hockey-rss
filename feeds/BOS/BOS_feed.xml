@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Bruins - 16-12-2, 2nd in Atlantic Division</title>
+<title>Bruins - 16-13-3, 2nd in Atlantic Division</title>
 <description>Latest Bruins scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BOS</link>
+<item>
+<title>[12/15] L - Manson and Kakell score in 2nd; Ducks beat Bruins 4-3</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884841</link>
+</item>
+<item>
+<title>[12/14] L - Rust lifts Penguins past Bruins, 4-3 in overtime</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884838</link>
+</item>
 <item>
 <title>[12/12] W - Spooner scores in OT to lift Bruins over Canadiens 2-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884826</link>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Blackhawks - 19-8-4, 1st in Central Division</title>
+<title>Blackhawks - 20-8-4, 1st in Central Division</title>
 <description>Latest Blackhawks scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/CHI</link>
+<item>
+<title>[12/15] W - Panik scores winner in 3rd, Blackhawks rally past Isles 5-4</title>
+<link>http://espn.com/nhl/recap/_/gameId/400884842</link>
+</item>
 <item>
 <title>[12/13] W - Anisimov scores late in 2nd, Blackhawks beat Rangers 2-1</title>
 <link>http://espn.com/nhl/recap/_/gameId/400884829</link>
