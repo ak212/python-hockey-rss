@@ -62,12 +62,11 @@ def retrieveGames(teamAb):
          sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
          cursor.execute(sql, (teamAb))
          result = cursor.fetchall()
-   except Exception:
-      logger.debug('Somethings fucked')
 
    finally:
       connection.close()
     
+   logger.debug('Games ' + len(games))
    for game in result:
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
 
