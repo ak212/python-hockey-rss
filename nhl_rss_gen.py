@@ -70,7 +70,7 @@ def retrieveGames(teamAb):
       logger.debug('Trying to close connection')
       connection.close()
     
-    logger.debug('Going to look at results')
+   logger.debug('Going to look at results')
    for game in result:
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
 
