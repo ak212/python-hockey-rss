@@ -255,8 +255,9 @@ def main():
    getTotalGames()
    dbLastDate = getLastDate()
    
+   sys.path.append("/usr/local/lib/python2.7/site-packages")
    logger.info(sys.path)
-   
+
    startTime = localtime()
    logger.info("START RUN")
    
