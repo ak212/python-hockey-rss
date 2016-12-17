@@ -124,10 +124,10 @@ def pageResponse(link):
    :param link: the link to the page that will be scraped
    :type link: string'''
    
-   logger.debug("Requesting: " + link)
+   logger.info("Requesting: " + link)
    response = urlopenWithRetry(link)
    pageSource = response.read()
-   logger.debug("Read page: " + link)
+   logger.info("Read page: " + link)
    
    return BeautifulSoup(pageSource)
 
@@ -205,7 +205,7 @@ def extractGameData(teamAb, teamName):
                games.append(newGame)
 
          else:
-            logger.debug("Already have game with link " + recapLink)
+            logger.info("Already have game with link " + recapLink)
       
    return [teamRecord, games]
 
@@ -225,7 +225,7 @@ def getGameHeadline(soup, link):
    try:
       return soup.title.string
    except urllib2.HTTPError:
-      logger.debug('There was an error with the request from: ' + link)
+      logger.info('There was an error with the request from: ' + link)
       
 def getGameDate(soup, link):
    '''Extract the headline from the page source.
@@ -244,9 +244,9 @@ def getGameDate(soup, link):
          date = base[0]['content'].encode('utf-8')[:10]
          return re.sub('-', '', date)
    except urllib2.HTTPError:
-      logger.debug('There was an error with the request from: ' + link)
+      logger.info('There was an error with the request from: ' + link)
    except IndexError:
-      logger.debug('Could not extract date from: ' + str(base))
+      logger.info('Could not extract date from: ' + str(base))
 
       
 def main():
