@@ -173,6 +173,7 @@ def extractGameData(teamAb, teamName):
    
    for div in soup.find_all(attrs={"class" : "score"}):
       recapLink = re.sub('//www.', 'http://', str(div.find('a').get('href').encode('utf-8', 'ignore')))
+      logger.info("Here's a recap link: " + recapLink)
       if "recap" in recapLink:
          if recapLink not in links:
             boxscoreLink = "http://espn.go.com/nhl/boxscore?gameId=" + recapLink[35:]
