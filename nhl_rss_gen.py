@@ -56,17 +56,20 @@ def retrieveGames(teamAb):
    connection = initDB()
    result = None
    games = []
+   logger.debug('About to get cursor')
    
    try:
+      logger.debug('About to get cursor')
       with connection.cursor() as cursor:
          sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
          cursor.execute(sql, (teamAb))
+         logger.debug('Just used cursor')
          result = cursor.fetchall()
+         logger.debug('Fetched with cursor')
 
    finally:
       connection.close()
     
-   logger.debug('Games ' + len(games))
    for game in result:
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
 
