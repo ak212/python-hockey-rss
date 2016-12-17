@@ -124,15 +124,11 @@ def pageResponse(link):
    :param link: the link to the page that will be scraped
    :type link: string'''
    
+   logger.debug("Requesting: " + link)
    response = urlopenWithRetry(link)
    pageSource = response.read()
-   soup = None
-   logger.debug("Need soup")
-   try:
-      soup = BeautifulSoup(pageSource)
-   except Exception, e:
-      logger.error(e, exc_info=True)
- 
+   logger.debug("Read page: " + link)
+   soup = BeautifulSoup(pageSource, "html.parser")
    return soup
 
 def teamExtractAndMarkup(teamAb, teamName):
@@ -259,6 +255,7 @@ def main():
    getTotalGames()
    dbLastDate = getLastDate()
    
+   logger.info(sys.path)
    
    startTime = localtime()
    logger.info("START RUN")
