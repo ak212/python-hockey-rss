@@ -127,10 +127,11 @@ def pageResponse(link):
    response = urlopenWithRetry(link)
    pageSource = response.read()
    soup = None
+   logger.debug("Need soup")
    try:
       soup = BeautifulSoup(pageSource)
    except:
-      logger.info("No soup")
+      logger.debug("No soup")
       raise
  
    return soup
