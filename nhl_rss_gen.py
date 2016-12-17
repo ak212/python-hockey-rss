@@ -56,7 +56,7 @@ def retrieveGames(teamAb):
    connection = initDB()
    result = None
    games = []
-#   logger.debug('About to get cursor')
+   logger.debug(connection)
    
    try:
 #      logger.debug('About to get cursor')
