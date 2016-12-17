@@ -266,7 +266,7 @@ def main():
                            args=(teamAb, teamName))
       threads.append(t)
       
-   logger.info('Here are the threads I have: ' + threads)
+   logger.info('I have: ' + len(threads) + ' threads')
 
    # Start all threads
    [thread.start() for thread in threads]
