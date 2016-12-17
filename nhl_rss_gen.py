@@ -260,13 +260,13 @@ def main():
    
    threads = []
    for teamAb, teamName in zip(teamAbbrvs, teamNames):
-      logger.debug('Making thread for: ' + teamName)
+#      logger.debug('Making thread for: ' + teamName)
       t = threading.Thread(name="Thread-" + teamAb,
                            target=teamExtractAndMarkup,
                            args=(teamAb, teamName))
       threads.append(t)
       
-   logger.info('I have: ' + len(threads) + ' threads')
+#   logger.info('I have: ' + len(threads) + ' threads')
 
    # Start all threads
    [thread.start() for thread in threads]
