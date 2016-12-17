@@ -53,7 +53,9 @@ def insertGame(gameData, teamAb, teamName):
       connection.close()
 
 def retrieveGames(teamAb):
+   logger.debug("Going to look for games for " + teamAb)
    connection = initDB()
+   logger.debug("Got a connection")
    result = None
    games = []
    
@@ -164,7 +166,6 @@ def extractGameData(teamAb, teamName):
    global totalGames
    global logger
    
-   logger.info("Going to look for games for " + teamName)
    games = retrieveGames(teamAb)
    logger.info("Found " + len(games) + " games for " + teamName)
    links = [game.link for game in games]
