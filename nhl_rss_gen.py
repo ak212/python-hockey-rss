@@ -70,9 +70,10 @@ def retrieveGames(teamAb):
       connection.close()
     
    for game in result:
-      logger.debug('This is a game')
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
 
+   logger.debug('She got game')
+   logger.debug(game)
    return games
 
 def getTotalGames():
