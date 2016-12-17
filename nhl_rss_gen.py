@@ -256,10 +256,11 @@ def main():
    dbLastDate = getLastDate()
    
    sys.path.append("/usr/local/lib/python2.7/site-packages")
-   logger.info(sys.path)
 
    startTime = localtime()
    logger.info("START RUN")
+   logger.info(sys.path)
+   logger.info(bs4)
    
    threads = []
    for teamAb, teamName in zip(teamAbbrvs, teamNames):
