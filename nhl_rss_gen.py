@@ -53,9 +53,7 @@ def insertGame(gameData, teamAb, teamName):
       connection.close()
 
 def retrieveGames(teamAb):
-   logger.debug("Going to look for games for " + teamAb)
    connection = initDB()
-   logger.debug("Got a connection")
    result = None
    games = []
    
@@ -64,6 +62,8 @@ def retrieveGames(teamAb):
          sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
          cursor.execute(sql, (teamAb))
          result = cursor.fetchall()
+   except Exception:
+      logger.debug('Somethings fucked')
 
    finally:
       connection.close()
