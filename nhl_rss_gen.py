@@ -62,7 +62,7 @@ def retrieveGames(teamAb):
       with connection.cursor() as cursor:
          sql = "SELECT * FROM `GameData` WHERE `team_ab`=%s"
          cursor.execute(sql, (teamAb))
-         logger.debug("Rows " + len(cursor._rows))
+         logger.debug("Rows " + str(len(cursor._rows)))
          result = cursor.fetchall()
 #         logger.debug('Fetched with cursor')
 
