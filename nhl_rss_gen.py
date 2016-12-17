@@ -124,12 +124,16 @@ def pageResponse(link):
    :param link: the link to the page that will be scraped
    :type link: string'''
    
-   logger.debug("Requesting: " + link)
    response = urlopenWithRetry(link)
    pageSource = response.read()
-   logger.debug("Read page: " + link)
-   
-   return BeautifulSoup(pageSource)
+   soup = None
+   try:
+      soup = BeautifulSoup(pageSource)
+   except:
+    logging.exception('No soup')
+    raise
+ 
+   return soup
 
 def teamExtractAndMarkup(teamAb, teamName):
    '''Intermediary function between the main function and the game extraction
