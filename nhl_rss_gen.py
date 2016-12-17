@@ -130,9 +130,8 @@ def pageResponse(link):
    logger.debug("Need soup")
    try:
       soup = BeautifulSoup(pageSource)
-   except:
-      logger.debug("No soup")
-      raise
+   except Exception, e:
+      logger.error(e, exc_info=True)
  
    return soup
 
