@@ -124,10 +124,10 @@ def pageResponse(link):
    :param link: the link to the page that will be scraped
    :type link: string'''
    
-   logger.info("Requesting: " + link)
+   logger.debug("Requesting: " + link)
    response = urlopenWithRetry(link)
    pageSource = response.read()
-   logger.info("Read page: " + link)
+   logger.debug("Read page: " + link)
    
    return BeautifulSoup(pageSource)
 
@@ -205,7 +205,7 @@ def extractGameData(teamAb, teamName):
                games.append(newGame)
 
          else:
-            logger.info("Already have game with link " + recapLink)
+            logger.debug("Already have game with link " + recapLink)
       
    return [teamRecord, games]
 
@@ -225,7 +225,7 @@ def getGameHeadline(soup, link):
    try:
       return soup.title.string
    except urllib2.HTTPError:
-      logger.info('There was an error with the request from: ' + link)
+      logger.debug('There was an error with the request from: ' + link)
       
 def getGameDate(soup, link):
    '''Extract the headline from the page source.
@@ -244,9 +244,9 @@ def getGameDate(soup, link):
          date = base[0]['content'].encode('utf-8')[:10]
          return re.sub('-', '', date)
    except urllib2.HTTPError:
-      logger.info('There was an error with the request from: ' + link)
+      logger.debug('There was an error with the request from: ' + link)
    except IndexError:
-      logger.info('Could not extract date from: ' + str(base))
+      logger.debug('Could not extract date from: ' + str(base))
 
       
 def main():
@@ -260,10 +260,13 @@ def main():
    
    threads = []
    for teamAb, teamName in zip(teamAbbrvs, teamNames):
+      logger.debug('Making thread for: ' + teamName)
       t = threading.Thread(name="Thread-" + teamAb,
                            target=teamExtractAndMarkup,
                            args=(teamAb, teamName))
       threads.append(t)
+      
+   logger.info('Here are the threads I have: ' + threads)
 
    # Start all threads
    [thread.start() for thread in threads]
