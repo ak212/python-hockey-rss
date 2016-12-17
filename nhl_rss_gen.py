@@ -164,6 +164,7 @@ def extractGameData(teamAb, teamName):
    global totalGames
    global logger
    
+   logger.info("Going to look for games for " + teamName)
    games = retrieveGames(teamAb)
    logger.info("Found " + len(games) + " games for " + teamName)
    links = [game.link for game in games]
