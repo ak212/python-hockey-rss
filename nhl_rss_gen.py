@@ -56,7 +56,6 @@ def retrieveGames(teamAb):
    connection = initDB()
    result = None
    games = []
-   logger.debug(connection)
    
    try:
       with connection.cursor() as cursor:
@@ -70,7 +69,6 @@ def retrieveGames(teamAb):
    for game in result:
       games.append(GameData.GameData(game[0], game[1], game[2], game[3], game[4]))
 
-   logger.debug(games)
    return games
 
 def getTotalGames():
@@ -167,11 +165,12 @@ def extractGameData(teamAb, teamName):
    global logger
    
    games = retrieveGames(teamAb)
-   logger.info("Found " + len(games) + " games for " + teamName)
+   logger.info("Found " + str(len(games)) + " games for " + teamName)
    links = [game.link for game in games]
    schedLink = "http://espn.go.com/nhl/team/schedule/_/name/" + teamAb
    soup = pageResponse(schedLink)
    teamRecord = getTeamRecord(soup)
+   logger.info(teamRecord)
    
    for div in soup.find_all(attrs={"class" : "score"}):
       recapLink = re.sub('//www.', 'http://', str(div.find('a').get('href').encode('utf-8', 'ignore')))
