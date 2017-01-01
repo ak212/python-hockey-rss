@@ -262,7 +262,6 @@ def main():
       startTime = localtime()
       logger.info("START RUN")
       logger.info(sys.path)
-      logger.info(bs4)
       
       threads = []
       for teamAb, teamName in zip(teamAbbrvs, teamNames):
