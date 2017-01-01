@@ -128,7 +128,14 @@ def pageResponse(link):
    response = urlopenWithRetry(link)
    pageSource = response.read()
    logger.debug("Read page: " + link)
-   soup = BeautifulSoup(pageSource, "html.parser")
+   
+   try:
+      soup = BeautifulSoup(pageSource, "html.parser")
+   except Exception, e:
+      logging.error(e, exc_info=True)
+
+   logger.debug("Got soup for: " + link)
+
    return soup
 
 def teamExtractAndMarkup(teamAb, teamName):
