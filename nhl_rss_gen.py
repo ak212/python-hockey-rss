@@ -251,40 +251,43 @@ def getGameDate(soup, link):
 
       
 def main():
-   global totalGames
-   getTotalGames()
-   dbLastDate = getLastDate()
-   
-   sys.path.append("/usr/local/lib/python2.7/site-packages")
-   sys.path.append("/usr/local/lib/python27.zip")
-
-   startTime = localtime()
-   logger.info("START RUN")
-   logger.info(sys.path)
-   logger.info(bs4)
-   
-   threads = []
-   for teamAb, teamName in zip(teamAbbrvs, teamNames):
-#      logger.debug('Making thread for: ' + teamName)
-      t = threading.Thread(name="Thread-" + teamAb,
-                           target=teamExtractAndMarkup,
-                           args=(teamAb, teamName))
-      threads.append(t)
+   try:
+      global totalGames
+      getTotalGames()
+      dbLastDate = getLastDate()
       
-#   logger.info('I have: ' + len(threads) + ' threads')
-
-   # Start all threads
-   [thread.start() for thread in threads]
-
-   # Wait for all of them to finish
-   [thread.join() for thread in threads]
+      sys.path.append("/usr/local/lib/python2.7/site-packages")
+      sys.path.append("/usr/local/lib/python27.zip")
    
-   getTotalGames()
-   finishTime = localtime()
-   logger.info("FINISH RUN")
-   logger.info("Total games: " + str(totalGames))
-   logger.info("Total time: " + 
-               str(timedelta(seconds=mktime(finishTime) - mktime(startTime))))
+      startTime = localtime()
+      logger.info("START RUN")
+      logger.info(sys.path)
+      logger.info(bs4)
+      
+      threads = []
+      for teamAb, teamName in zip(teamAbbrvs, teamNames):
+   #      logger.debug('Making thread for: ' + teamName)
+         t = threading.Thread(name="Thread-" + teamAb,
+                              target=teamExtractAndMarkup,
+                              args=(teamAb, teamName))
+         threads.append(t)
+         
+   #   logger.info('I have: ' + len(threads) + ' threads')
+   
+      # Start all threads
+      [thread.start() for thread in threads]
+   
+      # Wait for all of them to finish
+      [thread.join() for thread in threads]
+      
+      getTotalGames()
+      finishTime = localtime()
+      logger.info("FINISH RUN")
+      logger.info("Total games: " + str(totalGames))
+      logger.info("Total time: " + 
+                  str(timedelta(seconds=mktime(finishTime) - mktime(startTime))))
+   except Exception, e:
+      logger.error(e, exc_info=True)
    
 if __name__ == '__main__':
    main()
