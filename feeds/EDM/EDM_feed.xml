@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Oilers - 35-23-9, 3rd in Pacific Division</title>
+<title>Oilers - 37-24-9, 3rd in Pacific Division</title>
 <description>Latest Oilers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/EDM</link>
+<item>
+<title>[3/16] W - Maroon scores twice, Oilers thump Bruins 7-4</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885440</link>
+</item>
+<item>
+<title>[3/14] W - Oilers dominate Stars in 7-1 victory</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885426</link>
+</item>
+<item>
+<title>[3/12] L - Paul Byron scores twice, Canadiens beat Oilers 4-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885409</link>
+</item>
 <item>
 <title>[3/10] L - Phil Kessel scores SO winner, Penguins beat Oilers 3-2</title>
 <link>http://espn.com/nhl/recap/_/gameId/400885395</link>
