@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Sabres - 31-32-12, 7th in Atlantic Division</title>
+<title>Sabres - 33-36-12, 7th in Atlantic Division</title>
 <description>Latest Sabres scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/BUF</link>
+<item>
+<title>[4/08] L - Huberdeau scores twice, Panthers beat Sabres 3-0</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885609</link>
+</item>
+<item>
+<title>[4/05] W - Sabres snap Canadiens' 5-game win streak with 2-1 victory</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885588</link>
+</item>
+<item>
+<title>[4/03] L - Maple Leafs beat Sabres 4-2, close in on playoff spot</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885572</link>
+</item>
+<item>
+<title>[4/02] L - Lee scores 2 in Islanders' 4-2 win over Sabres</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885562</link>
+</item>
+<item>
+<title>[3/28] L - Bobrovsky stops 41 shots as Blue Jackets beats Sabres 3-1</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885526</link>
+</item>
+<item>
+<title>[3/27] W - Gionta scores in 1,000th game, Sabres beat Panthers 4-2</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885518</link>
+</item>
 <item>
 <title>[3/25] W - Eichel scores 2 in Sabres 5-2 win over Maple Leafs</title>
 <link>http://espn.com/nhl/recap/_/gameId/400885503</link>
