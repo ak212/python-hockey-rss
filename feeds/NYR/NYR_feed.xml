@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version='2.0'>
 <channel>
-<title>Rangers - 47-28-6, 4th in Metropolitan Division</title>
+<title>Rangers - 48-28-6, 4th in Metropolitan Division</title>
 <description>Latest Rangers scores</description>
 <link>http://espn.go.com/nhl/team/schedule/_/name/NYR</link>
+<item>
+<title>[4/09] W - Rangers end regular season with 3-2 victory over Penguins</title>
+<link>http://espn.com/nhl/recap/_/gameId/400885622</link>
+</item>
 <item>
 <title>[4/07] L - Sens clinch 2nd place in Atlantic with 3-1 win over Rangers</title>
 <link>http://espn.com/nhl/recap/_/gameId/400885603</link>
